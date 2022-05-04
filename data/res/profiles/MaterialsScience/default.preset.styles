@@ -1,0 +1,46 @@
+{
+  "preset_styles" : {
+    "styles" : [
+        {
+          "action": "style_simple",
+          "name": "Simple"
+        },
+        {
+          "action": "style_simple_nosolvent",
+          "name": "Simple (no solvent)"
+        },
+        {
+          "action": "style_ballnstick",
+          "name": "Ball and Stick"
+        },
+        {
+          "action": "style_bfactor",
+          "name": "B Factor"
+        },
+        {
+          "action": "style_technical",
+          "name": "Technical"
+        },
+        {
+          "action": "style_ligands",
+          "name": "Ligands"
+        },
+        {
+          "action": "style_pretty",
+          "name": "Pretty"
+        },
+        {
+          "action": "style_pretty_solvent",
+          "name": "Pretty (with solvent)"
+        },
+        {
+          "action": "style_publication",
+          "name": "Publication"
+        },
+        {
+          "action": "style_publication_solvent",
+          "name": "Publication (with solvent)"
+        }
+    ]
+  }
+}

@@ -1,0 +1,5052 @@
+{
+  "tasks_browse": {
+    "columns": [
+      {
+	"menu_title": "APPLICATIONS",
+	"items": [
+	  {
+	    "task": "glide",
+	    "name": "Glide"
+	  },
+	  {
+	    "task": "desmond",
+	    "name": "Desmond"
+	  },
+	  {
+	    "task": "fep+",
+	    "name": "FEP+"
+	  },
+	  {
+	    "task": "inducedfitdocking",
+	    "name": "Induced Fit Docking"
+	  },
+	  {
+	    "task": "jaguar",
+	    "name": "Jaguar"
+	  },
+	  {
+	    "action": "ligprep",
+	    "name": "LigPrep...",
+	    "pyfunc": "ligprep_gui.panel"
+	  },
+	  {
+	    "task": "macromodel",
+	    "name": "MacroModel"
+	  },
+          {
+            "task": "pathfinder",
+            "name": "Pathfinder"
+          },
+	  {
+	    "task": "phase",
+	    "name": "Phase"
+	  },
+	  {
+	    "task": "prime",
+	    "name": "Prime"
+	  },
+	  {
+	    "task": "shapescreening",
+	    "name": "Shape Screening"
+	  },
+	  {
+	    "task": "watermap",
+	    "name": "WaterMap"
+	  },
+	  {
+	    "task": "wscore",
+	    "name": "WScore"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "task": "other",
+	    "name": "Other Applications"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "task": "adme_and_molecular_properties",
+	    "name": "ADME and Molecular Properties"
+	  },
+	  {
+	    "task": "classical_simulation",
+	    "name": "Classical Simulation"
+	  },
+	  {
+	    "task": "quantum_mechanics",
+	    "name": "Quantum Mechanics"
+	  },
+	  {
+	    "task": "workspace_operations",
+	    "name": "Workspace Operations"
+	  },
+	  {
+	    "task": "project_table_and_project_operations",
+	    "name": "Project Table and Project Operations"
+	  },
+	  {
+	    "task": "general_modeling",
+	    "name": "General Modeling"
+	  },
+      {
+        "task": "discovery_informatics_and_qsar",
+        "name": "Discovery Informatics and QSAR"
+      },
+	  {
+	    "task": "biologics",
+	    "name": "Biologics"
+	  },
+	  {
+	    "task": "materials",
+	    "name": "Materials"
+	  }
+	]
+      },
+      {
+	"menu_title": "TASKS",
+	"items": [
+	  {
+	    "task": "ligand_preparation_and_library_design",
+	    "name": "Ligand Preparation and Library Design"
+	  },
+	  {
+	    "task": "protein_preparation_and_refinement",
+	    "name": "Protein Preparation and Refinement"
+	  },
+	  {
+	    "task": "structure_analysis",
+	    "name": "Structure Analysis"
+	  },
+	  {
+	    "task": "structure_alignment",
+	    "name": "Structure Alignment"
+	  },
+	  {
+	    "task": "receptor_based_virtual_screening",
+	    "name": "Receptor-Based Virtual Screening"
+	  },
+	  {
+	    "task": "ligand_based_virtual_screening",
+	    "name": "Ligand-Based Virtual Screening"
+	  },
+	  {
+	    "task": "free_energy_perturbation",
+	    "name": "Free Energy Perturbation"
+	  },
+      {
+        "task": "lead_optimization",
+        "name": "Lead Optimization"
+      },
+      {
+        "task": "enumeration_and_ideation",
+        "name": "Enumeration and Ideation"
+      }
+	]
+      }
+    ]
+  },
+  "glide": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "virtual_screening",
+	    "name": "Virtual Screening Workflow...",
+	    "pyfunc": "vsw_gui.panel"
+	  },
+	  {
+	    "action": "qm_polarized_ligand_docking",
+	    "name": "QM-Polarized Ligand Docking...",
+	    "pyfunc": "qpld_gui.panel"
+	  },
+	  {
+	    "action": "covalent_docking",
+	    "name": "Covalent Docking...",
+	    "pyfunc": "covalent_docking_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "glide_gridgen",
+	    "name": "Receptor Grid Generation...",
+	    "pyfunc": "glide_gridgen_gui.panel"
+	  },
+	  {
+	    "action": "glide_docking",
+	    "name": "Ligand Docking...",
+	    "pyfunc": "glide_docking_gui.panel"
+	  },
+	  {
+	    "action": "active_learning_glide",
+	    "name": "Active Learning Docking...",
+	    "pyfunc": "active_learning_glide_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "glide_view_poses",
+	    "name": "Pose Viewer...",
+	    "pyfunc": "pose_viewer_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "desmond": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "desmond_simulation_quality_analysis",
+	    "name": "Simulation Quality Analysis...",
+	    "pyfunc": "simulation_analysis_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_event_analysis",
+	    "name": "Simulation Event Analysis...",
+	    "pyfunc": "sim_event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_radial_distribution_function",
+	    "name": "Radial Distribution Function...",
+	    "pyfunc": "rdf_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_interaction_diagram",
+	    "name": "Simulation Interactions Diagram...",
+	    "pyfunc": "event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_replica_exchange_review",
+	    "name": "Replica Exchange Review...",
+	    "pyfunc": "replica_exchange_review_gui.panel"
+	  },
+	  {
+	    "action": "desmond_metadynamics_analysis",
+	    "name": "Metadynamics Analysis...",
+	    "pyfunc": "desmond_metadynamics_analysis_gui.panel"
+	  },
+	  {
+	    "action": "desmond_trajectory_clustering",
+	    "name": "Desmond Trajectory Clustering...",
+	    "pyfunc": "trajectory_cluster_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "fep_plus_gui.panel",
+	    "name": "FEP+...",
+	    "pyfunc": "fep_plus_gui.panel"
+	  },
+	  {
+	    "action": "desmond_fep_protein_mutation",
+	    "name": "FEP Protein Mutation for Ligand Selectivity...",
+	    "pyfunc": "fep_lig_prot_mutation_gui.panel"
+	  },
+	  {
+	    "action": "fep_protein_gui.panel",
+	    "name": "Protein FEP...",
+	    "pyfunc": "fep_protein_gui.panel"
+	  },
+	  {
+	    "action": "desmond_fep_protein_mutation_analysis",
+	    "name": "FEP Protein Mutation Analysis...",
+	    "pyfunc": "fepmutation_results_gui.panel"
+	  },
+	  {
+	    "action": "fep_web_services_gui.panel",
+	    "name": "FEP Web Services Monitor...",
+	    "pyfunc": "fep_web_services_gui.panel"
+	  },
+	  {
+	    "action": "fep_solubility_gui.panel",
+	    "name": "Solubility FEP...",
+	    "pyfunc": "fep_solubility_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "system_builder",
+	    "name": "System Builder...",
+	    "pyfunc": "system_builder_gui.panel"
+	  },
+	  {
+	    "action": "app_desmond_rebuild_system",
+	    "name": "Model System Regeneration..."
+	  },
+	  {
+	    "action": "desmond_minimization",
+	    "name": "Minimization...",
+	    "pyfunc": "desmond_minimization_gui.panel"
+	  },
+	  {
+	    "action": "simulated_annealing",
+	    "name": "Simulated Annealing...",
+	    "pyfunc": "desmond_simulated_annealing_gui.panel"
+	  },
+	  {
+	    "action": "desmond_molecular_dynamics",
+	    "name": "Molecular Dynamics...",
+	    "pyfunc": "desmond_molecular_dynamics_gui.panel"
+	  },
+	  {
+	    "action": "replica_exchange",
+	    "name": "Replica Exchange...",
+	    "pyfunc": "desmond_replica_exchange_gui.panel"
+	  },
+	  {
+	    "action": "desmond_metadynamics",
+	    "name": "Metadynamics...",
+	    "pyfunc": "desmond_metadynamics_gui.panel"
+	  },
+	  {
+	    "action": "binding_pose_metadynamics_gui.panel",
+	    "name": "Binding Pose Metadynamics...",
+	    "pyfunc": "binding_pose_metadynamics_gui.panel"
+	  },
+	  {
+	    "action": "ligprep_fep.panel",
+	    "name": "Ligand FEP...",
+	    "pyfunc": "ligand_fep.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "fep+": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "desmond_fep_protein_mutation_analysis",
+	    "name": "FEP Protein Mutation Analysis...",
+	    "pyfunc": "fepmutation_results_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "fep_plus_gui.panel",
+	    "name": "FEP+...",
+	    "pyfunc": "fep_plus_gui.panel"
+	  },
+	  {
+	    "action": "desmond_fep_protein_mutation",
+	    "name": "FEP Protein Mutation for Ligand Selectivity...",
+	    "pyfunc": "fep_lig_prot_mutation_gui.panel"
+	  },
+	  {
+	    "action": "fep_protein_gui.panel",
+	    "name": "Protein FEP...",
+	    "pyfunc": "fep_protein_gui.panel"
+	  },
+	  {
+	    "action": "fep_solubility_gui.panel",
+	    "name": "Solubility FEP...",
+	    "pyfunc": "fep_solubility_gui.panel"
+	  },
+      {
+	    "action": "fep_web_services_gui.panel",
+	    "name": "FEP Web Services Monitor...",
+	    "pyfunc": "fep_web_services_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "autots": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "section_title": "Automated Transition State Search"
+	  },
+	  {
+	    "action" : "autots_gui.panel",
+	    "name" : "AutoTS...",
+	    "pyfunc" : "autots_gui.panel"
+	  },
+	  {
+	    "action" : "autots_viewer_gui.panel",
+	    "name" : "AutoTS Results...",
+	    "pyfunc" : "autots_viewer_gui.panel"
+	  }
+      ]
+     }
+  ]
+  },
+  "inducedfitdocking": {
+    "columns": [
+     {
+        "items": [
+          {
+            "action": "ifd_md_gui.panel",
+            "name": "IFD-MD...",
+            "pyfunc": "ifd_md_gui.panel"
+          },
+          {
+            "action": "induced_fit_docking",
+            "name": "Induced Fit Docking...",
+            "pyfunc": "ifd_gui.panel"
+          }
+        ]
+    }
+    ]
+  },
+  "jaguar": {
+    "columns": [
+      {
+	"items": [
+      {
+	    "action": "vcd_workflow_gui.panel",
+	    "name": "VCD Spectra...",
+	    "pyfunc": "vcd_workflow_gui.panel"
+	  },
+	  {
+	    "action": "app_jaguar_spectraplot",
+	    "name": "Plot Spectra...",
+        "title": "Spectrum Plot...",
+	    "pyfunc": "spectrum_plot.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "jaguar_gui.run_input_panel",
+	    "name": "Run Input Files...",
+	    "pyfunc": "jaguar_gui.run_input_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.run_batch_panel",
+	    "name": "Run Batch File...",
+	    "pyfunc": "jaguar_gui.run_batch_panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "jaguar_gui.pka_panel",
+	    "name": "pKa...",
+	    "pyfunc": "jaguar_gui.pka_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.hb_panel",
+	    "name": "Hydrogen Bond Strength...",
+	    "pyfunc": "jaguar_gui.hb_panel"
+	  },
+      {
+	    "action": "jaguar_gui.kenny_panel",
+	    "name": "Hydrogen Bond Basicity...",
+	    "pyfunc": "jaguar_gui.kenny_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.counterpoise_panel",
+	    "name": "Counterpoise...",
+	    "pyfunc": "jaguar_gui.counterpoise_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.fukui_panel",
+	    "name": "Fukui Functions...",
+	    "pyfunc": "jaguar_gui.fukui_panel"
+	  },
+	  {
+	    "action": "delta_hf_gui.panel",
+	    "name": "Heat of Formation...",
+	    "pyfunc": "delta_hf_gui.panel"
+	  },
+	  {
+	    "action": "jaguar_gui.reaction_panel",
+	    "name": "Reaction...",
+	    "pyfunc": "jaguar_gui.reaction_panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "jaguar_gui.spe_panel",
+	    "name": "Single Point Energy...",
+	    "pyfunc": "jaguar_gui.spe_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.optimization_panel",
+	    "name": "Optimization...",
+	    "pyfunc": "jaguar_gui.optimization_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.relaxed_scan_panel",
+	    "name": "Relaxed Coordinate Scan...",
+	    "title": "Relaxed Coordinate Scan...",
+	    "pyfunc": "jaguar_gui.relaxed_scan_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.rigid_scan_panel",
+	    "name": "Rigid Coordinate Scan...",
+	    "title": "Rigid Coordinate Scan...",
+	    "pyfunc": "jaguar_gui.rigid_scan_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.transition_state_panel",
+	    "name": "Transition State Search...",
+	    "pyfunc": "jaguar_gui.transition_state_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.reaction_coord_panel",
+	    "name": "Reaction Coordinate...",
+	    "pyfunc": "jaguar_gui.reaction_coord_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.autoconf_panel",
+	    "name": "QM Conformer and Tautomer Predictor...",
+	    "pyfunc": "autoconf_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "macromodel": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "plot_coord_scan",
+	    "name": "Plot Coordinate Scan...",
+	    "pyfunc": "plot_coord_scan_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "macromodel_start_job_from_file",
+	    "name": "Start Job From File...",
+	    "showpanel": "start"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "macromodel_csearch",
+	    "name": "Conformational Search...",
+	    "showpanel": "csearch"
+	  },
+	  {
+	    "action": "macromodel_macrocycle_sampling",
+	    "name": "Macrocycle Conformational Sampling...",
+	    "pyfunc": "macrocycle_conformational_sampling.panel"
+	  },
+	  {
+	    "action": "tasks_csearch_rce",
+	    "name": "Redundant Conformer Elimination...",
+	    "showpanel": "confelim"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "macromodel_embrace",
+	    "name": "Embrace Minimization...",
+	    "showpanel": "embrace"
+	  },
+	  {
+	    "action": "macromodel_embrace_csearch",
+	    "name": "Embrace Conformational Search...",
+	    "showpanel": "embracecsearch"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "macromodel_current_energy",
+	    "name": "Current Energy...",
+	    "showpanel": "ecalc"
+	  },
+	  {
+	    "action": "macromodel_minimization",
+	    "name": "Minimization...",
+	    "showpanel": "mini"
+	  },
+	  {
+	    "action": "macromodel_coordinate_scan",
+	    "name": "Coordinate Scan...",
+	    "title": "Coordinate Scan...",
+	    "showpanel": "drive"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "macromodel_dynamics",
+	    "name": "Dynamics...",
+	    "showpanel": "moldyn"
+	  },
+	  {
+	    "action": "macromodel_mcsd",
+	    "name": "MC/SD...",
+	    "showpanel": "mcsd"
+	  }
+	]
+      }
+    ]
+  },
+  "pathfinder": {
+    "columns": [
+     {
+        "items": [
+          {
+            "action": "reaction_based_enum_gui.panel",
+            "name": "Reaction-Based Enumeration...",
+            "pyfunc": "reaction_based_enum_gui.panel"
+          },
+          {
+            "action": "auto_enum_gui.panel",
+            "name": "Automated Reaction-Based Enumeration...",
+            "pyfunc": "auto_enum_gui.panel"
+          },
+          {
+            "action": "manage_reagent_library_gui.panel",
+            "name": "Manage Reactant Libraries...",
+            "pyfunc": "manage_reagent_library_gui.panel"
+          }
+        ]
+    }
+    ]
+  },
+  "shapescreening": {
+    "columns": [
+     {
+	"items": [
+	  {
+	    "action": "create_shape_data_file",
+	    "name": "Create Shape Data File (For GPU)...",
+	    "pyfunc": "phase.phase_shape_data_file_gui.panel"
+	  },
+	  {
+	    "action": "shape_screening",
+	    "name": "Shape Screening...",
+	    "pyfunc": "phase.phase_shape_gui.panel"
+	  }
+	]
+    }
+    ]
+  },
+  "phase": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "phase.create_phase_db_gui.panel",
+	    "name": "Create Database...",
+	    "title": "Create Phase Database...",
+	    "pyfunc": "phase.create_phase_db_gui.panel"
+	  },
+	  {
+	    "action": "phase.manage_phasedb_gui.panel",
+	    "name": "Manage Database...",
+	    "title": "Manage Phase Database...",
+	    "pyfunc": "phase.manage_phasedb_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "phase_qsar",
+	    "name": "Atom-Based QSAR...",
+	    "showpanel": "qsar"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "phase_gui",
+	    "name": "Develop Pharmacophore Hypothesis...",
+	    "pyfunc": "phase.phase_gui.panel"
+	  },
+	  {
+	    "action": "phase.enrichment_viewer_gui.panel",
+	    "name": "Enrichment Viewer...",
+	    "pyfunc": "phase.enrichment_viewer_gui.panel"
+	  },
+	  {
+	    "action": "phase.hypotheses_validation_gui.panel",
+	    "name": "Hypothesis Validation...",
+	    "pyfunc": "phase.hypotheses_validation_gui.panel"
+	  },
+	  {
+	    "action": "phase.detect_binding_modes_gui.panel",
+	    "name": "Detect Binding Modes...",
+	    "pyfunc": "phase.detect_binding_modes_gui.panel"
+	  },
+	  {
+	    "action": "phase.hypothesis_alignment_gui.panel",
+	    "name": "Hypothesis Alignment...",
+	    "pyfunc": "phase.hypothesis_alignment_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "phase.phase_screening_gui.panel",
+	    "name": "Ligand and Database Screening...",
+	    "title": "Ligand Screening...",
+	    "pyfunc": "phase.phase_screening_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "prime": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "prime_homology_modeling",
+	    "name": "Homology Modeling (Deprecated)...",
+	    "help": [
+	      " Predict the structure of a protein from its sequence",
+	      " by homology modeling. Opens the Homology Modeling panel,",
+	      " or the Multiple Sequence Viewer panel as the modeling",
+	      " interface. You can choose one of these as the default,",
+	      " and bypass the Homology Modeling panel."
+	    ]
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "prime_mmgbsa",
+	    "name": "MM-GBSA...",
+	    "pyfunc": "prime_mmgbsa_gui.panel"
+	  },
+	  {
+	    "action": "prime_membrane_permeability",
+	    "name": "Membrane Permeability...",
+	    "pyfunc": "membrane_permeability_gui.panel"
+	  },
+	  {
+	    "action": "prime_energy_visualization",
+	    "name": "Energy Visualization...",
+	    "title": "Prime Energy Visualizer...",
+	    "pyfunc": "prime_energy_visualizer_gui.panel"
+	  },
+	  {
+	    "action": "prime_macrocycle_sampling",
+	    "name": "Macrocycle Conformational Sampling...",
+	    "title": "Macrocycle Sampling...",
+	    "pyfunc": "prime_macrocycle_sampling.panel"
+	  },
+	  {
+	    "action": "prime_macrocycle_stability",
+	    "name": "Macrocycle Propensity...",
+	    "pyfunc": "prime_macrocycle_stability_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "prime_calculate_energy",
+	    "name": "Calculate Energy...",
+	    "showpanel": "analyzeenergy"
+	  },
+	  {
+	    "action": "prime_minimize",
+	    "name": "Minimize...",
+	    "showpanel": "minimize"
+	  },
+	  {
+	    "action": "prime_minimize_rigid",
+	    "name": "Minimize as Rigid Body...",
+	    "showpanel": "minimizerigid"
+	  },
+	  {
+	    "action": "prime_predict_sidechains",
+	    "name": "Predict Side Chains...",
+	    "showpanel": "predictsidechains"
+	  },
+	  {
+	    "action": "prime_refine_loops",
+	    "name": "Refine Loops...",
+	    "showpanel": "refineloops"
+	  },
+	  {
+	    "action": "prime_hybrid_mc",
+	    "name": "Hybrid Monte Carlo...",
+	    "showpanel": "hybridmc"
+	  },
+	  {
+	    "action": "prime_refine_complex",
+	    "name": "Refine Protein-Ligand Complex...",
+	    "showpanel": "refinecomplex"
+	  }
+	]
+      }
+    ]
+  },
+  "watermap": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "watermap_results",
+	    "name": "Examine Results...",
+	    "pyfunc": "watermap_result_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "watermap_analyze",
+	    "name": "Perform Calculation...",
+	    "pyfunc": "watermap_simulation_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "wscore": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "action": "wscore_docking_gui.panel",
+	    "name": "Docking...",
+	    "pyfunc": "wscore_docking_gui.panel"
+	  },
+	  {
+	    "action": "wscore_model_generation",
+	    "name": "Model Generation...",
+	    "pyfunc": "wscore_modelgen_gui.panel"
+	  },
+	  {
+	    "action": "wscore_visualizer_gui.panel",
+	    "name": "Visualizer...",
+	    "pyfunc": "wscore_visualizer_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "other": {
+    "columns": [
+      {
+	"items": [
+	  {
+	    "section_title": "Core Hopping"
+	  },
+	  {
+	    "action": "core_hopping_ligand",
+	    "name": "Ligand-Based...",
+	    "title": "Ligand-Based Core Hopping...",
+	    "pyfunc": "ligand_core_hopping_gui.show_panel"
+	  },
+	  {
+	    "action": "core_hopping_isosteric_matching",
+	    "name": "Isosteric Matching...",
+	    "pyfunc": "isosteric_matching_gui.show_panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "section_title": "Automated Transition State Search"
+	  },
+	  {
+	    "action" : "autots_gui.panel",
+	    "name" : "AutoTS...",
+	    "pyfunc" : "autots_gui.panel"
+	  },
+	  {
+	    "action" : "autots_viewer_gui.panel",
+	    "name" : "AutoTS Results...",
+	    "pyfunc" : "autots_viewer_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "section_title": "Physics-Based ADME/Tox"
+	  },
+	  {
+	    "action": "adme_membrane_permeability",
+	    "name": "Membrane Permeability...",
+	    "pyfunc": "membrane_permeability_gui.show_panel"
+	  },
+	  {
+	    "action": "adme_amphiphilic_moment",
+	    "name": "Amphiphilic Moment...",
+	    "pyfunc": "amphiphilic_moment_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "section_title": "P450 Site of Metabolism"
+	  },
+	  {
+	    "action": "p450_calculate",
+	    "name": "Perform Calculation...",
+	    "pyfunc": "p450_calc_gui.panel"
+	  },
+	  {
+	    "action": "p450_results",
+	    "name": "Examine Results...",
+	    "pyfunc": "p450_results_gui.panel"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "name": "vseparator"
+	  }
+	]
+      },
+      {
+	"items": [
+	  {
+	    "action": "confgen",
+	    "name": "ConfGen...",
+	    "pyfunc": "confgenx_gui.panel"
+	  },
+	  {
+	    "action": "epik",
+	    "name": "Epik...",
+	    "pyfunc": "epik_gui.panel"
+	  },
+	  {
+	    "action": "field_based_qsar",
+	    "name": "Field-Based QSAR...",
+	    "showpanel": "fieldqsar"
+	  },
+	  {
+	    "action": "primex",
+	    "name": "PrimeX...",
+	    "showpanel": "primexpanel"
+	  },
+	  {
+	    "action": "qikprop",
+	    "name": "QikProp...",
+	    "showpanel": "qikprop"
+	  },
+	  {
+	    "action": "qsite",
+	    "name": "QSite...",
+	    "showpanel": "qsite"
+	  },
+	  {
+	    "action": "sitemap",
+	    "name": "SiteMap...",
+	    "pyfunc": "sitemap_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "semi_emp",
+	    "name": "Semiempirical NDDO...",
+	    "pyfunc": "semi_emp_gui.panel"
+	  },
+	  {
+	    "action": "mopac_main",
+	    "name": "MOPAC2016...",
+	    "pyfunc": "mopac_main_gui.panel"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "autoqsar_gui.panel",
+	    "name": "AutoQSAR...",
+	    "pyfunc": "autoqsar_gui.panel"
+	  }
+	]
+      }
+    ]
+  },
+  "biologics": {
+    "columns": [
+      {
+	    "items": [
+	    {
+	      "section_title": "Structure Refinement"
+	    },
+	    {
+	      "action": "biologics_isr_minimize",
+	      "name": "Minimize...",
+	      "showpanel": "minimize"
+	    },
+	    {
+	      "action": "biologics_predict_side_chains",
+	      "name": "Predict Side Chains...",
+	      "showpanel": "predictsidechains"
+	    },
+	    {
+	      "action": "biologics_refine_loops",
+	      "name": "Refine Loops...",
+	      "showpanel": "refineloops"
+	    },
+	    {
+	      "action": "biologics_isr_calculate_energy",
+	      "name": "Calculate Energy...",
+	      "showpanel": "analyzeenergy"
+	    },
+	    {
+	      "action": "biologics_isr_visualize_energy",
+	      "name": "Visualize Energy...",
+	      "title": "Prime Energy Visualizer...",
+	      "pyfunc": "prime_energy_visualizer_gui.panel"
+	    },
+	    {
+	      "action": "biologics_isr_minimize_rigid",
+	      "name": "Rigid Body Minimization...",
+	      "title": "Minimize as Rigid Body...",
+	      "showpanel": "minimizerigid",
+          "border_above": true
+	    },
+	    {
+	      "action": "biologics_isr_hybridmc",
+	      "name": "Hybrid Monte Carlo...",
+	      "showpanel": "hybridmc"
+	    },
+	    {
+	      "action": "biologics_isr_refine_complex",
+	      "name": "Refine Protein-Ligand Complex...",
+	      "showpanel": "refinecomplex"
+	    },
+	    {
+	      "section_title": "Docking"
+	    },
+	    {
+	      "action": "biologics_protein_protein_docking",
+	      "name": "Protein-Protein Docking...",
+	      "pyfunc": "protein_protein_docking_gui.panel"
+	    },
+	    {
+	      "action": "biologics_peptide_docking",
+	      "name": "Peptide Docking...",
+	      "pyfunc": "peptide_docking_gui.panel"
+	    },
+	    {
+	      "action": "interaction_fingerprints",
+	      "name": "Structural Interaction Fingerprints...",
+	      "title": "Interaction Fingerprints...",
+	      "pyfunc": "interaction_fingerprints_gui.panel"
+	    },
+	    {
+	      "action": "protein_interaction_analysis_gui_v2.panel",
+	      "name": "Protein Interaction Analysis...",
+	      "pyfunc": "protein_interaction_analysis_gui_v2.panel"
+	    },
+	    {
+	      "action": "biologics_protein_interaction_analysis",
+	      "name": "Protein Interaction Analysis (Deprecated)...",
+	      "pyfunc": "protein_interaction_analysis_gui.panel"
+	    }
+      ]
+    },
+    {
+	  "items": [
+        {
+           "section_title": "Structure Prediction"
+        },
+        {
+	       "action": "multiseqviewer",
+	       "name": "Homology Modeling...",
+	       "pyfunc": "msv.homology"
+	    },
+	    {
+	       "action": "biologics_simple_homology",
+	       "name": "Simple Homology Modeling (Deprecated)...",
+	       "pyfunc": "homology_model_simple_gui.panel"
+	    },
+	    {
+	       "action": "biologics_advanced_homology",
+	       "name": "Advanced Homology Modeling (Deprecated)...",
+	       "showpanel": "psp"
+	    },
+	    {
+	       "action": "biologics_structure_quality",
+	       "name": "Structure Quality Report...",
+	       "pyfunc": "protein_structure_quality_gui.panel"
+	    },
+	    {
+	       "action": "biologics_reliability_report",
+	       "name": "Structure Reliability Report...",
+	       "title": "Protein Reliability Report...",
+	       "pyfunc": "protein_reliability_gui.panel"
+	    },
+	    {
+	       "section_title": "Protein Engineering"
+	    },
+	    {
+	       "action": "biologics_rsam_calculate",
+	       "name": "Residue Scanning Calculations...",
+	       "pyfunc": "residue_scanning_gui.panel"
+	    },
+	    {
+	       "action": "biologics_rsam_results",
+	       "name": "Residue Scanning Results...",
+	       "pyfunc": "residue_scanning_viewer_gui.panel"
+	    },
+	    {
+	       "action": "biologics_rsam_manage_nsr",
+	       "name": "Nonstandard Residues...",
+	       "pyfunc": "non_standard_residues_gui.panel"
+	    },
+	    {
+	       "action": "biologics_cysteine_mutation",
+	       "name": "Cysteine Mutation...",
+	       "pyfunc": "cysteine_mutation_gui.panel",
+           "border_above": true
+	    },
+	    {
+	       "action": "biologics_residue_loop_mutation",
+	       "name": "Residue and Loop Mutation...",
+	       "pyfunc": "mutation_gui.panel"
+	    },
+	    {
+	       "action": "biologics_crosslink_proteins",
+	       "name": "Crosslink Proteins...",
+	       "pyfunc": "cross_link_proteins_gui.panel"
+	    },
+	    {
+	       "action": "biologics_chimeric_model_generation",
+	       "name": "Chimeric Model Generation...",
+	       "title": "Protein Splicer...",
+	       "pyfunc": "splicer_gui.panel"
+	    },
+	    {
+	       "section_title": "Protein Dynamics"
+	    },
+        {
+            "task": "molecular_dynamics",
+            "name": "Molecular Dynamics..."
+        },
+        {
+	       "action": "export_to_sarvision_biologics",
+	       "name": "Export to SARVision..."
+	    },
+	    {
+	       "action": "biologics_lnma_calculate",
+	       "name": "Calculate Vibrational Modes...",
+	       "pyfunc": "low_mode_gui.panel"
+	    },
+	    {
+	       "action": "biologics_lnma_visualize",
+	       "name": "Visualize Vibrational Modes...",
+	       "pyfunc": "low_mode_gui.results_panel"
+	    }
+       ]
+      },
+      {
+	    "items": [
+	      {
+	        "section_title": "Protein Analysis"
+	      },
+          {
+            "action": "biologics_protein_prep_wizard",
+            "name": "Protein Preparation Wizard...",
+            "pyfunc": "prepwizard_gui.panel_classic"
+          },
+          {
+            "action": "biologics_prepwizard2_gui",
+            "name": "Protein Preparation Workflow...",
+            "pyfunc": "prepwizard2_gui.panel"
+          },
+	      {
+	        "action": "multiseqviewer2",
+	        "name": "Multiple Sequence Viewer/Editor...",
+	        "pyfunc": "msv.panel"
+	      },
+	      {
+	        "action": "multiseqviewer",
+	        "name": "Multiple Sequence Viewer (Deprecated)...",
+	        "pyfunc": "multiseqviewer.panel"
+	      },
+	      {
+	        "action": "patch_analyzer_gui.panel",
+	        "name": "Protein Surface Analyzer...",
+	        "pyfunc": "patch_analyzer_gui.panel",
+            "border_above": true
+	      },
+	      {
+	        "action": "biologics_reactive_residues",
+	        "name": "Reactive Residues...",
+	        "pyfunc": "reactive_protein_residues_gui.panel"
+	      },
+	      {
+	        "action": "biologics_protein_titration_curve",
+	        "name": "Protein Titration Curve...",
+	        "pyfunc": "protein_titration_gui.panel"
+	      },
+	      {
+	        "action": "biologics_residue_analysis",
+	        "name": "Residue Analysis...",
+	        "pyfunc": "residue_analysis_gui.panel",
+                "border_above": true
+	      },
+	      {
+	        "action": "biologics_peptide_qsar",
+	        "name": "Peptide QSAR...",
+	        "pyfunc": "peptide_qsar_gui.panel"
+	      },
+	      {
+	        "action": "biologics_consensus_viewer",
+	        "name": "Consensus Viewer...",
+	        "pyfunc": "consensus_visualization_gui.panel"
+	      },
+	      {
+	        "section_title": "Antibody Modeling"
+	      },
+	      {
+	        "action": "biologics_antibody_prediction",
+	        "name": "Prediction...",
+	        "pyfunc": "antibody_prediction_gui.panel"
+	      },
+	      {
+	        "action": "biologics_humanization_cdr_grafting",
+	        "name": "Humanization - CDR Grafting...",
+	        "pyfunc": "cdr_grafting_gui.panel"
+	      },
+	      {
+	        "action": "biologics_humanization_residue_mutation",
+	        "name": "Humanization - Residue Mutation...",
+	        "pyfunc": "antibody_humanization_gui.panel"
+	      },
+	      {
+	        "action": "biologics_humanization_mutation_results",
+	        "name": "Humanization - Mutation Results...",
+	        "pyfunc": "residue_scanning_viewer_gui.humanize_panel"
+	      },
+	      {
+	        "action": "biologics_antibody_database_management",
+	        "name": "Antibody Database Management...",
+	        "pyfunc": "antibody_db_manage_gui.panel"
+	      },
+	      {
+	        "action": "antibody_modeling_gui.panel",
+	        "name": "Antibody Structure Prediction (Beta)...",
+	        "pyfunc": "antibody_modeling_gui.panel"
+	      },
+	      {
+	        "action": "advanced_loop_model_gui.panel",
+	        "name": "Antibody Loop Refinement (Beta)...",
+	        "pyfunc": "advanced_loop_model_gui.panel"
+	      }
+	    ]
+      }
+    ]
+  },
+  "materials": {
+    "columns": [
+      {
+        "menu_title": "MATERIALS",
+        "items": [
+          {
+            "task": "building",
+            "name": "Structure Builders"
+          },
+          {
+            "task": "enumeration",
+            "name": "Enumeration"
+          },
+          {
+            "task": "quantum_mechanics_matsci",
+            "name": "Quantum Mechanics"
+          },
+          {
+            "task": "classical_mechanics",
+            "name": "Classical Mechanics"
+          },
+          {
+            "task": "model_building_and_statistics",
+            "name": "Informatics"
+          },
+          {
+            "task": "tools",
+            "name": "Tools"
+          }
+        ]
+      }
+    ]
+  },
+  "quantum_mechanics_matsci": {
+    "columns": [
+      {
+        "items": [
+          {
+            "task": "molecular_qm",
+            "name": "Molecular Quantum Mechanics"
+          },
+          {
+            "task": "quantum_espresso",
+            "name": "Quantum ESPRESSO"
+          },
+          {
+            "task": "optoelectronics",
+            "name": "Optoelectronics"
+          },
+          {
+            "task": "band_shape",
+            "name": "Band Shape"
+          },
+          {
+            "task": "excited_state_analysis",
+            "name": "Excited State Analysis"
+          },
+          {
+            "task": "reaction_workflow",
+            "name": "Reaction Workflow"
+          },
+          {
+            "task": "kmc_charge_mobility",
+            "name": "KMC Charge Mobility"
+          },
+          {
+            "task": "qm_workflows",
+            "name": "Workflows"
+          },
+          {
+            "task": "qm_tools",
+            "name": "Tools"
+          }
+        ]
+      }
+    ]
+  },
+  "molecular_qm": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "jaguar_multistage_workflow",
+            "name": "QM Multistage Workflow...",
+            "pyfunc": "jaguar_multistage_workflow_gui.panel"
+          },
+          {
+            "action": "jaguar_gui.optimization_panel",
+            "name": "Optimization...",
+            "pyfunc": "jaguar_gui.optimization_panel"
+          },
+          {
+            "action": "jaguar_gui.relaxed_scan_panel",
+            "name": "Relaxed Coordinate Scan...",
+            "pyfunc": "jaguar_gui.relaxed_scan_panel"
+          },
+          {
+            "action": "qubec_gui.panel",
+            "name": "QUBEC Single Point Energy...",
+            "pyfunc": "qubec_gui.panel"
+          },
+          {
+            "action": "qm_monitor_gui.panel",
+            "name": "QM Convergence Monitor...",
+            "pyfunc": "qm_monitor_gui.panel"
+          },
+          {
+            "action": "reaction_profile_viewer_gui.panel",
+            "name": "Reaction Profile Viewer...",
+            "pyfunc": "reaction_profile_viewer_gui.panel"
+          },
+          {
+            "action": "thermochemistry_viewer_gui.panel",
+            "name": "Thermochemistry Viewer...",
+            "pyfunc": "thermochemistry_viewer_gui.panel"
+          },
+          {
+            "action": "visualize_transition_moment_gui.panel",
+            "name": "Visualize Transition Dipole Moment...",
+            "pyfunc": "visualize_transition_moment_gui.panel"
+          },
+          {
+            "action": "finite_dos_viewer_gui.panel",
+            "name": "Molecular Density of States Viewer...",
+            "pyfunc": "finite_dos_viewer_gui.panel"
+          },
+          {
+            "action": "app_jaguar_spectraplot",
+            "name": "Plot Spectra...",
+            "title": "Spectrum Plot...",
+            "pyfunc": "spectrum_plot.panel"
+          },
+          {
+            "task": "more_qm_tasks",
+            "name": "More Molecular QM Tasks",
+            "border_above": true
+          }
+        ]
+      }
+    ]
+  },
+  "band_shape": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action" : "bandshape_gui.panel",
+            "name": "Band Shape Calculations...",
+            "pyfunc" : "bandshape_gui.panel"
+          },
+          {
+            "action": "spectrum_plot.panel",
+            "name": "Band Shape Results...",
+            "title": "Spectrum Plot...",
+            "pyfunc": "spectrum_plot.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "excited_state_analysis": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action" : "excited_state_analysis_gui.panel",
+            "name": "Excited State Analysis...",
+            "pyfunc" : "excited_state_analysis_gui.panel"
+          },
+          {
+            "action": "excited_state_analysis_viewer_gui.panel",
+            "name": "Excited State Analysis Results...",
+            "pyfunc": "excited_state_analysis_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "reaction_workflow": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action" : "swap_fragments_gui.panel",
+            "name": "Swap Fragments...",
+            "pyfunc" : "swap_fragments_gui.panel"
+          },
+          {
+            "action": "reaction_workflow_input_gui.panel",
+            "name": "Prepare Reaction Workflow Input...",
+            "pyfunc": "reaction_workflow_input_gui.panel"
+          },
+          {
+            "action": "reaction_workflow_gui.panel",
+            "name": "Reaction Workflow Calculations...",
+            "pyfunc": "reaction_workflow_gui.panel"
+          },
+          {
+            "action": "reaction_profile_viewer_gui.panel",
+            "name": "Reaction Profile Viewer...",
+            "pyfunc": "reaction_profile_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "qm_workflows": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "reaction_energetics_enumeration",
+            "name": "Reaction Energetics Enumeration...",
+            "pyfunc": "reaction_barrier_enumeration.panel"
+          },
+          {
+            "action": "bond_dissociation",
+            "name": "Bond and Ligand Dissociation...",
+            "pyfunc": "bond_dissociation_gui.panel"
+          },
+          {
+            "action": "tst_rate_calculation",
+            "name": "TST Rate Calculation...",
+            "pyfunc": "tst_rate_gui.panel"
+          },
+          {
+            "action": "grid_scan",
+            "name": "Probe Grid Scan...",
+            "pyfunc": "probe_grid_gui.panel"
+          },
+          {
+            "action": "amorphous_properties",
+            "name": "Amorphous Properties...",
+            "pyfunc": "amorphous_nmr_gui.panel"
+          },
+          {
+            "action": "spin_states",
+            "name": "Spin States...",
+            "pyfunc": "spin_states_gui.panel"
+          },
+          {
+            "action": "adsorption_energy_gui",
+            "name": "Adsorption Energy...",
+            "pyfunc": "adsorption_energy_gui.panel"
+          },
+          {
+            "action" : "materials_conformational_search_gui.panel",
+            "name" : "Organometallic Conformational Search...",
+            "pyfunc": "materials_conformational_search_gui.panel"
+          },
+          {
+            "action": "scan_lrc_omega_gui.panel",
+            "name": "Tune DFT Range-Separation Parameter...",
+            "pyfunc": "scan_lrc_omega_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "optoelectronics": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "optoelectronics_perform_calculations",
+            "name": "Optoelectronics Calculations...",
+            "pyfunc": "optoelectronics_gui.panel"
+          },
+          {
+            "action": "optoelectronics_view_results",
+            "name": "Optoelectronics Results...",
+            "pyfunc": "optoelectronics_viewer_gui.panel"
+          },
+          {
+            "action": "optoelectronics_electron_coupling",
+            "name": "Electron Coupling...",
+            "pyfunc": "hopping_gui.panel"
+          },
+          {
+            "action": "charge_mobility_gui",
+            "name": "Charge Mobility...",
+            "pyfunc": "charge_mobility_gui.panel"
+          },
+          {
+            "action": "optoelectronics_genopt",
+            "name": "Genetic Optimization...",
+            "pyfunc": "optoelectronics_genopt_gui.panel"
+          },
+          {
+            "action": "optoelectronics_genopt_viewer",
+            "name": "Genetic Optimization Monitoring...",
+            "pyfunc": "optoelectronics_genopt_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "kmc_charge_mobility": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "kmc_compute_charge_mobility_gui",
+            "name": "Compute KMC Charge Mobility...",
+            "pyfunc": "kmc_compute_charge_mobility_gui.panel"
+          },
+          {
+            "action": "kmc_restart_hopping_gui",
+            "name": "Restart Hopping Parameter Calculations...",
+            "pyfunc": "kmc_restart_hopping_gui.panel"
+          },
+          {
+            "action": "kmc_plot_charge_mobility_gui",
+            "name": "Plot KMC Charge Mobility...",
+            "pyfunc": "kmc_plot_charge_mobility_gui.panel"
+          },
+          {
+            "action": "kmc_visualize_charge_transport_gui",
+            "name": "Visualize KMC Charge Transport...",
+            "pyfunc": "kmc_visualize_charge_transport_gui.panel"
+          },
+          {
+            "action": "kmc_analyze_energetic_disorder_gui",
+            "name": "Analyze Energetic Disorder...",
+            "pyfunc": "kmc_analyze_energetic_disorder_gui.panel"
+          },
+          {
+            "action": "kmc_database_browser_gui",
+            "name": "Browse Charge Hopping Data...",
+            "pyfunc": "kmc_database_browser_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "quantum_espresso": {
+    "columns": [
+      {
+        "items": [
+          {
+            "section_title": "Analysis"
+          },
+          {
+            "action": "band_structure_viewer_gui.panel",
+            "name": "Band Structure Viewer...",
+            "pyfunc": "band_structure_viewer_gui.panel"
+          },
+          {
+            "action": "dos_viewer_gui.panel",
+            "name": "Density of States Viewer...",
+            "pyfunc": "dos_viewer_gui.panel"
+          },
+          {
+            "action": "pdos_viewer_gui.panel",
+            "name": "Projected Density of States Viewer...",
+            "pyfunc": "pdos_viewer_gui.panel"
+          },
+          {
+            "action": "phdos_viewer_gui.panel",
+            "name": "Phonon Density of States Viewer...",
+            "pyfunc": "phdos_viewer_gui.panel"
+          },
+          {
+            "action": "phband_structure_viewer_gui.panel",
+            "name": "Phonon Dispersion Viewer...",
+            "pyfunc": "phband_structure_viewer_gui.panel"
+          },
+          {
+            "action" : "esm_viewer_gui.panel",
+            "name" : "ESM: Density/Potential Profile...",
+            "pyfunc" : "esm_viewer_gui.panel"
+          },
+          {
+            "action" : "epsilon_viewer_gui.panel",
+            "name" : "Dielectric Function Viewer...",
+            "pyfunc" : "epsilon_viewer_gui.panel"
+          },
+          {
+            "action" : "eos_viewer_gui.panel",
+            "name" : "Equation of State Viewer...",
+            "pyfunc" : "eos_viewer_gui.panel"
+          },
+          {
+            "action": "elastic_constants_viewer_gui.panel",
+            "name": "Elastic Constants Viewer...",
+            "pyfunc": "elastic_constants_viewer_gui.panel"
+          },
+          {
+            "action" : "convergence_tests_viewer_gui.panel",
+            "name" : "Convergence Tests Viewer...",
+            "pyfunc" : "convergence_tests_viewer_gui.panel"
+          },
+          {
+            "action": "qm_monitor_gui.panel_qxp",
+            "name": "QM Convergence Monitor...",
+            "pyfunc": "qm_monitor_gui.panel True"
+          },
+          {
+            "action": "reaction_profile_viewer_gui.panel",
+            "name": "Reaction Profile Viewer...",
+            "pyfunc": "reaction_profile_viewer_gui.panel"
+          },
+          {
+            "action": "app_jaguar_spectraplot",
+            "name": "Plot Spectra...",
+            "title": "Spectrum Plot...",
+            "pyfunc": "spectrum_plot.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Setup"
+          },
+          {
+            "action": "periodic_dft_gui.panel",
+            "name": "Quantum ESPRESSO Calculations...",
+            "pyfunc": "periodic_dft_gui.panel"
+          },
+          {
+            "action": "periodic_dft_import_gui.panel",
+            "name": "Quantum ESPRESSO Import...",
+            "pyfunc": "periodic_dft_import_gui.panel"
+          },
+          {
+            "action" : "esm_gui.panel",
+            "name" : "Effective Screening Medium Calculations...",
+            "pyfunc" : "esm_gui.panel"
+          },
+          {
+            "action" : "neb_gui.panel",
+            "name" : "Nudged Elastic Band Calculations...",
+            "pyfunc" : "neb_gui.panel"
+          },
+          {
+            "action" : "neb_restart_gui.panel",
+            "name" : "Nudged Elastic Band Restart...",
+            "pyfunc" : "neb_restart_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "qm_tools": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "qm_monitor_gui.panel",
+            "name": "QM Convergence Monitor...",
+            "pyfunc": "qm_monitor_gui.panel"
+          },
+          {
+            "action": "reaction_profile_viewer_gui.panel",
+            "name": "Reaction Profile Viewer...",
+            "pyfunc": "reaction_profile_viewer_gui.panel"
+          },
+          {
+            "action": "thermochemistry_viewer_gui.panel",
+            "name": "Thermochemistry Viewer...",
+            "pyfunc": "thermochemistry_viewer_gui.panel"
+          },
+          {
+            "action": "visualize_transition_moment_gui.panel",
+            "name": "Visualize Transition Dipole Moment...",
+            "pyfunc": "visualize_transition_moment_gui.panel"
+          },
+          {
+            "action": "finite_dos_viewer_gui.panel",
+            "name": "Molecular Density of States Viewer...",
+            "pyfunc": "finite_dos_viewer_gui.panel"
+          },
+          {
+            "action": "app_jaguar_spectraplot",
+            "name": "Plot Spectra...",
+            "title": "Spectrum Plot...",
+            "pyfunc": "spectrum_plot.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "more_qm_tasks": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "semi_emp",
+            "name": "Semiempirical NDDO...",
+            "pyfunc": "semi_emp_gui.panel"
+          },
+          {
+            "action": "mopac_main",
+            "name": "MOPAC2016...",
+            "pyfunc": "mopac_main_gui.panel"
+          },
+          {
+            "section_title": "Automated Transition State Search"
+          },
+          {
+            "action" : "autots_gui.panel",
+            "name" : "Perform Calculations...",
+	        "title" : "AutoTS...",
+            "pyfunc" : "autots_gui.panel"
+          },
+          {
+            "action" : "autots_viewer_gui.panel",
+            "name" : "View Results...",
+	        "title" : "AutoTS Results...",
+            "pyfunc" : "autots_viewer_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "action": "jaguar_gui.reaction_panel",
+            "name": "Reaction...",
+            "pyfunc": "jaguar_gui.reaction_panel"
+          },
+          {
+            "action": "jaguar_gui.pka_panel",
+            "name": "pKa...",
+            "pyfunc": "jaguar_gui.pka_panel"
+          },
+          {
+            "action": "jaguar_gui.hb_panel",
+            "name": "Hydrogen Bond Strength...",
+            "pyfunc": "jaguar_gui.hb_panel"
+          },
+          {
+	        "action": "jaguar_gui.kenny_panel",
+	        "name": "Hydrogen Bond Basicity...",
+	        "pyfunc": "jaguar_gui.kenny_panel"
+	      },
+          {
+            "action": "jaguar_gui.fukui_panel",
+            "name": "Fukui Functions...",
+            "pyfunc": "jaguar_gui.fukui_panel"
+          },
+          {
+            "action": "vcd_workflow_gui.panel",
+            "name": "VCD Spectra...",
+            "pyfunc": "vcd_workflow_gui.panel"
+          },
+          {
+            "action": "delta_hf_gui.panel",
+            "name": "Heat of Formation...",
+            "pyfunc": "delta_hf_gui.panel"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "action": "app_jaguar_spectraplot",
+            "name": "Plot Spectra...",
+            "title": "Spectrum Plot...",
+            "pyfunc": "spectrum_plot.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "action": "jaguar_gui.spe_panel",
+            "name": "Single Point Energy...",
+            "pyfunc": "jaguar_gui.spe_panel"
+          },
+          {
+            "action": "jaguar_gui.optimization_panel",
+            "name": "Optimization...",
+            "pyfunc": "jaguar_gui.optimization_panel"
+          },
+          {
+            "action": "jaguar_gui.transition_state_panel",
+            "name": "Transition State Search...",
+            "pyfunc": "jaguar_gui.transition_state_panel"
+          },
+          {
+            "action": "jaguar_gui.reaction_coord_panel",
+            "name": "Reaction Coordinate...",
+            "pyfunc": "jaguar_gui.reaction_coord_panel"
+          },
+          {
+            "action": "jaguar_gui.counterpoise_panel",
+            "name": "Counterpoise...",
+            "pyfunc": "jaguar_gui.counterpoise_panel"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "section_title": "Coordinate Scan"
+          },
+          {
+            "action": "jaguar_gui.relaxed_scan_panel",
+            "name": "Relaxed...",
+	        "title": "Relaxed Coordinate Scan...",
+            "pyfunc": "jaguar_gui.relaxed_scan_panel"
+          },
+          {
+            "action": "jaguar_gui.rigid_scan_panel",
+            "name": "Rigid...",
+	        "title": "Rigid Coordinate Scan...",
+            "pyfunc": "jaguar_gui.rigid_scan_panel"
+          }
+        ]
+      }
+    ]
+  },
+  "building": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "build_polymer",
+            "name": "Polymer...",
+            "pyfunc": "polymer_builder_gui.panel"
+          },
+          {
+            "action": "disordered_system_builder",
+            "name": "Disordered System...",
+            "pyfunc": "disordered_system_builder_gui.panel"
+          },
+          {
+            "action": "structured_liquid_gui",
+            "name": "Structured Liquid...",
+            "pyfunc": "structured_liquid_gui.panel"
+          },
+          {
+             "action": "mc_sa_gui.panel",
+             "name": "Adsorption Site Finder...",
+             "pyfunc": "mc_sa_gui.panel"
+          },
+          {
+            "action": "extract_dimers",
+            "name": "Extract Clusters...",
+            "pyfunc": "extract_dimers.panel"
+          },
+          {
+            "action": "reaction_path_interpolation",
+            "name": "Reaction Path Interpolation...",
+            "pyfunc": "rxn_path_interpolation_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "action": "build_crystal_structure",
+            "name": "Crystal Structure...",
+            "pyfunc": "crystal_builder_gui.panel"
+          },
+          {
+            "action": "build_slabs",
+            "name": "Slabs and Interfaces...",
+            "pyfunc": "surfaces_interfaces_gui.panel"
+          },
+          {
+            "action": "import_slabs",
+            "name": "Import Slabs...",
+            "pyfunc": "import_slabs_gui.panel"
+          },
+          {
+            "action": "build_nanostructures",
+            "name": "Nanostructures...",
+            "pyfunc": "nanostructure_gui.panel"
+          },
+          {
+            "action": "build_nanoparticles",
+            "name": "Nanoparticles...",
+            "pyfunc": "nanoparticle_gui.panel"
+          },
+          {
+            "action": "distribute_voids",
+            "name": "Distribute Voids...",
+            "pyfunc": "distribute_voids_gui.panel"
+          },
+          {
+            "action": "build_semi_crystalline_polymer",
+            "name": "Semicrystalline Polymer...",
+            "pyfunc": "semi_crystal_builder_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Metal Complexes"
+          },
+          {
+            "action": "organometallic_complex_build_single",
+            "name": "Single Complex...",
+            "pyfunc": "complex_builder_gui.panel"
+          },
+          {
+            "action": "organometallic_complex_build_multiple",
+            "name": "Multiple Complexes...",
+            "pyfunc": "multicomplex_builder_gui.panel"
+          },
+          {
+            "action": "sculpt_complex_gui",
+            "name": "Sculpt Complex...",
+            "pyfunc": "sculpt_complex_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "enumeration": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "custom_rgroup_enum_gui.panel",
+            "name": "Custom R-Group...",
+            "title": "Custom R-Group Enumeration...",
+            "pyfunc": "custom_rgroup_enum_gui.panel"
+          },
+          {
+           "action": "r_group_library_gui.panel",
+           "name": "R-Group Creator...",
+           "pyfunc": "r_group_library_gui.panel"
+          },
+          {
+           "action": "reaction_based_enum_gui.panel",
+           "name": "Reaction-Based...",
+           "title": "Reaction-Based Enumeration...",
+           "pyfunc": "reaction_based_enum_gui.panel"
+          },
+          {
+            "action": "complex_enumeration_gui.panel",
+            "name": "Complexes...",
+            "pyfunc": "complex_enumeration_gui.panel",
+            "border_above": true
+          },
+          {
+            "action": "r_group_library_gui.ligand_.panel",
+            "name": "Ligand Creator...",
+            "pyfunc": "r_group_library_gui.ligand_panel"
+          },
+          {
+            "action": "mof_enumeration_gui.panel",
+            "name": "Metal-Organic Frameworks...",
+            "pyfunc": "mof_enumeration_gui.panel",
+            "border_above": true
+          }
+       ]
+      },
+      {
+        "items": [
+          {
+            "action": "elemental_enumeration",
+            "name": "Elemental...",
+            "pyfunc": "elemental_enumeration_gui.panel"
+          },
+          {
+            "action": "reaction_channel_enumeration",
+            "name": "Reaction Channel...",
+            "pyfunc": "rxnchannel_gui.panel"
+          },
+          {
+            "action": "adsorbant_enumeration_gui.panel",
+            "name": "Adsorption...",
+            "pyfunc": "adsorbant_enumeration_gui.panel"
+          },
+          {
+            "action": "enumerate_disordered_systems_gui.panel",
+            "name": "Multiple Disordered Systems...",
+            "pyfunc": "enumerate_disordered_systems_gui.panel"
+          },
+          {
+            "action": "enumlib_gui.panel",
+            "name": "Periodic Systems...",
+            "pyfunc": "enumlib_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "classical_mechanics": {
+    "columns": [
+      {
+        "items": [
+          {
+            "task": "matsci_md_simulations",
+            "name": "MD Simulations"
+          },
+          {
+            "task": "matsci_meta_workflows",
+            "name": "Meta Workflows"
+          },
+          {
+            "task": "matsci_trajectory_analysis",
+            "name": "Trajectory Analysis"
+          },
+          {
+            "task": "coarse_grain_models",
+            "name": "Coarse Grain Models"
+          },
+          {
+            "name": "separator"
+          },
+          {
+            "task": "more_md_tasks",
+            "name": "More MD Tasks"
+          },
+          {
+            "task": "molecular_mechanics",
+            "name": "Molecular Mechanics"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "task": "crosslink_polymers",
+            "name": "Crosslink Polymers"
+          },
+          {
+            "task": "penetrant_loading",
+            "name": "Penetrant Loading"
+          },
+          {
+            "task": "thermophysical_properties",
+            "name": "Thermophysical Properties"
+          },
+          {
+            "task": "elastic_constants",
+            "name": "Elastic Constants"
+          },
+          {
+            "task": "stress_strain",
+            "name": "Stress Strain"
+          },
+          {
+            "task": "surface_tension",
+            "name": "Surface Tension"
+          },
+          {
+            "task": "viscosity",
+            "name": "Viscosity"
+          },
+          {
+            "task": "diffusion_coefficient",
+            "name": "Diffusion Coefficient"
+          },
+          {
+            "task": "amorphous_dielectric_properties",
+            "name": "Amorphous Dielectric Properties"
+          },
+          {
+            "task": "crystal_morphology",
+            "name": "Crystal Morphology"
+          },
+          {
+            "action": "deposition_gui.panel",
+            "name": "Heritage Molecular Deposition...",
+            "pyfunc": "deposition_gui.panel"
+          },
+          {
+            "action": "deposition_gui2.panel",
+            "name": "Molecular Deposition...",
+            "pyfunc": "deposition_gui2.panel"
+          },
+          {
+            "action": "matsci_fep_solubility_gui.panel",
+            "name": "MS FEP Solubility...",
+            "pyfunc": "matsci_fep_solubility_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "molecular_mechanics": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action" : "materials_conformational_search_gui.panel",
+            "name" : "Organometallic Conformational Search...",
+            "pyfunc": "materials_conformational_search_gui.panel"
+          },
+          {
+            "action" : "tasks_csearch_advanced",
+            "name" : "Conformational Search...",
+            "showpanel" : "csearch",
+            "border_above": true
+          },
+          {
+            "action" : "macromodel_minimization",
+            "name" : "Minimization...",
+            "showpanel" : "mini"
+          },
+          {
+            "action" : "rapid_torsion_scan",
+            "name" : "Rapid Torsion Scan...",
+            "pyfunc": "rapid_torsion_scan_gui.panel"
+          },
+          {
+            "action": "macromodel_coordinate_scan",
+            "name": "Relaxed Coordinate Scan...",
+	        "title": "Coordinate Scan...",
+            "showpanel": "drive"
+          },
+          {
+            "action": "prime_macrocycle_sampling",
+            "name": "Macrocycle Sampling...",
+            "pyfunc": "prime_macrocycle_sampling.panel"
+          },
+          {
+            "action": "prime_macrocycle_stability",
+            "name": "Macrocycle Propensity...",
+            "pyfunc": "prime_macrocycle_stability_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "coarse_grain_models": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "coarse_grain_sketcher_gui",
+            "name": "Coarse-Grained Sketcher...",
+            "pyfunc": "coarse_grain_sketcher_gui.panel"
+          },
+          {
+            "action": "coarse_grain_import_structures_gui",
+            "name": "Import Coarse-Grained Structures...",
+            "pyfunc": "coarse_grain_import_structures_gui.panel"
+          },
+          {
+            "action": "smarts_match_gui.panel",
+            "name": "Define Groups by SMARTS...",
+            "pyfunc": "smarts_match_gui.panel"
+          },
+          {
+            "action": "coarse_grain_particulate_gui.panel",
+            "name": "Map Atoms to Particles...",
+            "pyfunc": "coarse_grain_particulate_gui.panel"
+          },
+          {
+            "action": "coarse_grain_ff_assignment_gui.panel",
+            "name": "Coarse-Grained Force Field Assignment...",
+            "pyfunc": "coarse_grain_ff_assignment_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "matsci_md_simulations": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "prepare_for_md",
+            "name": "Prepare for Molecular Dynamics...",
+            "pyfunc": "prepare_for_md_gui.panel"
+          },
+          {
+            "action": "desmond_multistage_simulation",
+            "name": "MD Multistage Workflow...",
+            "pyfunc": "desmond_multistage_simulation_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "matsci_meta_workflows": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "matsci_meta_workflow_gui.panel",
+            "name": "Meta Workflow Builder...",
+            "pyfunc": "matsci_meta_workflow_gui.panel"
+          },
+          {
+            "action": "matsci_run_meta_workflow_gui.panel",
+            "name": "Run Meta Workflow...",
+            "pyfunc": "matsci_run_meta_workflow_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "matsci_trajectory_analysis": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "matsci_event_analysis",
+            "name": "MS MD Trajectory Analysis...",
+            "pyfunc": "matsci_event_analysis.panel"
+          },
+          {
+            "action" : "desmond_simulation_quality_analysis",
+            "name" : "Simulation Quality Analysis...",
+            "pyfunc": "simulation_analysis_gui.panel"
+          },
+          {
+            "action" : "desmond_simulation_event_analysis",
+            "name" : "Simulation Event Analysis...",
+            "pyfunc": "sim_event_analysis.show_panel"
+          },
+          {
+            "action" : "desmond_radial_distribution_function",
+            "name" : "Radial Distribution Function...",
+            "pyfunc": "rdf_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Trajectory Density Analysis"
+          },
+          {
+            "action" : "trajectory_density_analysis_gui.panel",
+            "name": "Trajectory Density Analysis Calculations...",
+            "pyfunc" : "trajectory_density_analysis_gui.panel"
+          },
+          {
+            "action": "trajectory_density_analysis_viewer_gui.panel",
+            "name": "Trajectory Density Analysis Results...",
+            "pyfunc": "trajectory_density_analysis_viewer_gui.panel"
+          },
+          {
+            "section_title": "Structure Factor"
+          },
+          {
+            "action": "structure_factor_gui",
+            "name": "Structure Factor Calculation...",
+            "pyfunc": "structure_factor_gui.panel"
+          },
+          {
+            "action": "structure_factor_viewer",
+            "name": "Structure Factor Results...",
+            "pyfunc": "structure_factor_viewer_gui.panel"
+          },
+          {
+            "section_title": "Order Parameter"
+          },
+          {
+            "action" : "order_parameter_gui.panel",
+            "name": "Order Parameter Calculations...",
+            "pyfunc" : "order_parameter_gui.panel"
+          },
+          {
+            "action": "order_parameter_viewer_gui.panel",
+            "name": "Order Parameter Results...",
+            "pyfunc": "order_parameter_viewer_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Polymer Chain Analysis"
+          },
+          {
+            "action": "polymer_chain_analysis",
+            "name": "Polymer Chain Analysis Calculations...",
+            "pyfunc": "polymer_chain_analysis_gui.panel"
+          },
+          {
+            "action": "polymer_chain_analysis_viewer",
+            "name": "Polymer Chain Analysis Results...",
+            "pyfunc": "polymer_chain_analysis_viewer_gui.panel"
+          },
+          {
+            "section_title": "Surfactant Analysis"
+          },
+          {
+            "action" : "surfactant_tilt_gui.panel",
+            "name": "Surfactant Tilt Calculations...",
+            "pyfunc" : "surfactant_tilt_gui.panel"
+          },
+          {
+            "action": "surfactant_tilt_viewer_gui.panel",
+            "name": "Surfactant Tilt Results...",
+            "pyfunc": "surfactant_tilt_viewer_gui.panel"
+          },
+          {
+            "action" : "cluster_analysis_gui.panel",
+            "name": "Cluster Analysis Calculations...",
+            "pyfunc" : "cluster_analysis_gui.panel"
+          },
+          {
+            "action": "cluster_analysis_viewer_gui.panel",
+            "name": "Cluster Analysis Results...",
+            "pyfunc": "cluster_analysis_viewer_gui.panel"
+          },
+          {
+            "section_title": "Electrolyte Analysis"
+          },
+          {
+            "action" : "electrolyte_analysis_gui.panel",
+            "name": "Electrolyte Analysis Calculations...",
+            "pyfunc" : "electrolyte_analysis_gui.panel"
+          },
+          {
+            "action": "electrolyte_analysis_viewer_gui.panel",
+            "name": "Electrolyte Analysis Results...",
+            "pyfunc": "electrolyte_analysis_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "crystal_morphology": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action" : "morphology_gui.panel",
+            "name": "Crystal Morphology Calculations...",
+            "pyfunc" : "morphology_gui.panel"
+          },
+          {
+            "action" : "wulff_viewer_gui.panel",
+            "name": "Wulff Viewer...",
+            "pyfunc" : "wulff_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "viscosity": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "viscosity_gk_gui.panel",
+            "name": "Viscosity Calculations...",
+            "pyfunc": "viscosity_gk_gui.panel"
+          },
+          {
+            "action": "viscosity_viewer_gui.panel",
+            "name": "Viscosity Results...",
+            "pyfunc": "viscosity_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "diffusion_coefficient": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "diffusion_coefficient_gui.panel",
+            "name": "Diffusion Coefficient Calculations...",
+            "pyfunc": "diffusion_coefficient_gui.panel"
+          },
+          {
+            "action": "diffusion_coefficient_viewer_gui.panel",
+            "name": "Diffusion Coefficient Results...",
+            "pyfunc": "diffusion_coefficient_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "amorphous_dielectric_properties": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "permittivity_gui.panel",
+            "name": "Amorphous Dielectric Properties Calculations...",
+            "pyfunc": "permittivity_gui.panel"
+          },
+          {
+            "action": "permittivity_viewer_gui.panel",
+            "name": "Amorphous Dielectric Properties Results...",
+            "pyfunc": "permittivity_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "stress_strain": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "stress_strain_gui.panel",
+            "name": "Stress Strain Calculations...",
+            "pyfunc": "stress_strain_gui.panel"
+          },
+          {
+            "action": "stress_strain_viewer_gui.panel",
+            "name": "Stress Strain Results...",
+            "pyfunc": "stress_strain_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "surface_tension": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "surface_tension_gui.panel",
+            "name": "Surface Tension Calculations...",
+            "pyfunc": "surface_tension_gui.panel"
+          },
+          {
+            "action": "surface_tension_viewer_gui.panel",
+            "name": "Surface Tension Results...",
+            "pyfunc": "surface_tension_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "elastic_constants": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "elastic_constants_gui.panel",
+            "name": "Elastic Constants Calculations...",
+            "pyfunc": "elastic_constants_gui.panel"
+          },
+          {
+            "action": "elastic_constants_viewer_gui.panel",
+            "name": "Elastic Constants Results...",
+            "pyfunc": "elastic_constants_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "thermophysical_properties": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "thermophysical_properties.panel",
+            "name": "Thermophysical Properties Calculations...",
+            "pyfunc": "thermophysical_properties_gui.panel"
+          },
+          {
+            "action": "thermophysical_properties_analysis",
+            "name": "Thermophysical Properties Results...",
+            "pyfunc": "thermophysical_properties_analysis_gui.panel"
+          },
+          {
+            "action": "tg_loader_gui.panel",
+            "name": "Load Tg Data...",
+            "pyfunc": "tg_loader_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "penetrant_loading": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action" : "penetrant_loading_gui.panel",
+            "name": "Penetrant Loading Calculations...",
+            "pyfunc" : "penetrant_loading_gui.panel"
+          },
+          {
+            "action": "penetrant_loading_viewer_gui.panel",
+            "name": "Penetrant Loading Results...",
+            "pyfunc": "penetrant_loading_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "crosslink_polymers": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "polymer_crosslink",
+            "name": "Crosslink Polymer Calculations...",
+            "pyfunc": "polymer_crosslink_gui.panel"
+          },
+          {
+            "action": "polymer_crosslink_viewer",
+            "name": "Crosslink Polymer Results...",
+            "pyfunc": "polymer_crosslink_viewer_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "more_md_tasks": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "system_builder",
+            "name": "System Builder...",
+            "pyfunc": "system_builder_gui.panel"
+          },
+          {
+            "action": "app_desmond_rebuild_system",
+            "name": "Model System Regeneration..."
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "separator"
+          },
+          {
+            "action": "desmond_metadynamics",
+            "name": "Metadynamics...",
+            "pyfunc": "desmond_metadynamics_gui.panel"
+          },
+          {
+            "action": "desmond_metadynamics_analysis",
+            "name": "Metadynamics Analysis...",
+            "pyfunc": "desmond_metadynamics_analysis_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "tools": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "cleanup_structures_gui",
+            "name": "Clean Up Structures...",
+            "pyfunc": "cleanup_structures_gui.panel"
+          },
+          {
+            "action": "organometallic_complex_cleanup",
+            "name": "Clean Up Complex...",
+            "pyfunc": "minimize_tm_complexes.panel"
+          },
+          {
+            "action": "redefine_lattice",
+            "name": "Redefine Lattice...",
+            "pyfunc": "redefine_lattice_gui.panel"
+          },
+          {
+            "action": "manipulate_cell",
+            "name": "Manipulate Cell...",
+            "pyfunc": "manipulate_cell_gui.panel"
+          },
+          {
+            "action": "create_pbc_gui",
+            "name": "Create PBC...",
+            "pyfunc": "create_pbc_gui.panel"
+          },
+          {
+            "action": "assign_spg",
+            "name": "Assign Space Group...",
+            "pyfunc": "assign_spg_gui.panel"
+          },
+          {
+            "action": "partial_concentration_calculation_gui",
+            "name": "Partial Concentration Calculation...",
+            "pyfunc": "partial_concentration_calculation_gui.panel"
+          },
+          {
+            "action": "query_materials_mp",
+            "name": "Query Materials Project Database...",
+            "pyfunc": "query_materials_mp_gui.panel"
+          },
+          {
+            "action": "query_materials_local",
+            "name": "Query Local Materials...",
+            "pyfunc": "query_materials_local_gui.panel"
+          },
+          {
+            "action": "import_favorite_structures_gui.panel",
+            "name": "Import Favorite Structures...",
+            "pyfunc": "import_favorite_structures_gui.panel"
+          },
+          {
+            "action": "toggle_eta_style",
+            "name": "Toggle Eta Bond Style",
+            "pyfunc": "toggle_eta_style.run"
+          },
+          {
+            "action": "locate_ring_spears",
+            "name": "Locate Rings and Spears...",
+            "pyfunc": "locate_ring_spears_gui.panel"
+          },
+          {
+            "action" : "query_bonds",
+            "name" : "Query Bonds...",
+            "pyfunc" : "query_bonds_gui.panel"
+          },
+          {
+            "action": "mark_monomer",
+            "name": "Mark Monomer Head and Tail...",
+            "pyfunc": "mark_monomer_head_tail_gui.panel"
+          },
+          {
+            "action": "matsci_restart",
+            "name": "Restart Workflows...",
+            "pyfunc": "matsci_restart_gui.panel"
+          },
+          {
+            "action": "digitize_curves_gui",
+            "name": "Digitize Curves...",
+            "pyfunc": "digitize_curves_gui.panel"
+          },
+          {
+            "action": "multispectra_analysis_gui",
+            "name": "Multispectra Analysis...",
+            "pyfunc": "multispectra_analysis_gui.panel"
+          },
+          {
+            "task": "more_tools",
+            "name": "More Tools",
+            "border_above": true
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Uncertainty Quantification"
+          },
+          {
+            "action": "uncertainty_quantification_gui",
+            "name": "Uncertainty Quantification Calculations...",
+            "pyfunc": "uncertainty_quantification_gui.panel"
+          },
+          {
+            "action": "uncertainty_quantification_viewer_gui",
+            "name": "Uncertainty Quantification Results...",
+            "pyfunc": "uncertainty_quantification_viewer_gui.panel"
+          },
+          {
+            "section_title": "Volume"
+          },
+          {
+            "action": "free_volume_analysis_gui",
+            "name": "Free Volume Calculations...",
+            "pyfunc": "free_volume_analysis_gui.panel"
+          },
+          {
+            "action": "free_volume_analysis_viewer_gui",
+            "name": "Free Volume Results...",
+            "pyfunc": "free_volume_analysis_viewer_gui.panel"
+          },
+          {
+            "action": "density_profile_gui",
+            "name": "Density Profile...",
+            "pyfunc": "density_profile_gui.panel"
+          },
+          {
+            "section_title": "Torsion Profile Analysis"
+          },
+          {
+            "action": "torsion_profile_analysis_gui",
+            "name": "Torsion Profile Analysis Calculations...",
+            "pyfunc": "torsion_profile_analysis_gui.panel"
+          },
+          {
+            "action": "torsion_profile_analysis_viewer_gui",
+            "name": "Torsion Profile Analysis Results...",
+            "pyfunc": "torsion_profile_analysis_viewer_gui.panel"
+          },
+          {
+            "section_title": "Powder Diffraction"
+          },
+          {
+            "action": "powder_diffraction_pattern_gui",
+            "name": "Powder Diffraction Pattern Calculations...",
+            "pyfunc": "powder_diffraction_pattern_gui.panel"
+          },
+          {
+            "action": "powder_diffraction_pattern_viewer_gui",
+            "name": "Powder Diffraction Pattern Results...",
+            "pyfunc": "powder_diffraction_pattern_viewer_gui.panel"
+          },
+          {
+            "action": "pxrd_gui",
+            "name": "Powder Diffraction Indexing...",
+            "pyfunc": "pxrd_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "more_tools": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "app_jaguar_spectraplot",
+            "name": "Plot Spectra...",
+            "title": "Spectrum Plot...",
+            "pyfunc": "spectrum_plot.panel"
+          },
+          {
+            "action" : "plot_coord_scan",
+            "name" : "Plot Coordinate Scan...",
+            "pyfunc": "plot_coord_scan_gui.panel"
+          },
+          {
+            "name" : "separator"
+          },
+          {
+            "action" : "force_field_builder",
+            "name" : "Force Field Builder...",
+            "pyfunc" : "ffbuilder_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "action" : "rgroup_analysis",
+            "name" : "R-group Analysis...",
+            "pyfunc" : "r_group_analysis.show_panel"
+          },
+          {
+            "action" : "scaffold_decomp",
+            "name" : "Scaffold Decomposition...",
+            "pyfunc" : "scaffold_decomp_launcher.show_panel"
+          },
+          {
+            "action" : "ligand_filtering",
+            "name" : "Structure Filtering...",
+	        "title": "Ligand Filtering...",
+            "pyfunc": "ligfilter_gui.panel"
+          },
+          {
+            "name" : "separator"
+          },
+          {
+            "action" : "merge_duplicates",
+            "name" : "Merge Duplicates...",
+            "pyfunc": "merge_duplicates_gui.panel"
+          },
+          {
+            "action" : "superposition",
+            "name" : "Superposition...",
+            "showpanel": "superimpose"
+          }
+        ]
+      }
+    ]
+  },
+  "model_building_and_statistics": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "autoqsar_gui.panel",
+            "name": "AutoQSAR...",
+            "pyfunc" : "autoqsar_gui.panel"
+          },
+          {
+            "action": "ml_qsar_gui.panel",
+            "name": "Build and Apply QSAR Model...",
+            "pyfunc": "ml_qsar_gui.panel"
+          },
+          {
+            "action": "canvas_som_gui.panel",
+            "name": "Self-Organizing Map...",
+            "pyfunc": "canvas_som_gui.panel"
+          },
+          {
+            "action": "optoelectronics_al_gui.panel",
+            "name": "Optoelectronics Active Learning Training...",
+            "pyfunc": "optoelectronics_al_gui.panel"
+          },
+          {
+            "action": "optoelectronics_al_predict_gui.panel",
+            "name": "Optoelectronics Active Learning Prediction...",
+            "pyfunc": "optoelectronics_al_predict_gui.panel"
+          },
+          {
+            "action": "materials_explorer",
+            "name": "Materials Explorer...",
+            "pyfunc": "pose_explorer.materials_panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Generate Descriptors"
+          },
+          {
+            "action" : "molecular_materials_descriptors_gui",
+            "name" : "Molecular...",
+            "pyfunc": "molecular_materials_descriptors_gui.panel"
+          },
+          {
+            "action" : "periodic_descriptors_gui",
+            "name" : "Periodic...",
+            "pyfunc": "periodic_descriptors_gui.panel"
+          },
+          {
+            "action" : "polymer_descriptors_gui",
+            "name" : "Polymer...",
+            "pyfunc": "polymer_descriptors_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "ligand_preparation_and_library_design": {
+    "columns": [
+     {
+	"items": [
+	  {
+	     "section_title": "Databases"
+	  },
+	  {
+	    "action": "phase.create_phase_db_gui.panel",
+	    "name": "Generate Phase Database...",
+	    "title": "Create Phase Database...",
+	    "pyfunc": "phase.create_phase_db_gui.panel"
+	  },
+	  {
+	    "action": "phase.manage_phasedb_gui.panel",
+	    "name": "Manage Phase Database...",
+	    "pyfunc": "phase.manage_phasedb_gui.panel"
+	  },
+	  {
+	     "section_title": "Property Prediction"
+	  },
+	  {
+	    "action": "tasks_adme_tox_prediction",
+	    "name": "Ligand-Based ADME/Tox Prediction...",
+	    "title": "QikProp...",
+	    "showpanel": "qikprop"
+	  },
+	  {
+	     "section_title": "Other"
+	  },
+	  {
+	    "action": "ligand_filtering",
+	    "name": "Ligand Filtering...",
+	    "pyfunc": "ligfilter_gui.panel"
+	  },
+	  {
+	    "action": "compare_ligand_files",
+	    "name": "Compare Ligand Files...",
+	    "pyfunc": "compare_ligand_files_gui.panel"
+	  },
+	  {
+	    "action": "force_field_builder",
+	    "name": "Force Field Builder...",
+	    "pyfunc": "ffbuilder_gui.panel"
+	  },
+      {
+        "task": "enumeration_and_ideation",
+        "name": "Enumeration"
+      }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "2D to 3D Conversion"
+	  },
+	  {
+	    "action": "ligprep",
+	    "name": "LigPrep...",
+	    "pyfunc": "ligprep_gui.panel"
+	  },
+	  {
+	    "section_title": "pKa Prediction"
+	  },
+	  {
+	    "action": "pka_empirical",
+	    "name": "Empirical pKa...",
+	    "title": "Epik...",
+	    "pyfunc": "epik_gui.panel"
+	  },
+	  {
+	    "action": "pka_qm",
+	    "name": "Quantum-Mechanical...",
+        "title": "pKa...",
+	    "pyfunc": "jaguar_gui.pka_panel"
+	  },
+	  {
+	    "section_title": "Structure Building"
+	  },
+	  {
+	    "action": "tasks_build_2d_sketcher",
+	    "name": "2D Sketcher...",
+	    "showpanel": "sketcher"
+	  }
+	]
+      }
+     ]
+  },
+  "protein_preparation_and_refinement" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Protein Alignment"
+	  },
+	  {
+	    "action": "structalign",
+	    "name": "Protein Structure Alignment...",
+	    "showpanel": "structalign"
+	  },
+	  {
+	    "action": "align_binding_sites",
+	    "name": "Binding Site Alignment...",
+	    "title": "Align Binding Sites...",
+	    "pyfunc": "align_binding_sites_gui.panel"
+	  },
+	  {
+	    "section_title": "Structure Building and Editing"
+	  },
+	  {
+	    "action": "protein_splicer",
+	    "name": "Protein Splicer...",
+	    "pyfunc": "splicer_gui.panel"
+	  },
+	  {
+	    "action": "pp_mutate_residues",
+	    "name": "Mutate Residues...",
+	    "pyfunc": "mutate.panel"
+	  },
+	  {
+	    "action": "pp_build_peptide",
+	    "name": "Build Peptide from Sequence...",
+	    "pyfunc": "pep_from_seq_gui.panel"
+	  },
+	  {
+	    "action": "pp_build_biopolymer",
+	    "name": "Build Biopolymer from Sequence...",
+	    "pyfunc": "biopolymer_from_seq_gui.panel"
+	  },
+	  {
+	    "action": "pp_generate_helices",
+	    "name": "Generate Helices...",
+	    "pyfunc": "make_helices.panel"
+	  },
+	  {
+	    "action": "pp_helix_manipulator",
+	    "name": "Helix Manipulator...",
+	    "pyfunc": "helix_manipulator.panel"
+	  },
+	  {
+	    "action": "pp_structure_morpher",
+	    "name": "Structure Morpher...",
+	    "pyfunc": "structure_morpher_gui.panel"
+	  },
+	  {
+	    "action": "pp_assign_numbering",
+	    "name": "Assign GPCR Generic Numbering...",
+	    "pyfunc": "gpcr_generic_numbering.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "pp_pdb_name_assign",
+	    "name": "PDB Name Assignment",
+	    "pyfunc": "pdbname.run"
+	  },
+	  {
+	    "action": "pp_renumber_proteins",
+	    "name": "Renumber Proteins by 3D Alignment...",
+	    "pyfunc": "adjust_residue_numbering_panel.panel"
+	  },
+	  {
+	    "section_title": "Sequence Editing"
+	  },
+	  {
+	    "action": "multiseqviewer2",
+	    "name": "Multiple Sequence Viewer/Editor...",
+	    "pyfunc": "msv.panel"
+	  },
+	  {
+	    "action": "multiseqviewer",
+	    "name": "Multiple Sequence Viewer (Deprecated)...",
+	    "pyfunc": "multiseqviewer.panel"
+	  }
+      ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Protein Preparation"
+	  },
+	  {
+	    "action": "get_pdb_task",
+	    "name": "Get PDB Structure...",
+	    "showpanel": "get_pdb"
+	  },
+	  {
+	    "action": "protein_prep_wizard",
+	    "name": "Protein Preparation Wizard...",
+	    "pyfunc": "prepwizard_gui.panel_classic"
+	  },
+	  {
+	    "action": "prepwizard2_gui",
+	    "name": "Protein Preparation Workflow...",
+	    "pyfunc": "prepwizard2_gui.panel"
+	  },
+	  {
+	    "action": "_one_step_protein_prep",
+	    "name": "One Step Protein Preparation...",
+	    "pyfunc": "one_step_prepwizard_gui.panel"
+	  },
+	  {
+	    "section_title": "Homology Modeling"
+	  },
+	  {
+	    "action": "multiseqviewer",
+	    "name": "Homology Modeling...",
+	    "pyfunc": "msv.homology"
+	  },
+	  {
+	    "action": "prime_homology_modeling",
+	    "name": "Homology Modeling (Deprecated)...",
+	    "help": [
+	      " Predict the structure of a protein from its sequence",
+	      " by homology modeling. Opens the Homology Modeling panel,",
+	      " or the Multiple Sequence Viewer panel as the modeling",
+	      " interface. You can choose one of these as the default,",
+	      " and bypass the Homology Modeling panel."
+	    ]
+	  },
+	  {
+	    "section_title": "Protein X-Ray Refinement"
+	  },
+	  {
+	    "action": "primex",
+	    "name": "Protein X-Ray Refinement...",
+	    "title": "PrimeX...",
+	    "showpanel": "primexpanel"
+	  },
+	  {
+	    "section_title": "Protein Refinement"
+	  },
+	  {
+	    "action": "prime_calculate_energy",
+	    "name": "Calculate Energy...",
+	    "showpanel": "analyzeenergy"
+	  },
+	  {
+	    "action": "prime_minimize",
+	    "name": "Minimize...",
+	    "showpanel": "minimize"
+	  },
+	  {
+	    "action": "prime_minimize_rigid",
+	    "name": "Minimize as Rigid Body...",
+	    "showpanel": "minimizerigid"
+	  },
+	  {
+	    "action": "prime_predict_sidechains",
+	    "name": "Predict Side Chains...",
+	    "showpanel": "predictsidechains",
+	    "border_above": true
+	  },
+	  {
+	    "action": "prime_refine_loops",
+	    "name": "Refine Loops...",
+	    "showpanel": "refineloops"
+	  },
+	  {
+	    "action": "prime_hybrid_mc",
+	    "name": "Hybrid Monte Carlo...",
+	    "showpanel": "hybridmc"
+	  },
+	  {
+	    "action": "prime_refine_complex",
+	    "name": "Refine Protein-Ligand Complex...",
+	    "showpanel": "refinecomplex"
+	  }
+       ]
+     }
+     ]
+  },
+  "structure_alignment" :{
+    "columns": [
+     {
+	"items": [
+     ]
+     }
+   ]
+  },
+  "structure_analysis" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Workspace Tools"
+	  },
+	  {
+	    "action": "2d_viewer",
+	    "name": "2D Viewer...",
+	    "pyfunc": "two_d_viewer_gui.panel"
+	  },
+	  {
+	    "action": "tasks_build_lid",
+	    "name": "Ligand Interaction Diagram...",
+	    "showpanel": "sketcher-LID"
+	  },
+	  {
+	    "action": "wstools_start_measurementx",
+	    "name": "Measure",
+	    "border_above": true
+	  },
+	  {
+	    "action": "ws_display_distances",
+	    "name": "Display Distances from Atom...",
+	    "pyfunc": "alldist.panel"
+	  },
+	  {
+	    "action": "ws_planar_angle",
+	    "name": "Planar Angle Measurement...",
+	    "pyfunc": "planar_angle_gui.panel"
+	  },
+	  {
+	    "action": "ws_smarts_index",
+	    "name": "SMARTS Index Identifier...",
+	    "pyfunc": "smarts_index.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "ws_show_properties",
+	    "name": "Show Atom Properties",
+	    "pyfunc": "show_atom_properties.panel"
+	  },
+	  {
+	    "section_title": "Conformational Search"
+	  },
+	  {
+	    "action": "conf_search_bioactive",
+	    "name": "Bioactive Search...",
+	    "title": "ConfGen...",
+	    "pyfunc": "confgenx_gui.panel"
+	  },
+	  {
+	    "action": "conf_search_advanced",
+	    "name": "Advanced Search...",
+	    "title": "Conformational Search...",
+	    "showpanel": "csearch"
+	  },
+	  {
+	    "action": "conf_search_complex",
+	    "name": "Ligand-Receptor Complex...",
+	    "title": "Embrace Conformational Search...",
+	    "showpanel": "embracecsearch"
+	  },
+	  {
+	    "action": "conf_search_rce",
+	    "name": "Redundant Conformer Elimination...",
+	    "showpanel": "confelim"
+	  },
+	  {
+	    "action": "conf_search_macrocycle",
+	    "name": "Macrocycle Sampling...",
+	    "pyfunc": "prime_macrocycle_sampling.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "prime_macrocycle_stability",
+	    "name": "Macrocycle Propensity...",
+	    "pyfunc": "prime_macrocycle_stability_gui.panel"
+	  },
+	  {
+	    "section_title": "Coordinate Scan"
+	  },
+	  {
+	    "action": "macromodel_coordinate_scan",
+	    "name": "Force-Field...",
+	    "title": "Coordinate Scan...",
+	    "showpanel": "drive"
+	  },
+	  {
+	    "action": "jaguar_gui.relaxed_scan_panel",
+	    "name": "QM Relaxed...",
+	    "title": "Relaxed Coordinate Scan...",
+	    "pyfunc": "jaguar_gui.relaxed_scan_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.rigid_scan_panel",
+	    "name": "QM Rigid...",
+	    "title": "Rigid Coordinate Scan...",
+	    "pyfunc": "jaguar_gui.rigid_scan_panel"
+	  },
+	  {
+	    "action": "plot_coord_scan",
+	    "name": "Plot Coordinate Scan...",
+	    "pyfunc": "plot_coord_scan_gui.panel",
+	    "border_above": true
+	  }
+      ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Protein Analysis"
+	  },
+	  {
+	    "action": "binding_site_detection",
+	    "name": "Binding Site Detection...",
+	    "title": "SiteMap...",
+	    "pyfunc": "sitemap_gui.panel"
+	  },
+	  {
+	    "action": "protein_reliability_report",
+	    "name": "Protein Reliability Report...",
+	    "title": "Protein Reliability Report...",
+	    "pyfunc": "protein_reliability_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "protein_reports",
+	    "name": "Protein Reports...",
+	    "pyfunc": "prosane_gui.panel"
+	  },
+	  {
+	    "action": "ramachandran_plot",
+	    "name": "Ramachandran Plot...",
+	    "pyfunc": "rama_gui.panel"
+	  },
+	  {
+	    "action": "energy_visualization",
+	    "name": "Energy Visualization...",
+	    "title": "Prime Energy Visualizer...",
+	    "pyfunc": "prime_energy_visualizer_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	      "action" : "surfacepbrsp",
+	      "name" : "Poisson-Boltzmann ESP...",
+	      "showpanel" : "surfacepbrsp"
+	  },
+	  {
+	      "action" : "hppmap",
+	      "name" : "Hydrophobic/philic...",
+	      "title" : "Hydrophobic/philic Surfaces...",
+	      "showpanel" : "hppmap"
+	  },
+	  {
+	    "action": "atom_energy_coloring",
+	    "name": "Atom Energy Coloring...",
+	    "pyfunc": "atom_energy_color.panel"
+	  },
+	  {
+	    "action": "display_hydrophobic_interactions",
+	    "name": "Display Hydrophobic Interactions",
+	    "pyfunc": "display_hydrophobic_interactions.run",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "visualize_hbonds",
+	    "name": "Visualize H-Bonds...",
+	    "pyfunc": "visualize_hbonds.panel"
+	  },
+	  {
+	    "action": "residue_distance_map",
+	    "name": "Residue Distance Map...",
+	    "pyfunc": "residue_distance_map.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "select_disallowed_backbone",
+	    "name": "Select Disallowed Backbone",
+	    "pyfunc": "select_disallowed.run backbone",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "select_disallowed_sidechain",
+	    "name": "Select Disallowed Sidechains",
+	    "pyfunc": "select_disallowed.run sidechain",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "binding_surface_area",
+	    "name": "Binding Surface Area Analysis...",
+	    "pyfunc": "sasa_panel.panel"
+	  },
+	  {
+	    "section_title": "Protein-Ligand Databases (PLDB)"
+	  },
+	  {
+	    "action" : "pldb_search",
+	    "name" : "PLDB Search...",
+	    "pyfunc" : "schrodinger.application.pldb.packages.pldb_gui_shell.panel"
+	 },
+	 {
+	    "action" : "pldb_upload",
+	    "name" : "PLDB Upload...",
+	    "pyfunc" : "schrodinger.application.pldb.packages.pldb_file_upload_shell.panel"
+	 }
+	 ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Small Molecule Analysis"
+	  },
+	  {
+	    "action": "rgroup_analysis",
+	    "name": "R-group Analysis...",
+	    "pyfunc": "r_group_analysis.show_panel"
+	  },
+	  {
+	    "action": "scaffold_decomp",
+	    "name": "Scaffold Decomposition...",
+	    "pyfunc": "scaffold_decomp_launcher.show_panel"
+	  },
+	  {
+	    "action": "atom_energy_coloring",
+	    "name": "Atom Energy Coloring...",
+	    "pyfunc": "atom_energy_color.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "color_by_difference",
+	    "name": "Color by Difference",
+	    "pyfunc": "color_deviation.colordeviation"
+	  },
+	  {
+	    "action": "average_structure",
+	    "name": "Average Structure...",
+	    "pyfunc": "average_structure.panel"
+	  },
+	  {
+	    "action": "calculate_boltzman_pop",
+	    "name": "Calculate Boltzmann Populations...",
+	    "pyfunc": "boltzmann_gui.panel"
+	  },
+	  {
+	    "action": "ligand_filtering",
+	    "name": "Ligand Filtering...",
+	    "pyfunc": "ligfilter_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "compare_ligand_files",
+	    "name": "Compare Ligand Files...",
+	    "pyfunc": "compare_ligand_files_gui.panel"
+	  },
+	  {
+	    "section_title": "Small Molecule Database"
+	  },
+	  {
+	    "action": "phase.manage_phasedb_gui.panel",
+	    "name": "Manage Phase Database...",
+	    "pyfunc": "phase.manage_phasedb_gui.panel"
+	  },
+	  {
+	    "action": "mogul_query",
+	    "name": "CSD Search...",
+	    "pyfunc": "query_csd_gui.panel"
+	  },
+	  {
+	    "action": "mogul_analysis",
+	    "name": "CSD Analysis...",
+	    "pyfunc": "csd_search_gui.panel"
+	  },
+	  {
+	    "section_title": "Automated Compound Extraction"
+	  },
+	  {
+	    "action": "ace_segmentation_gui.main",
+	    "name": "Import PDF...",
+	    "pyfunc": "ace_segmentation_gui.main"
+	  },
+	  {
+	    "action": "ace_analysis_gui.panel",
+	    "name": "View Extracted Compounds...",
+	    "pyfunc": "ace_analysis_gui.panel"
+	  }
+       ]
+     }
+     ]
+  },
+  "structure_alignment" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Structure Alignment"
+	  },
+	  {
+	    "action": "superposition",
+	    "name": "Superposition...",
+	    "showpanel": "superimpose"
+	  },
+	  {
+	    "action": "flexligalign",
+	    "name": "Flexible Ligand Alignment...",
+	    "showpanel": "flexligalign"
+	  },
+      {
+        "action": "flex_ligand_alignment",
+        "name": "Ligand Alignment...",
+        "pyfunc": "flex_ligand_alignment_gui.panel"
+      },
+      {
+	    "action": "mcsligalign",
+	    "name": "MCS Docking Ligand Alignment...",
+        "pyfunc": "mcs_docking_gui.panel"
+	  },
+	  {
+	    "action": "structalign",
+	    "name": "Protein Structure Alignment...",
+	    "showpanel": "structalign"
+	  },
+	  {
+	    "action": "align_binding_sites",
+	    "name": "Binding Site Alignment...",
+	    "title": "Align Binding Sites...",
+	    "pyfunc": "align_binding_sites_gui.panel"
+	  },
+	  {
+	    "action": "phase.hypothesis_alignment_gui.panel",
+	    "name": "Hypothesis Alignment...",
+	    "pyfunc": "phase.hypothesis_alignment_gui.panel"
+	  },
+	  {
+	    "action": "wstools_quick_align",
+	    "name": "Quick Align",
+	    "border_above": true
+	  },
+	  {
+	    "action": "align_center_of_mass",
+	    "name": "Align by Center of Mass"
+	  }
+     ]
+     }
+   ]
+  },
+  "receptor_based_virtual_screening" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Docking Post Processing"
+	  },
+	  {
+	    "action": "glide_view_poses",
+	    "name": "Pose Viewer...",
+	    "pyfunc": "pose_viewer_gui.panel"
+	  },
+	  {
+	    "action": "select_top_poses",
+	    "name": "Select Top Poses...",
+	    "pyfunc": "select_top_poses_gui.panel"
+	  },
+	  {
+	    "action": "pose_filter_gui.panel",
+	    "name": "Filter Docked Poses...",
+	    "pyfunc": "pose_filter_gui.panel"
+	  },
+	  {
+	    "action": "pose_explorer",
+	    "name": "Pose Explorer...",
+	    "pyfunc": "pose_explorer.panel"
+	  },
+	  {
+	    "action": "enrichment_calculator",
+	    "name": "Enrichment Calculator...",
+	    "pyfunc": "enrichment_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "strain_energy_calc",
+	    "name": "Strain Energy Rescoring...",
+	    "pyfunc": "strain_rescore_gui.panel"
+	  },
+	  {
+	    "section_title": "WScore"
+	  },
+	  {
+	    "action": "wscore_model_generation",
+	    "name": "Model Generation...",
+	    "pyfunc": "wscore_modelgen_gui.panel"
+	  },
+	  {
+	    "action": "wscore_docking_gui.panel",
+	    "name": "Docking...",
+	    "pyfunc": "wscore_docking_gui.panel"
+	  },
+	  {
+	    "action": "wscore_visualizer_gui.panel",
+	    "name": "Visualizer...",
+	    "pyfunc": "wscore_visualizer_gui.panel"
+	  },
+	  {
+	    "section_title": "Fusion Methods"
+	  },
+	  {
+	    "action": "data_fusion",
+	    "name": "Data Fusion...",
+	    "pyfunc": "data_fusion_gui.panel"
+	  }
+	  ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Docking Preparation"
+	  },
+	  {
+	    "action": "glide_gridgen",
+	    "name": "Receptor Grid Generation...",
+	    "pyfunc": "glide_gridgen_gui.panel"
+	  },
+	  {
+	    "section_title": "Docking"
+	  },
+	  {
+	    "action": "glide_docking",
+	    "name": "Ligand Docking...",
+	    "pyfunc": "glide_docking_gui.panel"
+	  },
+	  {
+	    "action": "active_learning_glide",
+	    "name": "Active Learning Docking...",
+	    "pyfunc": "active_learning_glide_gui.panel"
+	  },
+	  {
+	    "action": "virtual_screening",
+	    "name": "Virtual Screening Workflow...",
+	    "pyfunc": "vsw_gui.panel"
+	  },
+	  {
+	    "action": "covalent_docking",
+	    "name": "Covalent Docking...",
+	    "pyfunc": "covalent_docking_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "ifd_md_gui.panel",
+	    "name": "IFD-MD...",
+	    "pyfunc": "ifd_md_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "ifd",
+	    "name": "Induced Fit Docking...",
+	    "pyfunc": "ifd_gui.panel"
+	  },
+	  {
+	    "action": "binding_pose_metadynamics_gui.panel",
+	    "name": "Binding Pose Metadynamics...",
+	    "pyfunc": "binding_pose_metadynamics_gui.panel"
+	  },
+	  {
+	    "section_title": "Other Docking Workflows"
+	  },
+	  {
+	    "action": "qm_polarized_ligand_docking",
+	    "name": "QM-Polarized Ligand Docking...",
+	    "pyfunc": "qpld_gui.panel"
+	  },
+	  {
+	    "action": "glide_cross_docking",
+	    "name": "Cross Docking...",
+	    "pyfunc": "xglide_gui.panel"
+	  },
+	  {
+	    "action": "one_step_glide_docking",
+	    "name": "One-Step Ligand Docking...",
+	    "title": "One-Step Glide Docking...",
+	    "pyfunc": "one_step_glide_gui.panel"
+	  }
+     ]
+    }
+   ]
+  },
+  "ligand_based_virtual_screening" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Shape Screening"
+	  },
+	  {
+	    "action": "create_shape_data_file",
+	    "name": "Create Shape Data File (For GPU)...",
+	    "pyfunc": "phase.phase_shape_data_file_gui.panel"
+	  },
+	  {
+	    "action": "shape_screening",
+	    "name": "Shape Screening...",
+	    "pyfunc": "phase.phase_shape_gui.panel"
+	  },
+	  {
+	    "section_title": "Pharmacophore Modeling"
+	  },
+	  {
+	    "action": "phase.phase_gui.panel",
+	    "name": "Develop Pharmacophore Hypothesis...",
+	    "pyfunc": "phase.phase_gui.panel"
+	  },
+	  {
+	    "action": "phase.phase_screening_gui.panel",
+	    "name": "Ligand Screening...",
+	    "pyfunc": "phase.phase_screening_gui.panel"
+	  },
+	  {
+	    "action": "phase.hypotheses_validation_gui.panel",
+	    "name": "Hypothesis Validation...",
+	    "pyfunc": "phase.hypotheses_validation_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "phase.enrichment_viewer_gui.panel",
+	    "name": "Enrichment Viewer...",
+	    "pyfunc": "phase.enrichment_viewer_gui.panel"
+	  },
+	  {
+	    "action": "phase.detect_binding_modes_gui.panel",
+	    "name": "Detect Binding Modes...",
+	    "pyfunc": "phase.detect_binding_modes_gui.panel"
+	  },
+	  {
+	    "action": "phase.hypothesis_alignment_gui.panel",
+	    "name": "Hypothesis Alignment...",
+	    "pyfunc": "phase.hypothesis_alignment_gui.panel"
+	  },
+	  {
+	    "action": "phase.create_phase_db_gui.panel",
+	    "name": "Create Database...",
+	    "title": "Create Phase Database...",
+	    "pyfunc": "phase.create_phase_db_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "phase.manage_phasedb_gui.panel",
+	    "name": "Manage Database...",
+	    "title": "Manage Phase Database...",
+	    "pyfunc": "phase.manage_phasedb_gui.panel"
+	  },
+	  {
+	    "section_title": "Similarity Screening"
+	  },
+         {
+           "action": "gpu_similarity",
+           "name": "FPsim-GPU...",
+           "pyfunc": "gpusimilarity_gui.panel"
+         },
+	  {
+	    "action": "canvas_similarity",
+	    "name": "Fingerprint Similarity...",
+	    "pyfunc": "canvas_cluster_gui.panel"
+	  },
+      {
+        "action": "hit_expansion_workflow",
+        "name": "Hit Expansion...",
+        "pyfunc": "hit_expansion_gui.panel"
+      }
+	]
+     }
+    ]
+  },
+  "free_energy_perturbation" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Free Energy Perturbation"
+	  },
+	  {
+	    "action": "fep_plus_gui.panel",
+	    "name": "FEP+...",
+	    "pyfunc": "fep_plus_gui.panel"
+	  },
+	  {
+	    "action": "desmond_fep_protein_mutation",
+	    "name": "FEP Protein Mutation for Ligand Selectivity...",
+	    "pyfunc": "fep_lig_prot_mutation_gui.panel"
+	  },
+	  {
+	    "action": "fep_protein_gui.panel",
+	    "name": "Protein FEP...",
+	    "pyfunc": "fep_protein_gui.panel"
+	  },
+	  {
+	    "action": "ligand_fep.panel",
+	    "name": "Ligand FEP...",
+	    "pyfunc": "ligand_fep.panel"
+	  },
+	  {
+	    "action": "desmond_fep_protein_mutation_analysis",
+	    "name": "FEP Protein Mutation Analysis...",
+	    "pyfunc": "fepmutation_results_gui.panel"
+	  },
+	  {
+	    "action": "fep_web_services_gui.panel",
+	    "name": "FEP Web Services Monitor...",
+	    "pyfunc": "fep_web_services_gui.panel"
+	  },
+	  {
+	    "action": "fep_solubility_gui.panel",
+	    "name": "Solubility FEP...",
+	    "pyfunc": "fep_solubility_gui.panel"
+	  },
+	  {
+	    "section_title": "Force Field"
+	  },
+	  {
+	    "action": "force_field_builder",
+	    "name": "Force Field Builder...",
+	    "pyfunc": "ffbuilder_gui.panel"
+	  }
+	]
+     }
+     ]
+  },
+  "lead_optimization" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "QSAR"
+	  },
+	  {
+	    "action": "qsar_field_based",
+	    "name": "3D Field-Based...",
+	    "title": "Field-Based QSAR...",
+	    "showpanel": "fieldqsar"
+	  },
+	  {
+	    "section_title": "Related Tasks"
+	  },
+	  {
+	    "action": "ligand_designer",
+	    "name": "Ligand Designer...",
+	    "pyfunc": "ligand_designer_gui.panel"
+	  },
+	  {
+	    "task": "free_energy_perturbation",
+	    "name": "Free Energy Perturbation"
+	  },
+	  {
+	    "task": "adme_and_molecular_properties",
+	    "name": "ADME/Tox"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Binding/Scoring"
+	  },
+	  {
+	    "action": "prime_mmgbsa",
+	    "name": "MM-GBSA...",
+	    "pyfunc": "prime_mmgbsa_gui.panel"
+	  },
+	  {
+	    "section_title": "WaterMap",
+	    "section_id": "section_watermap"
+	  },
+	  {
+	    "action": "watermap_analyze",
+	    "name": "Perform Calculation...",
+	    "pyfunc": "watermap_simulation_gui.panel",
+	    "section_id": "section_watermap"
+	  },
+	  {
+	    "action": "watermap_results",
+	    "name": "Examine Results...",
+	    "pyfunc": "watermap_result_gui.panel",
+	    "section_id": "section_watermap"
+	  },
+	  {
+	    "section_title": "Core Hopping"
+	  },
+	  {
+	    "action": "core_hopping_ligand",
+	    "name": "Ligand-Based...",
+	    "title": "Ligand-Based Core Hopping...",
+	    "pyfunc": "ligand_core_hopping_gui.show_panel"
+	  },
+	  {
+	    "action": "core_hopping_isosteric_matching",
+	    "name": "Isosteric Matching...",
+	    "pyfunc": "isosteric_matching_gui.show_panel"
+	  }
+     ]
+     }
+   ]
+  },
+  "enumeration_and_ideation" :{
+    "columns": [
+     {
+    "items": [
+      {
+        "section_title": "Enumeration"
+      },
+      {
+        "action": "reaction_based_enum_gui.panel",
+        "name": "Reaction-Based Enumeration...",
+        "pyfunc": "reaction_based_enum_gui.panel"
+      },
+      {
+        "action": "auto_enum_gui.panel",
+        "name": "Automated Reaction-Based Enumeration...",
+        "pyfunc": "auto_enum_gui.panel"
+      },
+      {
+        "action": "create_reagent_library_gui.panel",
+        "name": "Create Reactant Library...",
+        "pyfunc": "create_reagent_library_gui.panel"
+      },
+      {
+        "action": "manage_reagent_library_gui.panel",
+        "name": "Manage Reactant Libraries...",
+        "pyfunc": "manage_reagent_library_gui.panel"
+      },
+      {
+        "action": "custom_rgroup_enum_gui.panel",
+        "name": "R-Group Enumeration...",
+        "title": "Custom R-Group Enumeration...",
+        "pyfunc": "custom_rgroup_enum_gui.panel",
+        "border_above": true
+      },
+      {
+        "action": "r_group_library_gui.panel",
+        "name": "Create R-Group Library...",
+        "title": "R-Group Creator...",
+        "pyfunc": "r_group_library_gui.panel"
+      },
+      {
+        "section_title": "Other"
+      },
+      {
+        "action": "bioisostere_replacement",
+        "name": "Bioisostere Replacement...",
+        "pyfunc": "bioisostere_replacement_gui.panel"
+      },
+      {
+        "action": "build_combine_fragments",
+        "name": "Combine Fragments...",
+        "pyfunc": "combine_fragments_gui.panel"
+      },
+      {
+        "action": "build_breed_ligand_creation",
+        "name": "BREED Ligand Creation...",
+        "pyfunc": "breed_gui.panel"
+      }
+     ]
+     }
+   ]
+  },
+  "discovery_informatics_and_qsar" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "QSAR"
+	  },
+	  {
+	    "action": "autoqsar_gui.panel",
+	    "name": "AutoQSAR...",
+	    "pyfunc": "autoqsar_gui.panel"
+	  },
+          {
+            "action": "deepchem_gui.panel",
+            "name": "DeepChem/AutoQSAR...",
+            "pyfunc": "deepchem_gui.panel"
+          },
+	  {
+	    "action": "qsar_atom_based",
+	    "name": "Atom-Based...",
+	    "title": "Atom-Based QSAR...",
+	    "showpanel": "qsar"
+	  },
+	  {
+	    "action": "qsar_field_based",
+	    "name": "3D Field-Based...",
+	    "title": "Field-Based QSAR...",
+	    "showpanel": "fieldqsar"
+	  },
+	  {
+	    "name": "separator"
+	  },
+	  {
+	    "action": "ml_qsar_gui.panel",
+	    "name": "Build and Apply QSAR Model...",
+	    "pyfunc": "ml_qsar_gui.panel"
+	  },
+	  {
+	    "action": "canvas_som_gui.panel",
+	    "name": "Self-Organizing Map...",
+	    "pyfunc": "canvas_som_gui.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Cheminformatics"
+	  },
+         {
+           "action": "gpu_similarity",
+           "name": "FPsim-GPU...",
+           "pyfunc": "gpusimilarity_gui.panel"
+         },
+	  {
+	    "action": "canvas_similarity",
+	    "name": "Fingerprint Similarity...",
+	    "pyfunc": "canvas_cluster_gui.panel"
+	  },
+         {
+           "action": "fragment_clustering",
+           "name": "2D Fragment Clustering",
+           "pyfunc": "fragment_clustering_gui.panel"
+         },
+	  {
+	    "action": "conformer_clustering",
+	    "name": "Clustering of Conformers...",
+	    "pyfunc": "conformer_cluster_gui.panel"
+	  },
+	  {
+	    "action": "ligand_clustering",
+	    "name": "Clustering of Ligands...",
+	    "pyfunc": "volume_cluster.panel"
+	  },
+	  {
+	    "action": "interaction_fingerprints",
+	    "name": "Interaction Fingerprints...",
+	    "pyfunc": "interaction_fingerprints_gui.panel"
+	  },
+	  {
+	    "action": "materials_explorer",
+	    "name": "Materials Explorer...",
+	    "pyfunc": "pose_explorer.materials_panel"
+	  },
+	  {
+	    "action": "molecular_descriptors",
+	    "name": "Molecular Descriptors...",
+	    "pyfunc": "molecular_descriptors_gui.panel"
+	  },
+	  {
+	    "action": "spectral_cluster",
+	    "name": "Spectral Clustering...",
+	    "pyfunc": "spectral_cluster_gui.panel"
+	  },
+	  {
+	    "section_title": "LiveDesign"
+	  },
+	  {
+	    "action": "import_from_ld",
+	    "name": "Import from LiveDesign...",
+	    "pyfunc": "maestro_ld_import_gui.panel"
+	},
+	  {
+	    "action": "export_to_ld",
+	    "name": "Export to LiveDesign...",
+	    "pyfunc": "maestro_ld_export_gui.panel"
+	},
+	{
+	    "action": "register_via_ld",
+	    "name": "Register via LiveDesign...",
+	    "pyfunc": "maestro_ld_register_gui.panel"
+	},
+    {
+	    "action": "target_export_to_ld",
+	    "name": "Target Export to LiveDesign...",
+	    "pyfunc": "target_export_gui.panel"
+	}
+       ]
+     }
+     ]
+  },
+  "adme_and_molecular_properties" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Properties"
+	  },
+	  {
+	    "action": "molecular_descriptors",
+	    "name": "Molecular Descriptors...",
+	    "pyfunc": "molecular_descriptors_gui.panel"
+	  }
+	 ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "ADME/Tox"
+	  },
+	  {
+	    "action": "tasks_adme_tox_prediction",
+	    "name": "Ligand-Based ADME/Tox Prediction...",
+	    "title": "QikProp...",
+	    "showpanel": "qikprop"
+	  },
+	  {
+	    "action": "tasks_adme_membrane_permeability",
+	    "name": "Physics-Based Membrane Permeability...",
+	    "title": "Membrane Permeability...",
+	    "pyfunc": "membrane_permeability_gui.show_panel"
+	  },
+	  {
+	    "action": "tasks_adme_amphiphilic_moment",
+	    "name": "Amphiphilic Moment...",
+	    "pyfunc": "amphiphilic_moment_gui.panel"
+	  },
+	  {
+	    "section_title": "Structure Based P450 Site of Metabolism"
+	  },
+	  {
+	    "action": "p450_calculate",
+	    "name": "Perform Calculation...",
+	    "pyfunc": "p450_calc_gui.panel"
+	  },
+	  {
+	    "action": "p450_results",
+	    "name": "Examine Results...",
+	    "pyfunc": "p450_results_gui.panel"
+	  }
+     ]
+   }
+   ]
+  },
+  "classical_simulation" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Dynamics Analysis"
+	  },
+	  {
+	    "action": "desmond_simulation_quality_analysis",
+	    "name": "Simulation Quality Analysis...",
+	    "pyfunc": "simulation_analysis_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_event_analysis",
+	    "name": "Simulation Event Analysis...",
+	    "pyfunc": "sim_event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_radial_distribution_function",
+	    "name": "Radial Distribution Function...",
+	    "pyfunc": "rdf_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_interaction_diagram",
+	    "name": "Simulation Interactions Diagram...",
+	    "pyfunc": "event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_trajectory_clustering",
+	    "name": "Desmond Trajectory Clustering...",
+	    "pyfunc": "trajectory_cluster_gui.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Dynamics"
+	  },
+	  {
+	    "action": "system_setup",
+	    "name": "System Setup...",
+	    "title": "System Builder...",
+	    "pyfunc": "system_builder_gui.panel"
+	  },
+	  {
+	    "action": "app_desmond_rebuild_system",
+	    "name": "Model System Regeneration...",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_molecular_dynamics",
+	    "name": "Molecular Dynamics...",
+	    "pyfunc": "desmond_molecular_dynamics_gui.panel"
+	  },
+	  {
+	    "action": "simulated_annealing",
+	    "name": "Simulated Annealing...",
+	    "pyfunc": "desmond_simulated_annealing_gui.panel"
+	  },
+	  {
+	    "action": "binding_pose_metadynamics_gui.panel",
+	    "name": "Binding Pose Metadynamics...",
+	    "pyfunc": "binding_pose_metadynamics_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_metadynamics",
+	    "name": "Metadynamics...",
+	    "pyfunc": "desmond_metadynamics_gui.panel"
+	  },
+	  {
+	    "action": "desmond_metadynamics_analysis",
+	    "name": "Metadynamics Analysis...",
+	    "pyfunc": "desmond_metadynamics_analysis_gui.panel"
+	  },
+	  {
+	    "action": "replica_exchange",
+	    "name": "Replica Exchange...",
+	    "pyfunc": "desmond_replica_exchange_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_replica_exchange_review",
+	    "name": "Replica Exchange Review...",
+	    "pyfunc": "replica_exchange_review_gui.panel"
+	  }
+     ]
+    }
+    ]
+  },
+  "quantum_mechanics" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Coordinate Scan"
+	  },
+	  {
+	    "action": "jaguar_gui.relaxed_scan_panel",
+	    "name": "Relaxed...",
+	    "title": "Relaxed Coordinate Scan...",
+	    "pyfunc": "jaguar_gui.relaxed_scan_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.rigid_scan_panel",
+	    "name": "Rigid...",
+	    "title": "Rigid Coordinate Scan...",
+	    "pyfunc": "jaguar_gui.rigid_scan_panel"
+	  },
+	  {
+	    "section_title": "Optoelectronics"
+	  },
+	  {
+	    "action": "optoelectronics_perform_calculations",
+	    "name": "Perform Calculations...",
+        "title": "Optoelectronics Calculations...",
+	    "pyfunc": "optoelectronics_gui.panel"
+	  },
+	  {
+	    "action": "optoelectronics_view_results",
+	    "name": "View Results...",
+        "title": "Optoelectronics Results...",
+	    "pyfunc": "optoelectronics_viewer_gui.panel"
+	  },
+	  {
+	    "action": "optoelectronics_electron_coupling",
+	    "name": "Electron Coupling...",
+	    "pyfunc": "hopping_gui.panel"
+	  },
+	  {
+	    "action": "optoelectronics_genopt",
+	    "name": "Genetic Optimization...",
+	    "pyfunc": "optoelectronics_genopt_gui.panel"
+	  },
+	  {
+	    "action": "optoelectronics_genopt_viewer",
+	    "name": "Genetic Optimization Monitoring...",
+	    "pyfunc": "optoelectronics_genopt_viewer_gui.panel"
+	  },
+	  {
+	    "section_title": "Semiempirical"
+	  },
+	  {
+	    "action": "semi_emp",
+	    "name": "Semiempirical NDDO...",
+	    "pyfunc": "semi_emp_gui.panel"
+	  },
+	  {
+	    "action": "mopac_main",
+	    "name": "MOPAC2016...",
+	    "pyfunc": "mopac_main_gui.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "action": "delta_hf_gui.panel",
+	    "name": "Heat of Formation...",
+	    "pyfunc": "delta_hf_gui.panel"
+	  },
+	  {
+	    "action": "jaguar_gui.reaction_panel",
+	    "name": "Reaction...",
+	    "pyfunc": "jaguar_gui.reaction_panel"
+	  },
+	  {
+	    "action": "app_jaguar_spectraplot",
+	    "name": "Plot Spectra...",
+        "title": "Spectrum Plot...",
+	    "pyfunc": "spectrum_plot.panel"
+	  },
+	  {
+	    "action": "tst_rate_calculation",
+	    "name": "TST Rate Calculation...",
+	    "pyfunc": "tst_rate_gui.panel"
+	  },
+	  {
+	    "action": "reaction_energetics_enumeration",
+	    "name": "Reaction Energetics Enumeration...",
+	    "pyfunc": "reaction_barrier_enumeration.panel"
+	  },
+	  {
+	    "action": "bond_dissociation",
+	    "name": "Bond and Ligand Dissociation...",
+	    "pyfunc": "bond_dissociation_gui.panel"
+	  },
+	  {
+	    "action": "grid_scan",
+	    "name": "Probe Grid Scan...",
+	    "pyfunc": "probe_grid_gui.panel"
+	  },
+	  {
+	    "action": "amorphous_properties",
+	    "name": "Amorphous Properties...",
+	    "pyfunc": "amorphous_nmr_gui.panel"
+	  },
+	  {
+	    "action": "spin_states",
+	    "name": "Spin States...",
+	    "pyfunc": "spin_states_gui.panel"
+	  },
+	  {
+	    "section_title": "Automated Transition State Search"
+	  },
+	  {
+	    "action" : "autots_gui.panel",
+	    "name" : "AutoTS...",
+	    "pyfunc" : "autots_gui.panel"
+	  },
+	  {
+	    "action" : "autots_viewer_gui.panel",
+	    "name" : "AutoTS Results...",
+	    "pyfunc" : "autots_viewer_gui.panel"
+	  }
+	 ]
+     },
+     {
+	"items": [
+	  {
+	    "action": "jaguar_gui.spe_panel",
+	    "name": "Single Point Energy...",
+	    "pyfunc": "jaguar_gui.spe_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.optimization_panel",
+	    "name": "Optimization...",
+	    "pyfunc": "jaguar_gui.optimization_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.transition_state_panel",
+	    "name": "Transition State Search...",
+	    "pyfunc": "jaguar_gui.transition_state_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.reaction_coord_panel",
+	    "name": "Reaction Coordinate...",
+	    "pyfunc": "jaguar_gui.reaction_coord_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.pka_panel",
+	    "name": "pKa...",
+	    "pyfunc": "jaguar_gui.pka_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.hb_panel",
+	    "name": "Hydrogen Bond Strength...",
+	    "pyfunc": "jaguar_gui.hb_panel"
+	  },
+      {
+	    "action": "jaguar_gui.kenny_panel",
+	    "name": "Hydrogen Bond Basicity...",
+	    "pyfunc": "jaguar_gui.kenny_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.counterpoise_panel",
+	    "name": "Counterpoise...",
+	    "pyfunc": "jaguar_gui.counterpoise_panel"
+	  },
+	  {
+	    "action": "jaguar_gui.fukui_panel",
+	    "name": "Fukui Functions...",
+	    "pyfunc": "jaguar_gui.fukui_panel"
+	  },
+	  {
+	    "action": "vcd_workflow_gui.panel",
+	    "name": "VCD Spectra...",
+	    "pyfunc": "vcd_workflow_gui.panel"
+	  },
+	  {
+	    "action": "jaguar_gui.autoconf_panel",
+	    "name": "QM Conformer and Tautomer Predictor...",
+	    "pyfunc": "autoconf_gui.panel"
+	  }
+	]
+     }
+     ]
+  },
+  "workspace_operations" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Advanced Workspace Tools"
+	  },
+	  {
+	    "action": "main_workspace_animation_settings",
+	    "name": "Animate Workspace..."
+	  },
+	  {
+	    "action": "tasks_adme_interactive_properties",
+	    "name": "Interactive Properties...",
+	    "title": "Molecular Properties...",
+	    "pyfunc": "medchem_molprop_gui.panel"
+	  },
+	  {
+	    "action": "ws_display_distances",
+	    "name": "Display Distances from Atom...",
+	    "pyfunc": "alldist.panel"
+	  },
+	  {
+	    "action": "ws_planar_angle",
+	    "name": "Planar Angle Measurement...",
+	    "pyfunc": "planar_angle_gui.panel"
+	  },
+	  {
+	    "action": "ws_smarts_index",
+	    "name": "SMARTS Index Identifier...",
+	    "pyfunc": "smarts_index.panel"
+	  },
+	  {
+	    "action": "ws_show_properties",
+	    "name": "Show Atom Properties",
+	    "pyfunc": "show_atom_properties.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "ws_raytrace",
+	    "name": "Ray Trace...",
+	    "pyfunc": "raytrace.run"
+	  },
+	  {
+	    "action": "ws_spin",
+	    "name": "Spin Workspace",
+	    "pyfunc": "spin.spin Y 10 0.05",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "ws_rotate_all",
+	    "name": "Rotate All...",
+	    "pyfunc": "rotate_all.panel"
+	  },
+	      {
+	    "action": "export_to_pymol",
+	    "name": "Export to PyMOL...",
+	    "pyfunc": "pymol4maestro.show_panel"
+	  }
+	 ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Building and Editing"
+	  },
+	  {
+	    "action": "wstools_minimize_select",
+	    "name": "Minimize Selected Atoms"
+	  },
+	  {
+	    "action": "wstools_minimize_all",
+	    "name": "Minimize All Atoms"
+	  },
+	  {
+	    "action": "wstools_minimize_ligand",
+	    "name": "Minimize Ligand"
+	  },
+	  {
+	    "action": "wstools_rotate_dihedrals",
+	    "border_above": true,
+	    "name": "Rotate Dihedrals",
+	    "is_dialog_banner": true
+	  },
+	  {
+	    "action": "wstools_move_atoms",
+	    "name": "Move Atoms",
+	    "is_dialog_banner": true
+	  },
+	  {
+	    "action": "wstools_select_rotamers",
+	    "name": "Select Rotamers...",
+	    "is_dialog_banner": true
+	  },
+	  {
+	    "action": "rapid_torsion_scan",
+	    "name": "Rapid Torsion Scan...",
+	    "pyfunc": "rapid_torsion_scan_gui.panel"
+	  },
+	  {
+	    "action": "wstools_add_hydrogens",
+	    "border_above": true,
+	    "name": "Add Hydrogens (Selected Atoms)"
+	  },
+	  {
+	    "action": "wstools_invert_chirality",
+	    "name": "Invert Chirality (Selected Atoms)"
+	  },
+	  {
+	    "action": "wstools_change_atom_properties",
+	    "name": "Change Atom Properties...",
+	    "is_dialog_banner": true
+	  },
+          {
+            "action": "adjust_residue_numbering",
+	    "name": "Adjust Residue Numbering...",
+	    "pyfunc": "adjust_residue_numbering_panel.panel"
+	  }
+      ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Maestro Essentials"
+	  },
+	  {
+	    "action": "wstools_quick_align",
+	    "name": "Quick Align"
+	  },
+	  {
+	    "action": "wstools_start_measurementx",
+	    "name": "Measure",
+	    "is_dialog_banner": true
+	  },
+	  {
+	    "action": "wstools_view_measurements",
+	    "name": "View Measurements...",
+	    "is_popup": true
+	  },
+	  {
+	    "action": "wstools_quick_surface",
+	    "border_above": true,
+	    "name": "Surface (Selected Atoms)"
+	  },
+	  {
+	    "action": "wstools_binding_site_surface",
+	    "name": "Surface (Binding Site)...",
+	    "is_dialog_banner": true
+	  },
+	  {
+	    "action": "wstools_advanced_surface",
+	    "name": "Advanced Surfaces...",
+	    "showpanel": "surfaceadvanced"
+	  },
+	  {
+	    "action": "wstools_style_selected_atoms",
+	    "name": "Style Selected Atoms...",
+	    "is_popup": true
+	  },
+	  {
+	    "action": "wstools_choose_style_preset",
+	    "name": "Choose Style Preset...",
+	    "is_popup": true
+	  },
+	  {
+	    "action": "wstools_edit_custom_preset",
+	    "name": "Edit Custom Preset...",
+	    "is_dialog_banner": true
+	  },
+	  {
+	    "action": "wstools_configure_workspace",
+	    "border_above": true,
+	    "name": "Configure Workspace...",
+	    "is_popup": true
+	  },
+	  {
+	    "action": "wstools_show_nonbonded_interactions",
+	    "name": "Show Nonbonded Interactions...",
+	    "is_popup": true
+	  }
+      ]
+     }
+   ]
+  },
+  "project_table_and_project_operations" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Advanced Project Tools"
+	  },
+	  {
+	    "action": "project_import",
+	    "name": "Import Structures from Project...",
+	    "pyfunc": "project_import_gui.panel"
+	  },
+	  {
+	    "action": "movie_entries",
+	    "name": "Movie from Selected Entries...",
+	    "pyfunc": "movie.movie_entries movie_entries.gif"
+	  },
+	  {
+	    "action": "color_by_property",
+	    "name": "Color by Entry Property...",
+	    "pyfunc": "color_by_property_gui.panel"
+	  },
+	  {
+	    "action": "color_relative",
+	    "name": "Color by Relative Energy",
+	    "pyfunc": "color_relative.color_relative",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "mmod_to_kcal",
+	    "name": "Convert MacroModel Energies to kcal/mol",
+	    "pyfunc": "mmod_to_kcal.mmod_to_kcal",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "gen_smarts",
+	    "name": "Generate SMARTS",
+	    "pyfunc": "gen_smarts.add_smarts",
+	    "border_above": true,
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "gen_smiles",
+	    "name": "Generate SMILES",
+	    "pyfunc": "gen_smiles.run",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "hartree_to_kcal",
+	    "name": "Jaguar/QSite Energy Converter",
+	    "pyfunc": "hartree_to_kcal.run",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "calculate_pmi",
+	    "name": "Principal Moments of Inertia",
+	    "pyfunc": "calculate_pmi.run",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "projectplot",
+	    "name": "Advanced Project Table Plotting...",
+	    "pyfunc": "projectplot.panel"
+	  },
+	  {
+	    "action": "structconvert",
+	    "name": "Structure File Converter...",
+	    "pyfunc": "structconvert_gui.panel"
+	  },
+	  {
+	    "action": "merge_duplicates",
+	    "name": "Merge Duplicate Ligands...",
+        "title" : "Merge Duplicates...",
+	    "pyfunc": "merge_duplicates_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "deselect_duplicate_titles",
+	    "name": "Deselect Duplicate Titles",
+	    "pyfunc": "deselect_duplicate_titles.run",
+	    "is_dialog_banner": false
+	  },
+	  {
+	    "action": "filter_duplicates.run",
+	    "name": "Filter Duplicates",
+	    "pyfunc": "filter_duplicates.run",
+	    "is_dialog_banner": false
+	  },
+	      {
+	    "action": "knime_connect",
+	    "name": "Establish Structure Exchange with KNIME...",
+	    "pyfunc": "KNIME_maestro_connector.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Project Table Essentials"
+	  },
+	  {
+	    "action": "pt_add_property_by_type",
+	    "name": "Add Property by Type..."
+	  },
+	  {
+	    "action": "pt_add_molecular_properties",
+	    "name": "Add Molecular Properties...",
+	    "title": "Calculate Properties...",
+	    "showpanel": "calcprop"
+	  },
+	  {
+	    "action": "pt_add_sequential_index",
+	    "name": "Add Sequential Index...",
+	    "title": "Calculate Properties...",
+	    "showpanel": "calcprop"
+	  },
+	  {
+	    "action": "pt_add_interaction_counts",
+	    "name": "Add Interaction Counts...",
+	    "title": "Calculate Properties...",
+	    "showpanel": "calcprop"
+	  },
+	  {
+	    "action": "pt_edit_property_name_type",
+	    "name": "Edit Property Name/Type...",
+	    "showpanel": "renameproperty"
+	  },
+	  {
+	    "action": "pt_select_first_entry_per_title",
+	    "border_above": true,
+	    "name": "Select First Entry per Title..."
+	  },
+	  {
+	    "action": "pt_select_first_level_entries",
+	    "name": "Select First Level of Entries..."
+	  },
+	  {
+	    "action": "pt_select_by_property_values",
+	    "name": "Select by Property Values..."
+	  },
+	  {
+	    "action": "pt_manage_plots",
+	    "border_above": true,
+	    "name": "Manage Plots...",
+	    "showpanel": "plotxy"
+	  },
+	  {
+	    "action": "2d_viewer",
+	    "name": "Open 2D Viewer...",
+	    "title": "2D Viewer...",
+	    "pyfunc": "two_d_viewer_gui.panel"
+	  },
+	  {
+	    "action": "pt_export_to_spreadsheet",
+	    "border_above": true,
+	    "name": "Export to Spreadsheet..."
+	  },
+	  {
+	    "action": "pt_export_to_canvas",
+	    "name": "Export to Canvas (Selected Entries)..."
+	  },
+	  {
+	    "action": "export_to_ld",
+	    "name": "Export to LiveDesign...",
+	    "pyfunc": "maestro_ld_export_gui.panel"
+	  },
+	  {
+	    "action": "register_via_ld",
+	    "name": "Register via LiveDesign...",
+	    "pyfunc": "maestro_ld_register_gui.panel"
+	  },
+      {
+	    "action": "target_export_to_ld",
+	    "name": "Target Export to LiveDesign...",
+	    "pyfunc": "target_export_gui.panel"
+	  }
+      ]
+     }
+   ]
+  },
+  "general_modeling" :{
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Conformational Search"
+	  },
+	  {
+	    "action": "conf_search_bioactive",
+	    "name": "Bioactive Search...",
+	    "title": "ConfGen...",
+	    "pyfunc": "confgenx_gui.panel"
+	  },
+	  {
+	    "action": "conf_search_advanced",
+	    "name": "Advanced Search...",
+	    "title": "Conformational Search...",
+	    "showpanel": "csearch"
+	  },
+	  {
+	    "action": "conf_search_complex",
+	    "name": "Ligand-Receptor Complex...",
+	    "title": "Embrace Conformational Search...",
+	    "showpanel": "embracecsearch"
+	  },
+	  {
+	    "action": "conf_search_rce",
+	    "name": "Redundant Conformer Elimination...",
+	    "showpanel": "confelim"
+	  },
+	  {
+	    "action": "conf_search_macrocycle",
+	    "name": "Macrocycle Sampling...",
+	    "pyfunc": "prime_macrocycle_sampling.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "prime_macrocycle_stability",
+	    "name": "Macrocycle Propensity...",
+	    "pyfunc": "prime_macrocycle_stability_gui.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	   "section_title": "Minimization"
+	  },
+	  {
+	    "action": "minimization_force_field",
+	    "name": "Force-Field...",
+	    "title": "Minimization...",
+	    "showpanel": "mini"
+	  },
+	  {
+	    "action": "minimization_complex",
+	    "name": "Ligand-Receptor Complex...",
+	    "title": "Embrace Minimization...",
+	    "showpanel": "embrace"
+	  },
+	  {
+	    "action": "semi_emp",
+	    "name": "Semiempirical NDDO...",
+	    "pyfunc": "semi_emp_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "mopac_main",
+	    "name": "MOPAC2016...",
+	    "pyfunc": "mopac_main_gui.panel"
+	  },
+	  {
+	    "action": "minimization_ab_initio_qm",
+	    "name": "Ab Initio QM...",
+        "title": "Optimization...",
+	    "pyfunc": "jaguar_gui.optimization_panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "minimization_qm_mm",
+	    "name": "QM-MM...",
+	    "title": "QSite...",
+	    "showpanel": "qsite"
+	  }
+	]
+      }
+     ]
+  },
+  "favorites": {
+    "items": [
+      {
+	"action": "ligand_preparation",
+	"name": "Ligand Preparation...",
+	"pyfunc": "ligprep_gui.panel"
+      },
+      {
+	"action": "tasks_build_lid",
+	"name": "Ligand Interaction Diagram...",
+	"showpanel": "sketcher-LID"
+      },
+      {
+	"action": "prepwizard2_gui",
+	"name": "Protein Preparation Workflow...",
+	"pyfunc": "prepwizard2_gui.panel"
+      },
+      {
+	"action" : "wstools_binding_site_surface",
+	"name" : "Surface (Binding Site)..."
+      },
+      {
+	"action": "wstools_minimize_select",
+	"name": "Minimize Selected Atoms"
+      },
+      {
+	"action": "wstools_quick_align",
+	"name": "Quick Align"
+      },
+      {
+	"action": "wstools_start_measurementx",
+	"name": "Measure"
+      }
+    ]
+  },
+  "molecular_dynamics" : {
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Dynamics Analysis"
+	  },
+	  {
+	    "action": "desmond_simulation_quality_analysis",
+	    "name": "Simulation Quality Analysis...",
+	    "pyfunc": "simulation_analysis_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_event_analysis",
+	    "name": "Simulation Event Analysis...",
+	    "pyfunc": "sim_event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_radial_distribution_function",
+	    "name": "Radial Distribution Function...",
+	    "pyfunc": "rdf_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_interaction_diagram",
+	    "name": "Simulation Interactions Diagram...",
+	    "pyfunc": "event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_trajectory_clustering",
+	    "name": "Desmond Trajectory Clustering...",
+	    "pyfunc": "trajectory_cluster_gui.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Dynamics"
+	  },
+	  {
+	    "action": "system_setup",
+	    "name": "System Setup...",
+	    "title": "System Builder...",
+	    "pyfunc": "system_builder_gui.panel"
+	  },
+	  {
+	    "action": "app_desmond_rebuild_system",
+	    "name": "Model System Regeneration...",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_molecular_dynamics",
+	    "name": "Molecular Dynamics...",
+	    "pyfunc": "desmond_molecular_dynamics_gui.panel"
+	  },
+	  {
+	    "action": "simulated_annealing",
+	    "name": "Simulated Annealing...",
+	    "pyfunc": "desmond_simulated_annealing_gui.panel"
+	  },
+	  {
+	    "action": "binding_pose_metadynamics_gui.panel",
+	    "name": "Binding Pose Metadynamics...",
+	    "pyfunc": "binding_pose_metadynamics_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_metadynamics",
+	    "name": "Metadynamics...",
+	    "pyfunc": "desmond_metadynamics_gui.panel"
+	  },
+	  {
+	    "action": "desmond_metadynamics_analysis",
+	    "name": "Metadynamics Analysis...",
+	    "pyfunc": "desmond_metadynamics_analysis_gui.panel"
+	  },
+	  {
+	    "action": "replica_exchange",
+	    "name": "Replica Exchange...",
+	    "pyfunc": "desmond_replica_exchange_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_replica_exchange_review",
+	    "name": "Replica Exchange Review...",
+	    "pyfunc": "replica_exchange_review_gui.panel"
+	  }
+     ]
+    }
+    ]
+  }
+}

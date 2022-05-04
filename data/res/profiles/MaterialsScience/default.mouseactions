@@ -1,0 +1,127 @@
+#version 1.0
+################################################################################################
+## Format of the buttons table:
+## button_name, action_for_no_modifier, action_for_shift, action_for_ctrl, action_for_shift+ctrl
+## 
+## Example:
+## button3, translate, x_or_y_translate, z_translate, <no_action>
+##
+## Columns:
+##
+## button_name: Name of the button. In the example it is button3.
+##
+## action_for_no_modifier: Action for the associated button without any modifiers.
+## In the example, if button3 is down without shift and ctrl modifiers then the
+## action is 'translate'.
+##
+## action_for_shift: Action for the associated button with shift modifier.  In the
+## example, if button3 is down with shift modifier then the action is
+## 'x_or_y_translate'.
+##
+## action_for_ctrl: Action for the associated button with ctrl modifier.  In the
+## example, if button3 is down with control modifier then the action is
+## 'z_translate'.
+##
+## action_for_shift+ctrl: Action for the associated button with shift and ctrl
+## modifier.  In the example, if button3 is down with shift and ctrl modifiers,
+## then take no action.
+##
+##
+## Actions available for single buttons (button1, button2 and button3)
+##  pick_only
+##  pick_add
+##  pick_invert
+##  rotate
+##  x_or_y_rotate
+##  x_rotate
+##  y_rotate
+##  z_rotate
+##  translate
+##  x_or_y_translate
+##  x_translate
+##  y_translate
+##  z_translate
+##  zoom
+##  clipping_forward_or_back
+##  clipping_together_or_apart
+##  electron_density_map
+##
+## Actions available for two buttons (button12, button23, button13)
+##  rotate
+##  x_or_y_rotate
+##  x_rotate
+##  y_rotate
+##  z_rotate
+##  translate
+##  x_or_y_translate
+##  x_translate
+##  y_translate
+##  z_translate
+##  zoom
+##  clipping_forward_or_back
+##  clipping_together_or_apart
+##  electron_density_map
+##
+## Actions available for scroll wheel
+##  zoom
+##  clipping_forward_or_back
+##  clipping_together_or_apart
+##  electron_density_map
+##  x_rotate
+##  y_rotate
+##  z_rotate
+##  x_translate
+##  y_translate
+##  z_translate
+##
+## <no_action> indicates that there is no action associated.
+##
+## set1 - Mouse with 3 buttons and scroll wheel
+## set2 - Mouse with 3 buttons only
+## set3 - Mouse with 2 buttons and scroll wheel
+## set4 - Mouse with 2 buttons only
+## set5 - PyMOL mode
+## set6 - Trackpad (select w/o modifier)
+## set7 - Trackpad (rotate w/o modifier)
+
+<3_buttons_and_scroll_wheel>
+button1, pick_only, pick_add, pick_invert, zoom 
+button2, rotate, x_or_y_rotate, z_rotate, zoom
+button3, translate, x_or_y_translate, z_translate, <no_action>
+button12, <no_action>, <no_action>, <no_action>, <no_action>
+button13, <no_action>, <no_action>, <no_action>, <no_action>
+button23, zoom, <no_action>, <no_action>, <no_action>
+scrollwheel, zoom, clipping_forward_or_back, clipping_together_or_apart, electron_density_map 
+
+<3_buttons_only>
+button1, pick_only, pick_add, pick_invert, zoom  
+button2, rotate, x_or_y_rotate, z_rotate, zoom
+button3, translate, x_or_y_translate, z_translate, <no_action>
+button12, <no_action>, <no_action>, <no_action>, <no_action>
+button13, <no_action>, <no_action>, <no_action>, <no_action>
+button23, zoom, <no_action>, <no_action>, <no_action>
+
+<2_buttons_and_scroll_wheel>
+button1, pick_only, pick_add, pick_invert, zoom  
+button3, translate, x_or_y_translate, z_translate, <no_action>
+button13, rotate, x_or_y_rotate, z_rotate, zoom
+scrollwheel, zoom, clipping_forward_or_back, clipping_together_or_apart, electron_density_map 
+
+<2_buttons_only>
+button1, pick_only, pick_add, pick_invert, zoom  
+button3, translate, x_or_y_translate, z_translate, <no_action>
+button13, rotate, x_or_y_rotate, z_rotate, zoom
+
+<pymol>
+button1, trackball_pick_rotate, pick_add, pick_invert, pick_invert
+button2, translate_and_spot_center, pick_invert, pick_invert, zoom
+button3, zoom, <no_action>, pick_only, <no_action>
+button12, x_translate, x_rotate, <no_action>, <no_action>
+button13, y_translate, y_rotate, <no_action>, <no_action>
+button23, z_translate, z_rotate, <no_action>, <no_action>
+scrollwheel, clipping_together_or_apart, clipping_forward_or_back, clipping_together_or_apart, electron_density_map
+
+<trackpad>
+button1, pick_rotate, pick_add, rotate, z_rotate
+button3, translate, <no_action>, <no_action>, <no_action>
+scrollwheel, zoom, clipping_forward_or_back, clipping_together_or_apart, electron_density_map

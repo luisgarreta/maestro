@@ -1,0 +1,11 @@
+Residue Information:compositionfields="residueinformation"
+SEPARATOR:SEPARATOR
+Element + Atom Number:compositionfields="Element;Atom number by entry"
+Stereochemistry + Charge:compositionfields="E/Z stereochemistry;R/S chirality;Formal charge"
+Formal Charge:compositionfields="Formal charge"
+Partial Charge:compositionfields="Partial charge"
+Chirality:compositionfields="R/S chirality"
+PDB Atom Name:compositionfields="PDB atom name"
+SEPARATOR:SEPARATOR
+Custom Label:compositionfields="customcompositionfields"
+Edit Custom Label...:compositionfields="showcustomfielddlg"

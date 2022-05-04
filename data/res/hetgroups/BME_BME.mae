@@ -1,0 +1,84 @@
+{ 
+  s_m_m2io_version
+  :::
+  2.0.0 
+} 
+
+f_m_ct { 
+  s_m_title
+  s_m_entry_name
+  s_pdb_PDB_ID
+  s_m_entry_id
+  :::
+  BME 
+  BME_BME.1 
+  BME 
+  125 
+  m_atom[10] { 
+    # First column is atom index #
+    i_m_mmod_type
+    r_m_x_coord
+    r_m_y_coord
+    r_m_z_coord
+    i_m_residue_number
+    s_m_insertion_code
+    s_m_mmod_res
+    s_m_chain_name
+    i_m_color
+    r_m_charge1
+    r_m_charge2
+    s_m_pdb_residue_name
+    s_m_pdb_atom_name
+    s_m_grow_name
+    i_m_atomic_number
+    i_m_formal_charge
+    i_m_representation
+    i_m_visibility
+    s_m_atom_name
+    i_m_secondary_structure
+    i_m_template_index
+    i_m_Hcount
+    i_m_pdb_convert_problem
+    :::
+    1        3   47.413618   50.097285   48.238103     1 " " X " "    2   0.14500   0.14500 "BME " " C1 " "    "    6   0    0    1 "" -1    0     2     4     
+    2        3   48.915160   50.425879   48.210669     1 " " X " "    2   0.06000   0.06000 "BME " " C2 " "    "    6   0    0    1 "" -1    0     2     4     
+    3       16   46.624674   51.211031   47.854538     1 " " X " "   70  -0.68300  -0.68300 "BME " " O1 " "    "    8   0    0    1 "" -1    0     1     4     
+    4       49   49.459195   50.846175   46.527453     1 " " X " "   13  -0.33500  -0.33500 "BME " " S2 " "    "   16   0    0    1 "" -1    0     1     4     
+    5       41   47.188446   49.251486   47.587512     1 " " X " "   21   0.06000   0.06000 "BME " "1H1 " "    "    1   0    0    1 "" -1    0     0     <> 
+    6       41   47.123028   49.799636   49.246341     1 " " X " "   21   0.06000   0.06000 "BME " "2H1 " "    "    1   0    0    1 "" -1    0     0     <> 
+    7       41   49.149316   51.248879   48.886737     1 " " X " "   21   0.06000   0.06000 "BME " "1H2 " "    "    1   0    0    1 "" -1    0     0     <> 
+    8       41   49.486865   49.563253   48.554847     1 " " X " "   21   0.06000   0.06000 "BME " "2H2 " "    "    1   0    0    1 "" -1    0     0     <> 
+    9       42   45.717714   50.983389   48.042020     1 " " X " "   21   0.41800   0.41800 "BME " " HO1" "    "    1   0    0    1 "" -1    0     0     <> 
+    10      41   50.761591   50.916314   46.832757     1 " " X " "   21   0.15500   0.15500 "BME " " HS2" "    "    1   0    0    1 "" -1    0     0     <> 
+    :::
+  } 
+  m_bond[18] { 
+    # First column is bond index #
+    i_m_from
+    i_m_to
+    i_m_order
+    i_m_from_rep
+    i_m_to_rep
+    :::
+    1          1      2   1 1 1 
+    2          1      3   1 1 1 
+    3          1      5   1 1 1 
+    4          1      6   1 1 1 
+    5          2      1   1 1 1 
+    6          2      4   1 1 1 
+    7          2      7   1 1 1 
+    8          2      8   1 1 1 
+    9          3      1   1 1 1 
+    10         3      9   1 1 1 
+    11         4      2   1 1 1 
+    12         4     10   1 1 1 
+    13         5      1   1 1 1 
+    14         6      1   1 1 1 
+    15         7      2   1 1 1 
+    16         8      2   1 1 1 
+    17         9      3   1 1 1 
+    18        10      4   1 1 1 
+    :::
+  } 
+} 
+

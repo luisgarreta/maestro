@@ -1,0 +1,5413 @@
+{
+  "2d_overlay_context": {
+    "items": [
+      {
+        "action": "overlay_find_in_workspace",
+        "name": "Find in Workspace"
+      },
+      {
+        "action": "overlay_select_atoms_in_workspace",
+        "name": "Select Atoms in Workspace"
+      },
+      {
+        "action": "overlay_sketcher",
+        "name": "View in 2D Sketcher..."
+      },
+      {
+        "action": "overlay_lig_int_diag",
+        "name": "View in Ligand Interaction Diagram..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "overlay_show_next",
+        "name": "Show Next"
+      },
+      {
+        "action": "overlay_show_previous",
+        "name": "Show Previous"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "overlay_hide",
+        "name": "Hide 2D Overlay"
+      },
+      {
+        "action": "overlay_help",
+        "name": "Help"
+      }
+    ],
+    "type": "menu"
+  },
+  "additional_edits": {
+    "items": [
+      {
+        "action": "builderx_invert_chirality"
+      },
+      {
+        "action": "builderx_flip_spiro"
+      },
+      {
+        "action": "builderx_mirror_molecule"
+      },
+      {
+        "action": "builderx_switch_alt_positions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_change_isotope"
+      },
+      {
+        "action": "builderx_change_other_properties"
+      }
+    ],
+    "type": "menu"
+  },
+  "atom_colorscheme": {
+    "items": [],
+    "type": "menu"
+  },
+  "atom_display": {
+    "items": [
+      {
+        "action": "atom_disp_residues"
+      },
+      {
+        "action": "atom_disp_molecules"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_disp_selected_2_ang"
+      },
+      {
+        "action": "atom_disp_selected_3_ang"
+      },
+      {
+        "action": "atom_disp_selected_4_ang"
+      },
+      {
+        "action": "atom_disp_selected_5_ang"
+      },
+      {
+        "action": "atom_disp_selected_6_ang"
+      },
+      {
+        "action": "atom_disp_selected_8_ang"
+      },
+      {
+        "action": "atom_disp_selected_10_ang"
+      }
+    ],
+    "type": "menu"
+  },
+  "atom_expand_selectionx": {
+    "items": [],
+    "type": "menu"
+  },
+  "atom_label_popup": {
+    "items": [
+      {
+        "action": "edit_label_custom_text"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "move_labels"
+      },
+      {
+        "action": "open_label_preferences"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_atom_label"
+      },
+      {
+        "action": "delete_atom_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "atom_mutateresidue": {
+    "items": [],
+    "type": "menu"
+  },
+  "atom_representation": {
+    "items": [
+      {
+        "action": "atom_rep_wire"
+      },
+      {
+        "action": "atom_rep_cpk"
+      },
+      {
+        "action": "atom_rep_ball"
+      },
+      {
+        "action": "atom_rep_tube"
+      },
+      {
+        "action": "atom_rep_thin_tube"
+      }
+    ],
+    "type": "menu"
+  },
+  "atom_select_project_entries": {
+    "items": [
+      {
+        "action": "atom_add_to_selection"
+      },
+      {
+        "action": "atom_select_only"
+      }
+    ],
+    "type": "menu"
+  },
+  "atom_setelementx": {
+    "items": [],
+    "type": "menu"
+  },
+  "atom_style": {
+    "items": [],
+    "type": "menu"
+  },
+  "atom_sv_popup_menu": {
+    "items": [
+      {
+        "action": "atom_invertselection"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "atom_representation",
+        "name": "Representation"
+      },
+      {
+        "id": "atom_colorscheme",
+        "name": "Color Scheme"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "atom_display",
+        "name": "Display"
+      },
+      {
+        "action": "atom_displayonly"
+      },
+      {
+        "action": "atom_undisplay"
+      },
+      {
+        "action": "atom_delete"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_insertgap"
+      },
+      {
+        "id": "atom_mutateresidue",
+        "name": "Mutate Residue"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_rotamers"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_excludeentry"
+      },
+      {
+        "id": "atom_select_project_entries",
+        "name": "Select Project Entries"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_fitworkspace"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "bond_label_popup": {
+    "items": [
+      {
+        "action": "move_labels"
+      },
+      {
+        "action": "open_label_preferences"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_bond_label"
+      },
+      {
+        "action": "delete_bond_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "builderx_move_atoms_menu": {
+    "items": [
+      {
+        "action": "builderx_rotate_dihedrals"
+      },
+      {
+        "action": "builderx_adjust_lengths",
+        "name": "Adjust Lengths or Distances"
+      },
+      {
+        "action": "builderx_adjust_angles"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_rotate_peptide"
+      },
+      {
+        "action": "builderx_rotate_carbonyl"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_change_ring_conformations"
+      }
+    ],
+    "type": "menu"
+  },
+  "builderx_mutate_residue_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "builderx_new_fragment_menu": {
+    "items": [
+      {
+        "action": "builderx_flip_orientation"
+      },
+      {
+        "action": "builderx_change_fragment_connection"
+      },
+      {
+        "action": "builderx_flip_alternate_h"
+      },
+      {
+        "action": "builderx_reset_fragment"
+      },
+      {
+        "action": "builderx_rotate_fragment_dihedral"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_select_fragment"
+      },
+      {
+        "action": "builderx_delete_fragment"
+      }
+    ],
+    "type": "menu"
+  },
+  "builderx_other_menu": {
+    "items": [
+      {
+        "action": "builderx_invert_chirality"
+      },
+      {
+        "action": "builderx_flip_spiro"
+      },
+      {
+        "action": "builderx_mirror_molecule"
+      },
+      {
+        "action": "builderx_convert_cis_trans"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_find_torsions"
+      },
+      {
+        "action": "builderx_switch_alt_positions"
+      },
+      {
+        "action": "builderx_create_zero_order"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_set_unpaired_electrons"
+      },
+      {
+        "action": "builderx_change_isotope"
+      },
+      {
+        "id": "builderx_mutate_residue_menu",
+        "name": "Mutate Residue"
+      },
+      {
+        "action": "builderx_change_other_properties"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "builderx_pep_from_seq"
+      }
+    ],
+    "type": "menu"
+  },
+  "builderx_set_element_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "caption_popupx": {
+    "items": [
+      {
+        "action": "edit_caption"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "move_caption"
+      },
+      {
+        "action": "delete_caption"
+      }
+    ],
+    "type": "menu"
+  },
+  "caption_submenux": {
+    "items": [
+      {
+        "action": "add_caption"
+      },
+      {
+        "action": "delete_all_captions",
+        "name": "Delete All Captions..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "highlights_alias_1",
+        "name": "Manage Highlights...",
+        "std_action": "highlights"
+      }
+    ],
+    "type": "menu"
+  },
+  "command_popupmenu": {
+    "items": [
+      {
+        "action": "command_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "command_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "create_new_entryx": {
+    "items": [
+      {
+        "action": "atom_popupx_entry_create",
+        "name": "Copying Selected Atoms"
+      },
+      {
+        "action": "atom_popupx_entry_extract",
+        "name": "Extracting Selected Atoms"
+      }
+    ],
+    "type": "menu"
+  },
+  "cscheme_rules_asl_element": {
+    "items": [
+      {
+        "action": "cscheme_rules_asl_element_H"
+      },
+      {
+        "action": "cscheme_rules_asl_element_C"
+      },
+      {
+        "action": "cscheme_rules_asl_element_O"
+      },
+      {
+        "action": "cscheme_rules_asl_element_N"
+      },
+      {
+        "action": "cscheme_rules_asl_element_P"
+      },
+      {
+        "action": "cscheme_rules_asl_element_S"
+      },
+      {
+        "action": "cscheme_rules_asl_element_F"
+      },
+      {
+        "action": "cscheme_rules_asl_element_Cl"
+      },
+      {
+        "action": "cscheme_rules_asl_element_Br"
+      },
+      {
+        "action": "cscheme_rules_asl_element_I"
+      }
+    ],
+    "type": "menu"
+  },
+  "cscheme_rules_asl_restype": {
+    "items": [
+      {
+        "action": "cscheme_rules_asl_restype_ALA"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_ARG"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_ARN"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_ASH"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_ASN"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_ASP"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_CYS"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_GLH"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_GLN"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_GLU"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_GLY"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_HIE"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_HIP"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_HIS"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_ILE"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_LEU"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_LYN"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_LYS"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_MET"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_PHE"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_PRO"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_SER"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_THR"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_TRP"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_TYR"
+      },
+      {
+        "action": "cscheme_rules_asl_restype_VAL"
+      }
+    ],
+    "type": "menu"
+  },
+  "cscheme_rules_popupmenu": {
+    "items": [
+      {
+        "id": "cscheme_rules_asl_element",
+        "name": "Element"
+      },
+      {
+        "id": "cscheme_rules_asl_restype",
+        "name": "Residue Type"
+      },
+      {
+        "action": "cscheme_rules_asl_select"
+      }
+    ],
+    "type": "menu"
+  },
+  "edit_history": {
+    "items": [],
+    "type": "menu"
+  },
+  "edit_paste_special": {
+    "items": [
+      {
+        "action": "main_edit_paste_by_placing",
+        "name": "By &Placing",
+        "shortcut": "Ctrl+Shift+V"
+      },
+      {
+        "action": "main_edit_paste_as_3d",
+        "name": "As &3D"
+      }
+    ],
+    "type": "menu"
+  },
+  "empty_space_popupx": {
+    "items": [
+      {
+        "action": "tile_apply_zoom_alias_1",
+        "name": "Apply This Zoom to All Tiles",
+        "std_action": "tile_apply_zoom"
+      },
+      {
+        "action": "tile_apply_view_alias_1",
+        "name": "Apply This View to All Tiles",
+        "std_action": "tile_apply_view"
+      },
+      {
+        "action": "tile_reset_alias_1",
+        "name": "Reset This Tile",
+        "std_action": "tile_reset"
+      },
+      {
+        "action": "tile_pick_to_move",
+        "name": "Change Tile Locations"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "configure_ws"
+      },
+      {
+        "action": "emptyspace_saveimage"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_save_view"
+      },
+      {
+        "id": "main_restore_view",
+        "name": "Restore Camera View"
+      },
+      {
+        "action": "main_manage_views"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "emptyspace_create_entryx",
+        "name": "Create New Entry"
+      },
+      {
+        "action": "emptyspace_clearworkspace"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "caption_submenux",
+        "name": "Captions and Highlights"
+      }
+    ],
+    "type": "menu"
+  },
+  "emptyspace_create_entryx": {
+    "items": [
+      {
+        "action": "emptyspace_entry_new",
+        "name": "Create Empty Entry"
+      },
+      {
+        "action": "emptyspace_entry_duplicate",
+        "name": "Duplicate Workspace Entries"
+      }
+    ],
+    "type": "menu"
+  },
+  "find_toolbar_popupmenu": {
+    "items": [
+      {
+        "action": "find_toolbar_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "find_toolbar_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "focus_view": {
+    "items": [
+      {
+        "action": "atom_fitworkspace"
+      },
+      {
+        "action": "atom_clip"
+      },
+      {
+        "action": "atom_center_view"
+      }
+    ],
+    "type": "menu"
+  },
+  "four_atoms_popupx": {
+    "items": [
+      {
+        "action": "atom_measure_dihedral"
+      },
+      {
+        "action": "atom_adjust_dihedral"
+      },
+      {
+        "action": "atom_set_dihedral_angle"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_undisplay"
+      },
+      {
+        "id": "atom_style"
+      },
+      {
+        "id": "atom_expand_selectionx"
+      },
+      {
+        "action": "atom_invertselection"
+      },
+      {
+        "id": "focus_view",
+        "name": "Focus View"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "popupx_move_atoms"
+      },
+      {
+        "id": "atom_setelementx"
+      },
+      {
+        "id": "additional_edits",
+        "name": "Additional Edits"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "builderx_mutate_residue_menu"
+      },
+      {
+        "action": "builderx_find_torsions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_edit_delete_selected_atoms",
+        "name": "Delete Atoms",
+        "shortcut": "Del"
+      }
+    ],
+    "type": "menu"
+  },
+  "highlight_popupx": {
+    "items": [
+      {
+        "action": "edit_highlight_text_alias_1",
+        "name": "&Edit Highlight Text...",
+        "std_action": "edit_highlight_text"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "move_highlight"
+      },
+      {
+        "action": "delete_highlight"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "manage_highlights"
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_change_columns": {
+    "items": [
+      {
+        "action": "pt_reorder_properties",
+        "name": "Reorder..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_columns_fit_header",
+        "name": "Fit to &Header"
+      },
+      {
+        "action": "pt_columns_fit_data",
+        "name": "Fit to &Data"
+      },
+      {
+        "action": "pt_columns_fit_header_data",
+        "name": "&Fit to Header + Data"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "hpt_show_2d_images",
+        "name": "Show &2D Structures"
+      },
+      {
+        "action": "hpt_open_property_tree",
+        "name": "Open Property Tree"
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_data": {
+    "items": [
+      {
+        "action": "hpt_view_chart",
+        "name": "View Chart..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "pt_import",
+        "name": "&Import"
+      },
+      {
+        "id": "hpt_data_export",
+        "name": "&Export"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "hpt_data_add_property",
+        "name": "&Add Property"
+      },
+      {
+        "action": "pt_property_copy",
+        "name": "&Copy Property..."
+      },
+      {
+        "action": "pt_property_merge",
+        "name": "&Merge Properties..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "hpt_data_edit_properties",
+        "name": "&Edit Properties"
+      },
+      {
+        "action": "pt_property_delete",
+        "name": "&Delete Properties..."
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_data_add_property": {
+    "items": [
+      {
+        "action": "pt_property_add",
+        "name": "By &Type..."
+      },
+      {
+        "action": "pt_property_calculate",
+        "name": "Standard &Molecular Property..."
+      },
+      {
+        "action": "pt_sequential_index_property",
+        "name": "Sequential &Index..."
+      },
+      {
+        "action": "pt_compute_relative_energies",
+        "name": "Relative E&nergy..."
+      },
+      {
+        "action": "pt_rank_entries",
+        "name": "Multivariate &Ranking..."
+      },
+      {
+        "action": "pt_structure_calculate",
+        "name": "From &Equation...",
+        "pyfunc": "projectcalc.panel"
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_data_edit_properties": {
+    "items": [
+      {
+        "action": "pt_column_rename",
+        "name": "Edit Name/Type..."
+      },
+      {
+        "action": "pt_property_decimalplaces",
+        "name": "Decimal &Places..."
+      },
+      {
+        "action": "pt_reorder_properties",
+        "name": "Reorder..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_property_clear",
+        "name": "Clear &Values..."
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_data_export": {
+    "items": [
+      {
+        "action": "pt_export_spreadsheet",
+        "name": "S&preadsheet..."
+      },
+      {
+        "action": "pt_export_to_canvas",
+        "name": "To C&anvas..."
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_other_entry_actions": {
+    "items": [
+      {
+        "action": "hpt_add_shortcut",
+        "name": "Add to &Shortcut Rows"
+      },
+      {
+        "action": "hpt_remove_shortcut",
+        "name": "&Remove Shortcut"
+      },
+      {
+        "action": "projtable_groupby_entryprop",
+        "name": "&Group By Entry Property..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_copy_shownprop",
+        "name": "Copy &Column Properties"
+      },
+      {
+        "action": "projtable_copy_allprop",
+        "name": "Copy &All Properties"
+      },
+      {
+        "action": "projtable_paste_entryprop",
+        "name": "&Paste Properties"
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_other_group_actions": {
+    "items": [
+      {
+        "action": "projtable_group_include_first_entry",
+        "name": "Include &First Entry (Top Group)"
+      },
+      {
+        "action": "projtable_view_poses",
+        "name": "Vie&w Poses..."
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_show_in_workspace": {
+    "items": [
+      {
+        "action": "projtable_include_only_entries",
+        "name": "Include &Only",
+        "shortcut": "Ctrl+N"
+      },
+      {
+        "action": "projtable_include_entries",
+        "name": "&Include"
+      },
+      {
+        "action": "projtable_exclude_entries",
+        "name": "E&xclude",
+        "shortcut": "Ctrl+X"
+      },
+      {
+        "action": "hpt_fixwithin_group",
+        "name": "Fix Within Group"
+      },
+      {
+        "action": "projtable_fix_entries",
+        "name": "&Fix in Workspace"
+      }
+    ],
+    "type": "menu"
+  },
+  "hpt_table": {
+    "items": [
+      {
+        "id": "hpt_change_columns",
+        "name": "Change Columns"
+      },
+      {
+        "action": "pt_sort_entries",
+        "name": "&Sort..."
+      },
+      {
+        "action": "pt_rank_entries",
+        "name": "Multivariate &Ranking..."
+      },
+      {
+        "action": "pt_mute_row_column_colors",
+        "name": "Hide Custom Coloring"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "main_edit_mark",
+        "name": "Mar&k"
+      },
+      {
+        "id": "pt_stars",
+        "name": "St&ars"
+      },
+      {
+        "action": "projtable_include_entries",
+        "name": "&Include"
+      },
+      {
+        "action": "projtable_exclude_entries",
+        "name": "E&xclude",
+        "shortcut": "Ctrl+X"
+      },
+      {
+        "action": "projtable_fix_entries",
+        "name": "&Fix in Workspace"
+      },
+      {
+        "action": "projtable_unfix_entries",
+        "name": "Clear Fix"
+      },
+      {
+        "action": "projtable_lock_entries",
+        "name": "&Lock (set non-editable)"
+      },
+      {
+        "action": "projtable_unlock_entries",
+        "name": "U&nlock (set editable)"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_move_to_new_group",
+        "name": "&Group..."
+      },
+      {
+        "id": "pt_entry_moveto",
+        "name": "Mo&ve to"
+      },
+      {
+        "id": "pt_duplicate",
+        "name": "Du&plicate"
+      },
+      {
+        "action": "projtable_delete_entries",
+        "name": "&Delete",
+        "shortcut": "Del"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "pt_split",
+        "name": "&Split"
+      },
+      {
+        "action": "projtable_merge_entries",
+        "name": "&Merge"
+      },
+      {
+        "action": "project_entry_color_rows",
+        "name": "Color &Rows..."
+      },
+      {
+        "id": "hpt_other_entry_actions",
+        "name": "&Other Entry Actions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "pt_collapse",
+        "name": "&Collapse"
+      },
+      {
+        "id": "pt_expand",
+        "name": "&Expand"
+      },
+      {
+        "action": "projtable_group_ungroup",
+        "name": "&Ungroup Groups"
+      },
+      {
+        "id": "hpt_other_group_actions",
+        "name": "Othe&r Group Actions"
+      }
+    ],
+    "type": "menu"
+  },
+  "jobtable_popup": {
+    "items": [
+      {
+        "action": "jobtable_selectall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "jobtable_monitor"
+      },
+      {
+        "action": "jobtable_pause"
+      },
+      {
+        "action": "jobtable_resume"
+      },
+      {
+        "action": "jobtable_stop"
+      },
+      {
+        "action": "jobtable_kill"
+      },
+      {
+        "action": "jobtable_delete"
+      },
+      {
+        "action": "jobtable_postmortem"
+      },
+      {
+        "action": "jobtable_refresh"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_display_scenes": {
+    "items": [
+      {
+        "action": "scenesnew",
+        "name": "&New..."
+      },
+      {
+        "action": "scenesview",
+        "name": "&View"
+      },
+      {
+        "action": "scenesmanage",
+        "name": "&Manage..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_scene_exit",
+        "name": "&Exit Scene"
+      },
+      {
+        "action": "main_scene_first",
+        "name": "&First Scene"
+      },
+      {
+        "action": "main_scene_previous",
+        "name": "&Previous Scene",
+        "shortcut": "Ctrl+<"
+      },
+      {
+        "action": "main_scene_next",
+        "name": "Ne&xt Scene",
+        "shortcut": "Ctrl+>"
+      },
+      {
+        "action": "main_scene_last",
+        "name": "&Last Scene"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_display_surface": {
+    "items": [
+      {
+        "action": "main_tools_quick_surface",
+        "name": "Selected Atoms"
+      },
+      {
+        "action": "wstools_binding_site_surface",
+        "name": "Binding Site..."
+      },
+      {
+        "action": "surfaceadvanced",
+        "name": "Advanced..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "surface_import",
+        "name": "&Import..."
+      },
+      {
+        "action": "managesurfaces",
+        "name": "Manage &Surfaces..."
+      },
+      {
+        "action": "surface_display_toggle",
+        "name": "Show in Workspace"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_display_wsstyle": {
+    "items": [
+      {
+        "action": "main_workspace_wsassistant_applystyle",
+        "name": "Apply Custom Preset",
+        "shortcut": "Ctrl+Y"
+      },
+      {
+        "action": "main_workspace_wsassistant_reapplystyle",
+        "name": "Reapply Preset"
+      },
+      {
+        "action": "main_workspace_wsassistant_stylesettings",
+        "name": "Edit Custom Preset Settings..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "default_style",
+        "name": "Maestro Default"
+      },
+      {
+        "action": "bioluminate_style",
+        "name": "BioLuminate Default"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit": {
+    "items": [
+      {
+        "action": "edit_undo",
+        "name": "Und&o alias",
+        "shortcut": "Ctrl+Z"
+      },
+      {
+        "action": "edit_redo",
+        "name": "Redo",
+        "shortcut": "Ctrl+Shift+Z"
+      },
+      {
+        "id": "edit_history",
+        "name": "History"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "edit_cut",
+        "name": "C&ut",
+        "shortcut": "Ctrl+X"
+      },
+      {
+        "action": "edit_copy",
+        "name": "&Copy",
+        "shortcut": "Ctrl+C"
+      },
+      {
+        "action": "edit_copy_smarts",
+        "name": "Copy as S&MARTS"
+      },
+      {
+        "action": "edit_paste",
+        "name": "&Paste",
+        "shortcut": "Ctrl+V"
+      },
+      {
+        "id": "edit_paste_special",
+        "name": "Paste Specia&l"
+      },
+      {
+        "action": "main_edit_delete_selected_atoms",
+        "name": "Delete Atoms",
+        "shortcut": "Del"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_toggle_3Dbuilder",
+        "name": "&3D Builder..."
+      },
+      {
+        "action": "sketcher",
+        "name": "&2D Sketcher..."
+      },
+      {
+        "action": "main_edit_htreat_selected",
+        "name": "Add Hydrogens"
+      },
+      {
+        "id": "tools_minimize",
+        "name": "Minimize"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "move_atoms",
+        "name": "Move Atoms",
+        "shortcut": "Ctrl+G"
+      },
+      {
+        "id": "main_edit_adjust",
+        "name": "&Adjust"
+      },
+      {
+        "action": "torsionscan",
+        "name": "Rapid &Torsion Scan..."
+      },
+      {
+        "action": "main_edit_adjust_rotamers",
+        "name": "&Rotamers..."
+      },
+      {
+        "id": "main_edit_assign",
+        "name": "&Assign"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "main_edit_crystal_mates",
+        "name": "C&rystal Mates"
+      },
+      {
+        "action": "centroids",
+        "name": "C&entroids....."
+      },
+      {
+        "action": "symmetrize",
+        "name": "Symmetrize &Workspace..."
+      },
+      {
+        "action": "updatecoords",
+        "name": "Update Coo&rdinates"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "star_target_entry",
+        "name": "Star Included Entries",
+        "shortcut": "*"
+      },
+      {
+        "id": "main_edit_mark",
+        "name": "Mar&k"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "maestro_preferences",
+        "name": "Pre&ferences...",
+        "shortcut": "Ctrl+,"
+      },
+      {
+        "action": "edit_stylesheet_live.panel",
+        "name": "Edit Style Sheet...",
+        "pyfunc": "edit_stylesheet_live.panel"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_adjust": {
+    "items": [
+      {
+        "action": "main_editx_rotate_dihedrals",
+        "name": "&Dihedral Rotations"
+      },
+      {
+        "action": "main_editx_adjust_lengths",
+        "name": "&Lengths / Distances"
+      },
+      {
+        "action": "main_editx_adjust_angles",
+        "name": "&Angles / Dihedrals"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_editx_rotate_peptide",
+        "name": "Pe&ptide Plane Rotations"
+      },
+      {
+        "action": "main_editx_rotate_carbonyl",
+        "name": "Car&bonyl Plane Rotations"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_editx_change_ring_conformations",
+        "name": "Change &Ring Conformations"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_assign": {
+    "items": [
+      {
+        "action": "assignsecondary",
+        "name": "&Secondary Structure"
+      },
+      {
+        "action": "assign bond orders",
+        "name": "&Bond Orders"
+      },
+      {
+        "action": "assign partial charges",
+        "name": "&Partial Charges"
+      },
+      {
+        "action": "assign force field types",
+        "name": "&Force Field Atom Types (OPLS2005)"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_crystal_mates": {
+    "items": [
+      {
+        "action": "crystal_mates_all",
+        "name": "All Mates"
+      },
+      {
+        "action": "crystal_mates_4a",
+        "name": "4\u00c5 Radius"
+      },
+      {
+        "action": "crystal_mates_6a",
+        "name": "6\u00c5 Radius"
+      },
+      {
+        "action": "crystal_mates_8a",
+        "name": "8\u00c5 Radius"
+      },
+      {
+        "action": "crystal_mates_10a",
+        "name": "10\u00c5 Radius"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "crystal_mates_save",
+        "name": "Save as New Entry"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "crystal_mates_remove_all",
+        "name": "Remove All Mates"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_mark": {
+    "items": [
+      {
+        "action": "main_edit_mark_selected",
+        "name": "&Selected"
+      },
+      {
+        "action": "main_edit_mark_included",
+        "name": "&Included",
+        "shortcut": "X"
+      },
+      {
+        "action": "main_edit_mark_all",
+        "name": "&All"
+      },
+      {
+        "action": "main_edit_mark_none",
+        "name": "&None"
+      },
+      {
+        "action": "main_edit_mark_invert",
+        "name": "In&vert"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_pick": {
+    "items": [
+      {
+        "action": "pick_atoms",
+        "name": "&Atoms",
+        "shortcut": "A"
+      },
+      {
+        "action": "pick_residues",
+        "name": "&Residues",
+        "shortcut": "R"
+      },
+      {
+        "action": "pick_chains",
+        "name": "&Chains",
+        "shortcut": "C"
+      },
+      {
+        "action": "pick_molecules",
+        "name": "&Molecules",
+        "shortcut": "M"
+      },
+      {
+        "action": "pick_entries",
+        "name": "&Entries",
+        "shortcut": "E"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pick_ssa",
+        "name": "&Secondary Structure",
+        "shortcut": "S"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_select_restore": {
+    "items": [
+      {
+        "action": "edit_select_restore_set1",
+        "name": "Selection &1",
+        "shortcut": "1"
+      },
+      {
+        "action": "edit_select_restore_set2",
+        "name": "Selection &2",
+        "shortcut": "2"
+      },
+      {
+        "action": "edit_select_restore_set3",
+        "name": "Selection &3",
+        "shortcut": "3"
+      },
+      {
+        "action": "edit_select_restore_set4",
+        "name": "Selection &4",
+        "shortcut": "4"
+      },
+      {
+        "action": "edit_select_restore_set5",
+        "name": "Selection &5",
+        "shortcut": "5"
+      },
+      {
+        "action": "edit_select_restore_set6",
+        "name": "Selection &6",
+        "shortcut": "6"
+      },
+      {
+        "action": "edit_select_restore_set7",
+        "name": "Selection &7",
+        "shortcut": "7"
+      },
+      {
+        "action": "edit_select_restore_set8",
+        "name": "Selection &8",
+        "shortcut": "8"
+      },
+      {
+        "action": "edit_select_restore_set9",
+        "name": "Selection &9",
+        "shortcut": "9"
+      },
+      {
+        "action": "edit_select_restore_set10",
+        "name": "Selection 1&0",
+        "shortcut": "0"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_edit_select_save": {
+    "items": [
+      {
+        "action": "edit_select_save_set1",
+        "name": "Selection &1",
+        "shortcut": "Ctrl+1"
+      },
+      {
+        "action": "edit_select_save_set2",
+        "name": "Selection &2",
+        "shortcut": "Ctrl+2"
+      },
+      {
+        "action": "edit_select_save_set3",
+        "name": "Selection &3",
+        "shortcut": "Ctrl+3"
+      },
+      {
+        "action": "edit_select_save_set4",
+        "name": "Selection &4",
+        "shortcut": "Ctrl+4"
+      },
+      {
+        "action": "edit_select_save_set5",
+        "name": "Selection &5",
+        "shortcut": "Ctrl+5"
+      },
+      {
+        "action": "edit_select_save_set6",
+        "name": "Selection &6",
+        "shortcut": "Ctrl+6"
+      },
+      {
+        "action": "edit_select_save_set7",
+        "name": "Selection &7",
+        "shortcut": "Ctrl+7"
+      },
+      {
+        "action": "edit_select_save_set8",
+        "name": "Selection &8",
+        "shortcut": "Ctrl+8"
+      },
+      {
+        "action": "edit_select_save_set9",
+        "name": "Selection &9",
+        "shortcut": "Ctrl+9"
+      },
+      {
+        "action": "edit_select_save_set10",
+        "name": "Selection 1&0",
+        "shortcut": "Ctrl+0"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_file": {
+    "items": [
+      {
+        "action": "project_new",
+        "name": "&New Project...",
+        "shortcut": "Ctrl+N"
+      },
+      {
+        "action": "project_open",
+        "name": "&Open Project...",
+        "shortcut": "Ctrl+O"
+      },
+      {
+        "id": "project_openrecent",
+        "name": "Open Recent Project"
+      },
+      {
+        "action": "project_saveas",
+        "name": "&Save Project As...",
+        "shortcut": "Ctrl+Shift+S"
+      },
+      {
+        "action": "project_close",
+        "name": "&Close Project",
+        "shortcut": "Ctrl+W"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_importstructures",
+        "name": "&Import Structures...",
+        "shortcut": "Ctrl+I"
+      },
+      {
+        "id": "project_importrecent",
+        "name": "Import Recent Structures"
+      },
+      {
+        "action": "project_importfromproject",
+        "name": "Import from Project..."
+      },
+      {
+        "id": "main_import_from",
+        "name": "Import From"
+      },
+      {
+        "action": "get_pdb",
+        "name": "&Get PDB..."
+      },
+      {
+        "action": "project_merge",
+        "name": "&Merge Project..."
+      },
+      {
+        "action": "main_project_exportstructures",
+        "name": "E&xport Structures..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "change_directory",
+        "name": "Change Working Director&y..."
+      },
+      {
+        "action": "project_saveworkspacechanges",
+        "name": "Save &Workspace Changes"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_backup",
+        "name": "&Back Up Project..."
+      },
+      {
+        "action": "project_restore",
+        "name": "Restore &From Backup..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_savestate",
+        "name": "S&ave Checkpoint"
+      },
+      {
+        "action": "project_revertstate",
+        "name": "&Revert to Checkpoint"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "maestro_quit",
+        "name": "&Quit",
+        "shortcut": "Ctrl+Q"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_help": {
+    "items": [
+      {
+        "action": "help_onlinehelp",
+        "name": "&Help...",
+        "shortcut": "Ctrl+H"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "help_keyboard_shortcut",
+        "name": "Keyboard &Shortcuts..."
+      },
+      {
+        "action": "help_tutorials",
+        "name": "&Tutorials..."
+      },
+      {
+        "action": "help_new_features",
+        "name": "&New Features..."
+      },
+      {
+        "action": "main_help_known_issues",
+        "name": "&Known Issues..."
+      },
+      {
+        "action": "main_help_videos",
+        "name": "&Videos..."
+      },
+      {
+        "action": "help_knowledge_base",
+        "name": "Knowledge &Base..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_help_about_maestro",
+        "name": "About &Maestro..."
+      },
+      {
+        "action": "jobserver_cert_gui.panel",
+        "name": "Register with Job Servers...",
+        "pyfunc": "jobserver_cert_gui.panel"
+      },
+      {
+        "action": "main_help_configuration",
+        "name": "Configure Licensing...",
+        "std_action": "main_help_configuration"
+      },
+      {
+        "action": "schrodinger.utils.documentation.show_legal_notice",
+        "name": "Legal Notices",
+        "pyfunc": "schrodinger.utils.documentation.show_legal_notice"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "help_contact",
+        "name": "&Contact Technical Support"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_import_from": {
+    "items": [
+      {
+        "action": "main_importfrom_project",
+        "name": "Other Project..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "ace_segmentation_gui.main",
+        "name": "PDF...",
+        "pyfunc": "ace_segmentation_gui.main"
+      },
+      {
+        "action": "ace_analysis_gui.panel",
+        "name": "PDF Extracted Compounds...",
+        "pyfunc": "ace_analysis_gui.panel"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_maestro": {
+    "items": [
+      {
+        "action": "maestro_perf_profiler_gui.panel",
+        "name": "Profile Maestro Action...",
+        "pyfunc": "maestro_perf_profiler_gui.panel"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_pick_select_mode_menu": {
+    "items": [
+      {
+        "action": "main_select_normal_mode",
+        "name": "Normal"
+      },
+      {
+        "action": "main_select_add_mode",
+        "name": "Add"
+      },
+      {
+        "action": "main_select_remove_mode",
+        "name": "Remove"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_restore_view": {
+    "items": [
+      {
+        "action": "main_view_play_prev",
+        "name": "&Previous"
+      },
+      {
+        "action": "main_view_play_next",
+        "name": "&Next"
+      },
+      {
+        "name": "separator"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_scriptsx": {
+    "items": [
+      {
+        "action": "main_script_manage",
+        "name": "&Manage..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_script_install",
+        "name": "&Install..."
+      },
+      {
+        "action": "KNIME_workflow_wrapper.runNew",
+        "name": "New KNIME Workflow...",
+        "pyfunc": "KNIME_workflow_wrapper.runNew"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_select": {
+    "items": [
+      {
+        "id": "main_edit_pick",
+        "name": "Set P&ick Level"
+      },
+      {
+        "id": "main_pick_select_mode_menu",
+        "name": "Pick to Select"
+      },
+      {
+        "id": "main_edit_select_save",
+        "name": "Quick Sa&ve (within session)"
+      },
+      {
+        "id": "main_edit_select_restore",
+        "name": "&Restore Quick Save"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_select_exclude_nonpolarh",
+        "name": "Exclude Nonpolar Hydrogens"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "edit_select_all",
+        "name": "&All",
+        "shortcut": "Ctrl+A"
+      },
+      {
+        "action": "main_select_visible",
+        "name": "Visible"
+      },
+      {
+        "action": "edit_select_none",
+        "name": "None",
+        "shortcut": "Ctrl+U"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_select_protein",
+        "name": "Protein"
+      },
+      {
+        "action": "main_select_ligand",
+        "name": "Ligand"
+      },
+      {
+        "action": "main_select_solvent",
+        "name": "Solvent"
+      },
+      {
+        "id": "main_select_more_menu",
+        "name": "More Objects"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "edit_select_invert",
+        "name": "&Invert"
+      },
+      {
+        "id": "main_select_expand_menu",
+        "name": "Expand"
+      },
+      {
+        "action": "main_select_previous",
+        "name": "Previous"
+      },
+      {
+        "action": "edit_select_select",
+        "name": "Define..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_find_toolbar",
+        "name": "&Find",
+        "shortcut": "Ctrl+F"
+      },
+      {
+        "action": "edit_select_prev_res",
+        "name": "&Previous Residue",
+        "shortcut": "P"
+      },
+      {
+        "action": "edit_select_next_res",
+        "name": "&Next Residue",
+        "shortcut": "N"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_select_expand_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "main_select_more_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "main_view": {
+    "items": [
+      {
+        "id": "main_view_fit_to_workspace",
+        "name": "&Fit"
+      },
+      {
+        "id": "main_view_rotate",
+        "name": "&Rotate"
+      },
+      {
+        "id": "main_view_translate",
+        "name": "&Translate"
+      },
+      {
+        "action": "main_view_zoomin",
+        "name": "&Zoom In",
+        "shortcut": "K"
+      },
+      {
+        "action": "main_view_zoomout",
+        "name": "Zoom &Out",
+        "shortcut": "J"
+      },
+      {
+        "id": "main_view_clipping_planes",
+        "name": "&Move Clipping Planes"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_view_reset",
+        "name": "Reset &All"
+      },
+      {
+        "action": "alignatoms",
+        "name": "Align A&xis..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_save_view",
+        "name": "Save &Camera View..."
+      },
+      {
+        "id": "main_restore_view",
+        "name": "Restore Camera &View"
+      },
+      {
+        "action": "main_manage_views",
+        "name": "&Manage Camera Views..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "display_tile_entries",
+        "name": "Til&e",
+        "shortcut": "Ctrl+L"
+      },
+      {
+        "action": "displaystereo",
+        "name": "&Stereo",
+        "shortcut": "Ctrl+S"
+      },
+      {
+        "action": "main_workspace_fullscreen",
+        "name": "&Full Screen",
+        "shortcut": "Ctrl+="
+      }
+    ],
+    "type": "menu"
+  },
+  "main_view_clipping_planes": {
+    "items": [
+      {
+        "action": "main_view_clipping_planes_push",
+        "name": "&Back",
+        "shortcut": "-"
+      },
+      {
+        "action": "main_view_clipping_planes_pull",
+        "name": "&Forward",
+        "shortcut": "="
+      },
+      {
+        "action": "main_view_clipping_planes_slim",
+        "name": "&Together",
+        "shortcut": "F"
+      },
+      {
+        "action": "main_view_clipping_planes_fatten",
+        "name": "&Apart",
+        "shortcut": "G"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_view_clip_to_all",
+        "name": "To All Atoms"
+      },
+      {
+        "action": "main_view_clip_to_selected",
+        "name": "To Selected Atoms"
+      },
+      {
+        "action": "main_view_clip_to_ligand",
+        "name": "To Ligand"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_view_fit_to_workspace": {
+    "items": [
+      {
+        "action": "main_view_fit_all",
+        "name": "All"
+      },
+      {
+        "action": "main_view_fit",
+        "name": "Selected",
+        "shortcut": "Z"
+      },
+      {
+        "action": "main_view_fit_next_ligand",
+        "name": "Ligand",
+        "shortcut": "L"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_view_fit_auto",
+        "name": "Autofit"
+      },
+      {
+        "action": "main_view_fit_auto_ligand",
+        "name": "Autofit to Ligand"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_view_rotate": {
+    "items": [
+      {
+        "action": "main_view_rotateX",
+        "name": "&X 90"
+      },
+      {
+        "action": "main_view_rotateY",
+        "name": "&Y 90"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_view_rotate_mX",
+        "name": "-X",
+        "shortcut": "/"
+      },
+      {
+        "action": "main_view_rotate_pX",
+        "name": "+X",
+        "shortcut": ";"
+      },
+      {
+        "action": "main_view_rotate_mY",
+        "name": "-Y",
+        "shortcut": ","
+      },
+      {
+        "action": "main_view_rotate_pY",
+        "name": "+Y",
+        "shortcut": "."
+      },
+      {
+        "action": "main_view_rotate_mZ",
+        "name": "-Z",
+        "shortcut": "["
+      },
+      {
+        "action": "main_view_rotate_pZ",
+        "name": "+Z",
+        "shortcut": "]"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_view_translate": {
+    "items": [
+      {
+        "action": "main_view_translate_mX",
+        "name": "-X",
+        "shortcut": "?"
+      },
+      {
+        "action": "main_view_translate_pX",
+        "name": "+X",
+        "shortcut": ":"
+      },
+      {
+        "action": "main_view_translate_mY",
+        "name": "-Y",
+        "shortcut": "<"
+      },
+      {
+        "action": "main_view_translate_pY",
+        "name": "+Y",
+        "shortcut": ">"
+      },
+      {
+        "action": "main_view_translate_mZ",
+        "name": "-Z",
+        "shortcut": "{"
+      },
+      {
+        "action": "main_view_translate_pZ",
+        "name": "+Z",
+        "shortcut": "}"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_window": {
+    "menus": [
+      {
+        "id": "main_maestro",
+        "name": "&Maestro"
+      },
+      {
+        "id": "main_file",
+        "name": "&File"
+      },
+      {
+        "id": "main_edit",
+        "name": "&Edit"
+      },
+      {
+        "id": "main_select",
+        "name": "&Select"
+      },
+      {
+        "id": "main_workspace",
+        "name": "&Workspace"
+      },
+      {
+        "id": "main_scriptsx",
+        "name": "&Scripts"
+      },
+      {
+        "id": "main_view",
+        "name": "&View"
+      },
+      {
+        "id": "main_windows",
+        "name": "Wind&ow"
+      },
+      {
+        "id": "main_help",
+        "name": "&Help"
+      }
+    ],
+    "type": "menubar"
+  },
+  "main_windows": {
+    "items": [
+      {
+        "action": "project_showtable",
+        "name": "Project &Table...",
+        "shortcut": "Ctrl+T"
+      },
+      {
+        "action": "2D_viewer",
+        "name": "&2D Viewer..."
+      },
+      {
+        "action": "project_summary",
+        "name": "Project &History..."
+      },
+      {
+        "action": "jobs_monitor",
+        "name": "&Job Monitor..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_clipping_planes",
+        "name": "Clipping &Planes"
+      },
+      {
+        "action": "main_ligand_overlay",
+        "name": "2D Overlay"
+      },
+      {
+        "action": "main_command_input",
+        "name": "C&ommand Input Area",
+        "shortcut": "Ctrl+Shift+I"
+      },
+      {
+        "action": "main_entry_list",
+        "name": "&Workspace Navigator",
+        "shortcut": "Ctrl+E"
+      },
+      {
+        "action": "single_entry_feedback",
+        "name": "Workspace Properties"
+      },
+      {
+        "action": "main_sequence_viewer",
+        "name": "Sequence &Viewer"
+      },
+      {
+        "action": "main_status_bar",
+        "name": "Status &Bar"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "command_script_editor",
+        "name": "Command Script &Editor...",
+        "shortcut": "Ctrl+D"
+      },
+      {
+        "action": "python_shell",
+        "name": "Python &Shell..."
+      },
+      {
+        "action": "ipython_terminal.panel",
+        "name": "Python &Shell...",
+        "pyfunc": "ipython_terminal.panel"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "window_panels_raise",
+        "name": "&Raise All"
+      },
+      {
+        "action": "window_panels_close",
+        "name": "Close &All"
+      },
+      {
+        "action": "window_panels_cascade",
+        "name": "&Cascade"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "window_save_layout",
+        "name": "&Save Layout"
+      },
+      {
+        "action": "window_restore_layout",
+        "name": "Restore &Layout"
+      },
+      {
+        "name": "separator"
+      }
+    ],
+    "type": "menu"
+  },
+  "main_workspace": {
+    "items": [
+      {
+        "action": "save_image",
+        "name": "&Save Image As..."
+      },
+      {
+        "action": "main_workspace_animate",
+        "name": "Animate"
+      },
+      {
+        "action": "main_workspace_animation_settings",
+        "name": "Animation Settings..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_createentry",
+        "name": "&Create Project Entry...",
+        "shortcut": "Ctrl+Shift+N"
+      },
+      {
+        "action": "pymol",
+        "name": "Send to &PyMOL..."
+      },
+      {
+        "action": "main_workspace_clear",
+        "name": "Clear &Workspace"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "measurementx",
+        "name": "&Measure"
+      },
+      {
+        "id": "main_display_surface",
+        "name": "S&urface"
+      },
+      {
+        "id": "main_display_wsstyle",
+        "name": "P&reset Style"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "main_workspace_font",
+        "name": "&Fonts"
+      },
+      {
+        "action": "add_caption",
+        "name": "&Add Caption..."
+      },
+      {
+        "action": "highlights",
+        "name": "&Highlights..."
+      },
+      {
+        "action": "labelbonds",
+        "name": "&Bond Labels..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "main_display_scenes",
+        "name": "Pr&oject Scenes"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "configure_ws_alias_1",
+        "name": "Configure...",
+        "std_action": "configure_ws"
+      },
+      {
+        "action": "customize_mouse_actions",
+        "name": "Customize Mouse &Actions..."
+      }
+    ],
+    "type": "menu"
+  },
+  "main_workspace_font": {
+    "items": [
+      {
+        "action": "workspacefontsincrease",
+        "name": "&Increase"
+      },
+      {
+        "action": "workspacefontsdecrease",
+        "name": "&Decrease"
+      },
+      {
+        "action": "workspacefontspreferences",
+        "name": "&Preferences..."
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_delete_popup": {
+    "items": [
+      {
+        "action": "delete_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup": {
+    "items": [
+      {
+        "action": "delete_measurement_label"
+      },
+      {
+        "action": "reset_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_angle": {
+    "items": [
+      {
+        "action": "set_angle_measurement"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_angle_full": {
+    "items": [
+      {
+        "action": "move_measures"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "adjust_angle_measurement"
+      },
+      {
+        "action": "set_angle_measurement"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "calculate_measurement_property"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_measurement_label"
+      },
+      {
+        "action": "delete_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_dihedral": {
+    "items": [
+      {
+        "action": "set_dihedral_measurement"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_dihedral_full": {
+    "items": [
+      {
+        "action": "move_measures"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "adjust_dihedral_measurement"
+      },
+      {
+        "action": "set_dihedral_measurement"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "calculate_measurement_property"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_measurement_label"
+      },
+      {
+        "action": "delete_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_distance": {
+    "items": [
+      {
+        "action": "set_distance_measurement"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_distance_full": {
+    "items": [
+      {
+        "action": "move_measures"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "adjust_distance_measurement"
+      },
+      {
+        "action": "set_distance_measurement"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "calculate_measurement_property"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_measurement_label"
+      },
+      {
+        "action": "delete_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_length": {
+    "items": [
+      {
+        "action": "set_length_measurement"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_length_full": {
+    "items": [
+      {
+        "action": "move_measures"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "adjust_length_measurement"
+      },
+      {
+        "action": "set_length_measurement"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "calculate_measurement_property"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_measurement_label"
+      },
+      {
+        "action": "delete_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "measurement_label_popup_ring_angle_full": {
+    "items": [
+      {
+        "action": "move_measures"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "reset_measurement_label"
+      },
+      {
+        "action": "delete_measurement_label"
+      }
+    ],
+    "type": "menu"
+  },
+  "multiple_atoms_popupx": {
+    "items": [
+      {
+        "action": "atom_undisplay"
+      },
+      {
+        "id": "atom_style"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "atom_expand_selectionx"
+      },
+      {
+        "action": "atom_invertselection"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_fitworkspace"
+      },
+      {
+        "action": "atom_clip"
+      },
+      {
+        "action": "atom_center_view"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "popupx_move_atoms"
+      },
+      {
+        "id": "atom_setelementx"
+      },
+      {
+        "id": "additional_edits",
+        "name": "Additional Edits"
+      },
+      {
+        "id": "create_new_entryx"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "builderx_mutate_residue_menu"
+      },
+      {
+        "action": "builderx_find_torsions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_edit_delete_selected_atoms",
+        "name": "Delete Atoms",
+        "shortcut": "Del"
+      }
+    ],
+    "type": "menu"
+  },
+  "multiple_bond_popupx": {
+    "items": [
+      {
+        "action": "bond_measure"
+      },
+      {
+        "action": "increment_bond_order"
+      },
+      {
+        "action": "decrement_bond_order"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "delete_selected_bonds"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "switch_atom_menu"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_font_menu": {
+    "items": [
+      {
+        "action": "prime_font_size_8"
+      },
+      {
+        "action": "prime_font_size_9"
+      },
+      {
+        "action": "prime_font_size_10"
+      },
+      {
+        "action": "prime_font_size_11"
+      },
+      {
+        "action": "prime_font_size_12"
+      },
+      {
+        "action": "prime_font_size_13"
+      },
+      {
+        "action": "prime_font_size_14"
+      },
+      {
+        "action": "prime_font_size_15"
+      },
+      {
+        "action": "prime_font_size_16"
+      },
+      {
+        "action": "prime_font_size_17"
+      },
+      {
+        "action": "prime_font_size_18"
+      },
+      {
+        "action": "prime_font_size_19"
+      },
+      {
+        "action": "prime_font_size_20"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_main": {
+    "menus": [
+      {
+        "id": "prime_main_file",
+        "name": "File"
+      },
+      {
+        "id": "prime_main_edit",
+        "name": "Edit"
+      },
+      {
+        "id": "prime_main_display",
+        "name": "Display"
+      },
+      {
+        "id": "prime_main_step",
+        "name": "Step"
+      }
+    ],
+    "type": "menubar"
+  },
+  "prime_main_display": {
+    "items": [
+      {
+        "id": "prime_scheme_menu",
+        "name": "Color Scheme"
+      },
+      {
+        "id": "prime_font_menu",
+        "name": "Font Size"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_viewstructure"
+      },
+      {
+        "action": "prime_sv_viewssa"
+      },
+      {
+        "action": "prime_sv_view_full_pfam"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_legend"
+      },
+      {
+        "action": "prime_preferences"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_main_edit": {
+    "items": [
+      {
+        "action": "prime_mode_select"
+      },
+      {
+        "action": "prime_mode_crop"
+      },
+      {
+        "action": "prime_mode_edit_ssp"
+      },
+      {
+        "action": "prime_mode_set_template_regions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_mode_slide_freely"
+      },
+      {
+        "action": "prime_mode_slide_block"
+      },
+      {
+        "action": "prime_mode_add_anchors"
+      },
+      {
+        "action": "prime_lock_gaps"
+      },
+      {
+        "action": "prime_unlock_gaps"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_main_file": {
+    "items": [
+      {
+        "action": "prime_new"
+      },
+      {
+        "id": "prime_open_menu",
+        "name": "Open"
+      },
+      {
+        "action": "prime_saveas"
+      },
+      {
+        "action": "prime_rename"
+      },
+      {
+        "action": "prime_delete"
+      },
+      {
+        "action": "prime_export"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_joboptions"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_main_step": {
+    "items": [
+      {
+        "action": "prime_guide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_IS_item"
+      },
+      {
+        "action": "prime_FH_item"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_EA_item"
+      },
+      {
+        "action": "prime_BS_item"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_open_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "prime_scheme_menu": {
+    "items": [
+      {
+        "action": "prime_colornone"
+      },
+      {
+        "action": "prime_colorsequence"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_colorrestype"
+      },
+      {
+        "action": "prime_colorresprop"
+      },
+      {
+        "action": "prime_colorresmatching"
+      },
+      {
+        "action": "prime_colorreshomology"
+      },
+      {
+        "action": "prime_colorsecondary"
+      },
+      {
+        "action": "prime_colortemplateID"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_colorproximity"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_empty_space": {
+    "items": [
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_pfam": {
+    "items": [
+      {
+        "action": "prime_sv_view_full_pfam"
+      },
+      {
+        "action": "prime_sv_hideall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_pred": {
+    "items": [
+      {
+        "action": "prime_viewstructure"
+      },
+      {
+        "action": "prime_sv_viewssa"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_query": {
+    "items": [
+      {
+        "action": "prime_sv_hideall"
+      },
+      {
+        "action": "prime_sv_showall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_query_ssp": {
+    "items": [
+      {
+        "action": "prime_sv_hideall"
+      },
+      {
+        "action": "prime_sv_showall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_runssp"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_ssa": {
+    "items": [
+      {
+        "action": "prime_sv_viewssa"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_ssp": {
+    "items": [
+      {
+        "action": "prime_sv_hideall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_revert"
+      },
+      {
+        "action": "prime_sv_delete"
+      },
+      {
+        "action": "prime_sv_export"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_template": {
+    "items": [
+      {
+        "action": "prime_sv_hideall"
+      },
+      {
+        "action": "prime_sv_showall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_viewstructure"
+      },
+      {
+        "action": "prime_sv_viewssa"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "prime_sv_template_ssp": {
+    "items": [
+      {
+        "action": "prime_sv_hideall"
+      },
+      {
+        "action": "prime_sv_showall"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_saveimage"
+      },
+      {
+        "action": "prime_sv_savefasta"
+      },
+      {
+        "action": "prime_sv_wrap"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_viewstructure"
+      },
+      {
+        "action": "prime_sv_viewssa"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_runssp"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "prime_sv_legend"
+      }
+    ],
+    "type": "menu"
+  },
+  "project_importrecent": {
+    "items": [],
+    "type": "menu"
+  },
+  "project_openrecent": {
+    "items": [],
+    "type": "menu"
+  },
+  "project_table": {
+    "menus": [
+      {
+        "id": "pt_file",
+        "name": "&File"
+      },
+      {
+        "id": "hpt_table",
+        "name": "&Table"
+      },
+      {
+        "id": "hpt_data",
+        "name": "&Data"
+      },
+      {
+        "id": "pt_select",
+        "name": "&Select"
+      },
+      {
+        "id": "pt_window",
+        "name": "&Window"
+      },
+      {
+        "id": "pt_eplayer",
+        "name": "e&Player"
+      }
+    ],
+    "type": "menubar"
+  },
+  "projtable_copy_entryprop": {
+    "items": [
+      {
+        "action": "projtable_copy_allprop"
+      },
+      {
+        "action": "projtable_copy_shownprop"
+      }
+    ],
+    "type": "menu"
+  },
+  "projtable_eplayer_loop": {
+    "items": [
+      {
+        "action": "projtable_eplayer_loop_none",
+        "name": "&None"
+      },
+      {
+        "action": "projtable_eplayer_loop_singledirection",
+        "name": "&Single Direction"
+      },
+      {
+        "action": "projtable_eplayer_loop_oscillate",
+        "name": "&Oscillate"
+      }
+    ],
+    "type": "menu"
+  },
+  "projtable_select_filter": {
+    "items": [
+      {
+        "action": "projtable_select_filter_none_defined",
+        "name": "(none defined)"
+      },
+      {
+        "action": "projtable_select_filter_filter1",
+        "name": "Filter&1"
+      },
+      {
+        "action": "projtable_select_filter_filter2",
+        "name": "Filter&2"
+      },
+      {
+        "action": "projtable_select_filter_filter3",
+        "name": "Filter&3"
+      },
+      {
+        "action": "projtable_select_filter_filter4",
+        "name": "Filter&4"
+      },
+      {
+        "action": "projtable_select_filter_filter5",
+        "name": "Filter&5"
+      },
+      {
+        "action": "projtable_select_filter_filter6",
+        "name": "Filter&6"
+      },
+      {
+        "action": "projtable_select_filter_filter7",
+        "name": "Filter&7"
+      },
+      {
+        "action": "projtable_select_filter_filter8",
+        "name": "Filter&8"
+      },
+      {
+        "action": "projtable_select_filter_filter9",
+        "name": "Filter&9"
+      },
+      {
+        "action": "projtable_select_filter_filter10",
+        "name": "Filter&10"
+      },
+      {
+        "action": "projtable_select_filter_more",
+        "name": "&View All..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_select_filter_edit",
+        "name": "&Manage Filters..."
+      }
+    ],
+    "type": "menu"
+  },
+  "proptree_filter_menu": {
+    "items": [
+      {
+        "action": "proptree_return_to_previous_state",
+        "name": "Return to Previous State"
+      },
+      {
+        "action": "proptree_hide_all_properties",
+        "name": "Hide All"
+      },
+      {
+        "action": "proptree_hide_empty_properties",
+        "name": "Hide Empty"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "proptree_maestro_defaults",
+        "name": "Maestro Defaults"
+      },
+      {
+        "action": "proptree_property_selectedentries",
+        "name": "All Properties in Selected Entries"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "proptree_property_custom_families",
+        "name": "Manage Custom Families..."
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_cell_context_menu": {
+    "items": [
+      {
+        "action": "projtable_include_only_entries"
+      },
+      {
+        "action": "projtable_include_entries",
+        "name": "&Include",
+        "shortcut": "Ctrl+Shift+N"
+      },
+      {
+        "action": "projtable_exclude_entries",
+        "name": "&Exclude"
+      },
+      {
+        "action": "projtable_fix_entries"
+      },
+      {
+        "action": "projtable_unfix_entries"
+      },
+      {
+        "action": "projtable_lock_entries"
+      },
+      {
+        "action": "projtable_unlock_entries"
+      },
+      {
+        "id": "pt_stars",
+        "name": "Stars"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_delete_entries",
+        "name": "&Delete",
+        "shortcut": "Del"
+      },
+      {
+        "action": "projtable_merge_entries",
+        "name": "&Merge"
+      },
+      {
+        "id": "pt_duplicate",
+        "name": "Duplicate"
+      },
+      {
+        "id": "pt_split",
+        "name": "Split"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "projtable_copy_entryprop",
+        "name": "Copy Properties"
+      },
+      {
+        "action": "projtable_paste_entryprop"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_move_to_row",
+        "name": "Mo&ve to Row..."
+      },
+      {
+        "id": "pt_entry_groups",
+        "name": "Group"
+      },
+      {
+        "action": "project_entry_color_rows_alias_1",
+        "std_action": "project_entry_color_rows"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "pt_export",
+        "name": "Export"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_collapse": {
+    "items": [
+      {
+        "action": "projtable_collapse_selected",
+        "name": "&Selected"
+      },
+      {
+        "action": "projtable_collapse_unselected",
+        "name": "&Unselected"
+      },
+      {
+        "action": "projtable_collapse_all",
+        "name": "&All"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_column_align_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "pt_column_color_by_property": {
+    "items": [
+      {
+        "action": "pt_column_show_colors"
+      },
+      {
+        "action": "pt_column_edit_settings"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_column_entry_feedback": {
+    "items": [
+      {
+        "action": "pt_entry_feedback_add"
+      },
+      {
+        "action": "pt_entry_feedback_replace"
+      },
+      {
+        "action": "pt_entry_feedback_remove"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_column_reformat_string": {
+    "items": [
+      {
+        "action": "pt_column_lower_case"
+      },
+      {
+        "action": "pt_column_upper_case"
+      },
+      {
+        "action": "pt_column_title_case"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_columns": {
+    "items": [
+      {
+        "action": "pt_reorder_properties",
+        "name": "Reorder..."
+      },
+      {
+        "action": "pt_column_rename",
+        "name": "Edit Name/Type..."
+      },
+      {
+        "action": "pt_property_decimalplaces",
+        "name": "Decimal &Places..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_columns_fit_header",
+        "name": "Fit to &Header"
+      },
+      {
+        "action": "pt_columns_fit_data",
+        "name": "Fit to &Data"
+      },
+      {
+        "action": "pt_columns_fit_header_data",
+        "name": "&Fit to Header + Data"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_duplicate": {
+    "items": [
+      {
+        "action": "projtable_duplicateinplace",
+        "name": "In &Place",
+        "shortcut": "Ctrl+D"
+      },
+      {
+        "action": "projtable_duplicatenewgroup",
+        "name": "Into &New Group..."
+      },
+      {
+        "action": "projtable_duplicateexistinggroup",
+        "name": "Into &Existing Group..."
+      },
+      {
+        "action": "projtable_duplicateungrouped",
+        "name": "As &Ungrouped Entries"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_entry_duplicate_copy_properties",
+        "name": "&Copy Properties"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_entry_groups": {
+    "items": [
+      {
+        "action": "projtable_create_group",
+        "name": "&New..."
+      },
+      {
+        "action": "projtable_move_group",
+        "name": "&Move to..."
+      },
+      {
+        "action": "projtable_groupby_eprop",
+        "name": "By &Entry Property..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_ungroup",
+        "name": "&Ungroup"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_entry_moveto": {
+    "items": [
+      {
+        "action": "projtable_moveto_existing_group",
+        "name": "Existing &Group..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_moveto_top_of_table",
+        "name": "&Top of Table"
+      },
+      {
+        "action": "projtable_moveto_end_of_table",
+        "name": "&End of Table"
+      },
+      {
+        "action": "projtable_moveto_top_of_parent_group",
+        "name": "Top of &Parent Group"
+      },
+      {
+        "action": "projtable_moveto_end_of_parent_group",
+        "name": "En&d of Parent Group"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_other_row",
+        "name": "&Other Row..."
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_eplayer": {
+    "items": [
+      {
+        "action": "projtable_eplayer_gotostart",
+        "name": "Go to &Start"
+      },
+      {
+        "action": "projtable_eplayer_next",
+        "name": "&Next"
+      },
+      {
+        "action": "projtable_eplayer_prev",
+        "name": "&Previous"
+      },
+      {
+        "action": "projtable_eplayer_gotoend",
+        "name": "Go to &End"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_eplayer_nextgroup",
+        "name": "Next &Group"
+      },
+      {
+        "action": "projtable_eplayer_prevgroup",
+        "name": "Pre&vious Group"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_eplayer_playforward",
+        "name": "Play &Forward"
+      },
+      {
+        "action": "projtable_eplayer_playbackward",
+        "name": "Play &Backward"
+      },
+      {
+        "id": "projtable_eplayer_loop",
+        "name": "&Loop"
+      },
+      {
+        "action": "projtable_eplayer_options",
+        "name": "&Options..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_record_movie",
+        "name": "Record &Movie..."
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_expand": {
+    "items": [
+      {
+        "action": "projtable_expand_to_selected_entries",
+        "name": "To Selected &Entries"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_expand_selected",
+        "name": "&Selected"
+      },
+      {
+        "action": "projtable_expand_unselected",
+        "name": "&Unselected"
+      },
+      {
+        "action": "projtable_expand_all",
+        "name": "&All"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_export": {
+    "items": [
+      {
+        "action": "pt_export_structures",
+        "name": "&Structures..."
+      },
+      {
+        "action": "pt_export_spreadsheet",
+        "name": "S&preadsheet..."
+      },
+      {
+        "action": "pt_export_to_canvas",
+        "name": "To C&anvas..."
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_file": {
+    "items": [
+      {
+        "action": "project_new",
+        "name": "&New Project...",
+        "shortcut": "Ctrl+N"
+      },
+      {
+        "action": "project_open",
+        "name": "&Open Project...",
+        "shortcut": "Ctrl+O"
+      },
+      {
+        "id": "project_openrecent",
+        "name": "Open Recent Project"
+      },
+      {
+        "action": "project_saveas",
+        "name": "&Save Project As...",
+        "shortcut": "Ctrl+Shift+S"
+      },
+      {
+        "action": "project_close",
+        "name": "&Close Project",
+        "shortcut": "Ctrl+W"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_importstructures",
+        "name": "&Import Structures...",
+        "shortcut": "Ctrl+I"
+      },
+      {
+        "id": "project_importrecent",
+        "name": "Import Recent Structures"
+      },
+      {
+        "action": "project_importfromproject",
+        "name": "Import from Project..."
+      },
+      {
+        "id": "main_import_from",
+        "name": "Import From"
+      },
+      {
+        "action": "get_pdb",
+        "name": "&Get PDB..."
+      },
+      {
+        "action": "project_merge",
+        "name": "&Merge Project..."
+      },
+      {
+        "action": "main_project_exportstructures",
+        "name": "E&xport Structures..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "change_directory",
+        "name": "Change Working Director&y..."
+      },
+      {
+        "action": "project_saveworkspacechanges",
+        "name": "Save &Workspace Changes"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_backup",
+        "name": "&Back Up Project..."
+      },
+      {
+        "action": "project_restore",
+        "name": "Restore &From Backup..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "project_savestate",
+        "name": "S&ave Checkpoint"
+      },
+      {
+        "action": "project_revertstate",
+        "name": "&Revert to Checkpoint"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "maestro_quit",
+        "name": "&Quit",
+        "shortcut": "Ctrl+Q"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_findtoolbar_mode_menu": {
+    "items": [
+      {
+        "action": "pt_findtoolbar_mode_match_case"
+      },
+      {
+        "action": "pt_findtoolbar_mode_match_word"
+      },
+      {
+        "action": "pt_findtoolbar_mode_search_group"
+      },
+      {
+        "action": "pt_findtoolbar_mode_search_row"
+      },
+      {
+        "action": "pt_findtoolbar_mode_selected_properties"
+      },
+      {
+        "action": "pt_findtoolbar_mode_select_entries"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_findtoolbar_popupmenu": {
+    "items": [
+      {
+        "action": "pt_findtoolbar_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_findtoolbar_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_hypothesis_colorby": {
+    "items": [
+      {
+        "action": "pt_hyp_color_type"
+      },
+      {
+        "action": "pt_hyp_color_entry"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_hypothesis_context_menu": {
+    "items": [
+      {
+        "id": "pt_hypothesis_display",
+        "name": "&Display"
+      },
+      {
+        "id": "pt_hypothesis_colorby",
+        "name": "&Color By"
+      },
+      {
+        "id": "pt_hypothesis_view",
+        "name": "&View"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_hypothesis_align"
+      },
+      {
+        "action": "pt_hypothesis_export"
+      },
+      {
+        "action": "pt_hypothesis_find"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_hypothesis_display": {
+    "items": [
+      {
+        "action": "pt_display_hypothesis_only"
+      },
+      {
+        "action": "pt_display_atoms_only"
+      },
+      {
+        "action": "pt_display_hypothesisandatoms"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_hypothesis_view": {
+    "items": [
+      {
+        "action": "pt_hyp_view_excluded_volume"
+      },
+      {
+        "action": "pt_hyp_view_measurements"
+      },
+      {
+        "action": "pt_hyp_view_tolerances"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_import": {
+    "items": [
+      {
+        "action": "pt_import_spreadsheet",
+        "name": "S&preadsheet..."
+      },
+      {
+        "action": "pt_import_vibrational_data",
+        "name": "&Vibrational Data..."
+      },
+      {
+        "action": "pt_import_surfaces",
+        "name": "Su&rface..."
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_property_hideonlyfamily": {
+    "items": [
+      {
+        "action": "pt_property_hideonly_family_maestro",
+        "name": "Maestro"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_property_show": {
+    "items": [
+      {
+        "action": "pt_property_showall",
+        "name": "&All"
+      },
+      {
+        "action": "pt_property_hideall",
+        "name": "&None"
+      },
+      {
+        "action": "pt_property_primaryonly",
+        "name": "&Primary Only"
+      },
+      {
+        "action": "pt_property_selectedentries",
+        "name": "Fo&r Selected Entries"
+      },
+      {
+        "action": "pt_property_select",
+        "name": "&Select..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_show_2d_images",
+        "name": "Show &2D Structure"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_property_showonlyfamily": {
+    "items": [
+      {
+        "action": "pt_property_showonly_family_maestro",
+        "name": "Maestro"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_select": {
+    "items": [
+      {
+        "action": "projtable_select_all",
+        "name": "&All",
+        "shortcut": "Ctrl+A"
+      },
+      {
+        "action": "projtable_select_none",
+        "name": "&None",
+        "shortcut": "Ctrl+U"
+      },
+      {
+        "action": "projtable_select_firstlevel_of_entries",
+        "name": "First &Level of Entries"
+      },
+      {
+        "action": "projtable_select_firstentry_per_title",
+        "name": "First &Entry per Title"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_select_by_property_values",
+        "name": "By &Property Values..."
+      },
+      {
+        "id": "projtable_select_filter",
+        "name": "With &Filter"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_select_smarts",
+        "name": "By &SMARTS..."
+      },
+      {
+        "action": "projtable_select_fromgroups",
+        "name": "From &Groups..."
+      },
+      {
+        "action": "projtable_select_random",
+        "name": "&Random..."
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_select_invert",
+        "name": "&Invert All"
+      },
+      {
+        "action": "hpt_select_invert_groups",
+        "name": "Invert &Within Groups"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_show": {
+    "items": [
+      {
+        "action": "pt_property_showall",
+        "name": "&All"
+      },
+      {
+        "action": "pt_property_hideall",
+        "name": "&None"
+      },
+      {
+        "action": "pt_property_primaryonly",
+        "name": "&Primary Only"
+      },
+      {
+        "action": "pt_property_selectedentries",
+        "name": "Fo&r Selected Entries"
+      },
+      {
+        "action": "pt_property_select",
+        "name": "&Select..."
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_split": {
+    "items": [
+      {
+        "action": "pt_entry_split_molecule",
+        "name": "By &Molecule"
+      },
+      {
+        "action": "pt_entry_split_chain",
+        "name": "By &Chain"
+      },
+      {
+        "action": "pt_entry_split_ligand",
+        "name": "Into &Ligands, Water, Other"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_entry_split_copy_properties",
+        "name": "Copy &Properties"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_stars": {
+    "items": [
+      {
+        "action": "projtable_stars_none",
+        "name": "&None",
+        "shortcut": "0"
+      },
+      {
+        "action": "projtable_stars_1",
+        "name": "&1 (*)",
+        "shortcut": "1"
+      },
+      {
+        "action": "projtable_stars_2",
+        "name": "&2 (**)",
+        "shortcut": "2"
+      },
+      {
+        "action": "projtable_stars_3",
+        "name": "&3 (***)",
+        "shortcut": "3"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "star_target_entry",
+        "name": "Star Included Entries",
+        "shortcut": "*"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_surface_context_menu": {
+    "items": [
+      {
+        "action": "pt_surface_hideall"
+      },
+      {
+        "id": "pt_surface_display",
+        "name": "Display"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_surface_display": {
+    "items": [
+      {
+        "action": "pt_display_surfaceonly"
+      },
+      {
+        "action": "pt_display_structureonly"
+      },
+      {
+        "action": "pt_display_surfaceandstructure"
+      }
+    ],
+    "type": "menu"
+  },
+  "pt_window": {
+    "items": [
+      {
+        "action": "projtable_property_tree",
+        "name": "Property &Tree"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_eplayer_toolbar",
+        "name": "e&Player Toolbar"
+      },
+      {
+        "action": "projtable_find_replace_toolbar",
+        "name": "Find + &Replace Toolbar",
+        "shortcut": "Ctrl+F"
+      },
+      {
+        "action": "projtable_project_toolbar",
+        "name": "Pro&ject Toolbar"
+      },
+      {
+        "action": "projtable_property_toolbar",
+        "name": "Propert&y Toolbar"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "pt_plot",
+        "name": "&Manage Scatterplots..."
+      },
+      {
+        "action": "projtable_2D_viewer",
+        "name": "Open 2D &Viewer...",
+        "pyfunc": "two_d_viewer_gui.panel"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "projtable_customize_menus",
+        "name": "C&ustomize Menus..."
+      },
+      {
+        "action": "projtable_view_preferences",
+        "name": "&View Preferences..."
+      },
+      {
+        "name": "separator"
+      }
+    ],
+    "type": "menu"
+  },
+  "selectx_atom_menu": {
+    "items": [
+      {
+        "action": "selectx_atom_atoms"
+      },
+      {
+        "action": "selectx_atom_residues"
+      },
+      {
+        "action": "selectx_atom_chains"
+      },
+      {
+        "action": "selectx_atom_molecules"
+      },
+      {
+        "action": "selectx_atom_entries"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "selectx_atom_ssa"
+      }
+    ],
+    "type": "menu"
+  },
+  "selectx_expand_matching_menu": {
+    "items": [],
+    "type": "menu"
+  },
+  "selectx_expand_menu": {
+    "items": [
+      {
+        "action": "selectx_expand_3A"
+      },
+      {
+        "action": "selectx_expand_4A"
+      },
+      {
+        "action": "selectx_expand_5A"
+      },
+      {
+        "action": "selectx_expand_6A"
+      },
+      {
+        "action": "selectx_expand_custom_radius"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "selectx_expand_unselect"
+      },
+      {
+        "action": "selectx_expand_fullres"
+      },
+      {
+        "name": "separator"
+      }
+    ],
+    "type": "menu"
+  },
+  "selectx_toolbox_color_set_menu": {
+    "items": [
+      {
+        "action": "selectx_toolbox_color_black"
+      },
+      {
+        "action": "selectx_toolbox_color_gray"
+      },
+      {
+        "action": "selectx_toolbox_color_dark_blue"
+      },
+      {
+        "action": "selectx_toolbox_color_blue"
+      },
+      {
+        "action": "selectx_toolbox_color_light_blue"
+      },
+      {
+        "action": "selectx_toolbox_color_aquamarine"
+      },
+      {
+        "action": "selectx_toolbox_color_turquoise"
+      },
+      {
+        "action": "selectx_toolbox_color_spring_green"
+      },
+      {
+        "action": "selectx_toolbox_color_dark_green"
+      },
+      {
+        "action": "selectx_toolbox_color_green"
+      },
+      {
+        "action": "selectx_toolbox_color_lime_green"
+      },
+      {
+        "action": "selectx_toolbox_color_yellow_green"
+      },
+      {
+        "action": "selectx_toolbox_color_yellow"
+      },
+      {
+        "action": "selectx_toolbox_color_orange"
+      },
+      {
+        "action": "selectx_toolbox_color_maroon"
+      },
+      {
+        "action": "selectx_toolbox_color_red"
+      },
+      {
+        "action": "selectx_toolbox_color_pink"
+      },
+      {
+        "action": "selectx_toolbox_color_plum"
+      },
+      {
+        "action": "selectx_toolbox_color_purple"
+      },
+      {
+        "action": "selectx_toolbox_color_blue_purple"
+      },
+      {
+        "action": "selectx_toolbox_color_white"
+      }
+    ],
+    "type": "menu"
+  },
+  "selectx_toolbox_label_composition_menu": {
+    "items": [
+      {
+        "action": "selectx_toolbox_label_current_composition"
+      },
+      {
+        "action": "selectx_toolbox_label_atom_name"
+      },
+      {
+        "action": "selectx_toolbox_label_atom_number"
+      },
+      {
+        "action": "selectx_toolbox_label_atom_type"
+      },
+      {
+        "action": "selectx_toolbox_label_chirality"
+      },
+      {
+        "action": "selectx_toolbox_label_element"
+      },
+      {
+        "action": "selectx_toolbox_label_formal_charge"
+      },
+      {
+        "action": "selectx_toolbox_label_molecule_number"
+      },
+      {
+        "action": "selectx_toolbox_label_occupancy"
+      },
+      {
+        "action": "selectx_toolbox_label_partial_charge"
+      },
+      {
+        "action": "selectx_toolbox_label_pdb_atom_name"
+      },
+      {
+        "action": "selectx_toolbox_label_pdb_b_factor"
+      },
+      {
+        "action": "selectx_toolbox_label_residue_information"
+      },
+      {
+        "action": "selectx_toolbox_label_title"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "selectx_toolbox_label_composition"
+      }
+    ],
+    "type": "menu"
+  },
+  "selectx_toolbox_ribbon_color_menu": {
+    "items": [
+      {
+        "action": "selectx_toolbox_ribbon_color_secondary_structure"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_chain_name"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_ca_atom_color"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_residue_charge"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_residue_property"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_residue_type"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_residue_position"
+      },
+      {
+        "action": "selectx_toolbox_ribbon_color_entry"
+      },
+      {
+        "id": "selectx_toolbox_ribbon_color_constant_color",
+        "name": "Constant Color"
+      }
+    ],
+    "type": "menu"
+  },
+  "single_atom_popupx": {
+    "items": [
+      {
+        "action": "atom_center_view",
+        "name": "Center View on Selection"
+      },
+      {
+        "action": "atom_center_cell",
+        "name": "Center Cell on Atom"
+      },
+      {
+        "id": "atom_setelementx"
+      },
+      {
+        "id": "builderx_mutate_residue_menu"
+      },
+      {
+        "action": "builderx_find_torsions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "popupx_move_atoms"
+      },
+      {
+        "id": "additional_edits",
+        "name": "Additional Edits"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_undisplay"
+      },
+      {
+        "id": "atom_style"
+      },
+      {
+        "id": "atom_expand_selectionx"
+      },
+      {
+        "action": "atom_invertselection"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_delete"
+      },
+      {
+        "action": "add_recent_fragment"
+      }
+    ],
+    "type": "menu"
+  },
+  "single_bond_popupx": {
+    "items": [
+      {
+        "action": "bond_rotate_dihedral"
+      },
+      {
+        "action": "bond_measure"
+      },
+      {
+        "action": "bond_adjust_length",
+        "name": "Adjust Length"
+      },
+      {
+        "action": "bond_set_length"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "increment_bond_order",
+        "name": "Increase Bond Order"
+      },
+      {
+        "action": "decrement_bond_order"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "delete_selected_bonds"
+      },
+      {
+        "action": "add_recent_fragment"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_center_view"
+      },
+      {
+        "action": "switch_atom_menu"
+      }
+    ],
+    "type": "menu"
+  },
+  "statusbar_popupmenu": {
+    "items": [
+      {
+        "action": "statusbar_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "statusbar_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "surface_popupX": {
+    "items": [
+      {
+        "action": "surfmngr_display_options",
+        "name": "Display Options..."
+      },
+      {
+        "action": "surfmngr_hide",
+        "name": "Hide"
+      },
+      {
+        "action": "surfmngr_delete",
+        "name": "Delete"
+      },
+      {
+        "action": "surfmngr_split",
+        "name": "Split"
+      },
+      {
+        "action": "surfmngr_keepcentered",
+        "name": "Keep Centered"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "surfmngr_manage",
+        "name": "Manage Surfaces..."
+      }
+    ],
+    "type": "menu"
+  },
+  "surfmngr_color_by_prop": {
+    "items": [
+      {
+        "action": "surfmngr_color_by_esp"
+      },
+      {
+        "action": "surfmngr_color_by_partial_charge"
+      },
+      {
+        "action": "surfmngr_color_by_atom_type"
+      },
+      {
+        "action": "surfmngr_color_by_chain_name"
+      },
+      {
+        "action": "surfmngr_color_by_element"
+      },
+      {
+        "action": "surfmngr_color_by_molecule_num"
+      },
+      {
+        "action": "surfmngr_color_by_molecule_num_carbons"
+      },
+      {
+        "action": "surfmngr_color_by_residue_charge"
+      },
+      {
+        "action": "surfmngr_color_by_residue_prop"
+      },
+      {
+        "action": "surfmngr_color_by_residue_position"
+      },
+      {
+        "action": "surfmngr_color_by_residue_type"
+      },
+      {
+        "action": "surfmngr_color_by_entry"
+      },
+      {
+        "action": "surfmngr_color_by_atom_color"
+      }
+    ],
+    "type": "menu"
+  },
+  "surfmngr_const_color": {
+    "items": [
+      {
+        "action": "surfmngr_const_color_black"
+      },
+      {
+        "action": "surfmngr_const_color_gray"
+      },
+      {
+        "action": "surfmngr_const_color_darkblue"
+      },
+      {
+        "action": "surfmngr_const_color_blue"
+      },
+      {
+        "action": "surfmngr_const_color_lightblue"
+      },
+      {
+        "action": "surfmngr_const_color_aquamarine"
+      },
+      {
+        "action": "surfmngr_const_color_turquoise"
+      },
+      {
+        "action": "surfmngr_const_color_springgreen"
+      },
+      {
+        "action": "surfmngr_const_color_darkgreen"
+      },
+      {
+        "action": "surfmngr_const_color_green"
+      },
+      {
+        "action": "surfmngr_const_color_limegreen"
+      },
+      {
+        "action": "surfmngr_const_color_yellowgreen"
+      },
+      {
+        "action": "surfmngr_const_color_yellow"
+      },
+      {
+        "action": "surfmngr_const_color_orange"
+      },
+      {
+        "action": "surfmngr_const_color_maroon"
+      },
+      {
+        "action": "surfmngr_const_color_red"
+      },
+      {
+        "action": "surfmngr_const_color_pink"
+      },
+      {
+        "action": "surfmngr_const_color_plum"
+      },
+      {
+        "action": "surfmngr_const_color_magenta"
+      },
+      {
+        "action": "surfmngr_const_color_blueviolet"
+      },
+      {
+        "action": "surfmngr_const_color_white"
+      }
+    ],
+    "type": "menu"
+  },
+  "surfmngr_negative_color": {
+    "items": [
+      {
+        "action": "surfmngr_negative_color_black"
+      },
+      {
+        "action": "surfmngr_negative_color_gray"
+      },
+      {
+        "action": "surfmngr_negative_color_darkblue"
+      },
+      {
+        "action": "surfmngr_negative_color_blue"
+      },
+      {
+        "action": "surfmngr_negative_color_lightblue"
+      },
+      {
+        "action": "surfmngr_negative_color_aquamarine"
+      },
+      {
+        "action": "surfmngr_negative_color_turquoise"
+      },
+      {
+        "action": "surfmngr_negative_color_springgreen"
+      },
+      {
+        "action": "surfmngr_negative_color_darkgreen"
+      },
+      {
+        "action": "surfmngr_negative_color_green"
+      },
+      {
+        "action": "surfmngr_negative_color_limegreen"
+      },
+      {
+        "action": "surfmngr_negative_color_yellowgreen"
+      },
+      {
+        "action": "surfmngr_negative_color_yellow"
+      },
+      {
+        "action": "surfmngr_negative_color_orange"
+      },
+      {
+        "action": "surfmngr_negative_color_maroon"
+      },
+      {
+        "action": "surfmngr_negative_color_red"
+      },
+      {
+        "action": "surfmngr_negative_color_pink"
+      },
+      {
+        "action": "surfmngr_negative_color_plum"
+      },
+      {
+        "action": "surfmngr_negative_color_magenta"
+      },
+      {
+        "action": "surfmngr_negative_color_blueviolet"
+      },
+      {
+        "action": "surfmngr_negative_color_white"
+      }
+    ],
+    "type": "menu"
+  },
+  "surfmngr_popupmenu": {
+    "items": [
+      {
+        "id": "surfmngr_const_color",
+        "name": "Constant color"
+      },
+      {
+        "id": "surfmngr_negative_color",
+        "name": "Negative color"
+      },
+      {
+        "id": "surfmngr_color_by_prop",
+        "name": "Color by property"
+      },
+      {
+        "id": "surfmngr_style",
+        "name": "Style"
+      },
+      {
+        "id": "surfmngr_transparency",
+        "name": "Transparency"
+      }
+    ],
+    "type": "menu"
+  },
+  "surfmngr_style": {
+    "items": [
+      {
+        "action": "surfmngr_style_solid"
+      },
+      {
+        "action": "surfmngr_style_mesh"
+      },
+      {
+        "action": "surfmngr_style_dot"
+      }
+    ],
+    "type": "menu"
+  },
+  "surfmngr_transparency": {
+    "items": [
+      {
+        "action": "surfmngr_transparency_0"
+      },
+      {
+        "action": "surfmngr_transparency_25"
+      },
+      {
+        "action": "surfmngr_transparency_50"
+      },
+      {
+        "action": "surfmngr_transparency_75"
+      },
+      {
+        "action": "surfmngr_transparency_100"
+      }
+    ],
+    "type": "menu"
+  },
+  "sv_color_scheme_menu": {
+    "items": [
+      {
+        "action": "sv_none"
+      },
+      {
+        "action": "sv_chain"
+      },
+      {
+        "action": "sv_alphacarbon"
+      },
+      {
+        "action": "sv_rescharge"
+      },
+      {
+        "action": "sv_respos"
+      },
+      {
+        "action": "sv_restype"
+      },
+      {
+        "action": "sv_resprop"
+      },
+      {
+        "action": "sv_secondary"
+      },
+      {
+        "action": "sv_templateID"
+      },
+      {
+        "action": "sv_chainbreaks"
+      }
+    ],
+    "type": "menu"
+  },
+  "sv_font_size_menu": {
+    "items": [
+      {
+        "action": "sv_font_size_8"
+      },
+      {
+        "action": "sv_font_size_9"
+      },
+      {
+        "action": "sv_font_size_10"
+      },
+      {
+        "action": "sv_font_size_11"
+      },
+      {
+        "action": "sv_font_size_12"
+      },
+      {
+        "action": "sv_font_size_13"
+      },
+      {
+        "action": "sv_font_size_14"
+      },
+      {
+        "action": "sv_font_size_15"
+      },
+      {
+        "action": "sv_font_size_16"
+      },
+      {
+        "action": "sv_font_size_17"
+      },
+      {
+        "action": "sv_font_size_18"
+      },
+      {
+        "action": "sv_font_size_19"
+      },
+      {
+        "action": "sv_font_size_20"
+      }
+    ],
+    "type": "menu"
+  },
+  "three_atoms_popupx": {
+    "items": [
+      {
+        "action": "atom_measure_angle"
+      },
+      {
+        "action": "atom_adjust_angle"
+      },
+      {
+        "action": "atom_set_angle"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_undisplay"
+      },
+      {
+        "id": "atom_style"
+      },
+      {
+        "id": "atom_expand_selectionx"
+      },
+      {
+        "action": "atom_invertselection"
+      },
+      {
+        "id": "focus_view",
+        "name": "Focus View"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "popupx_move_atoms"
+      },
+      {
+        "id": "atom_setelementx"
+      },
+      {
+        "id": "additional_edits",
+        "name": "Additional Edits"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "builderx_mutate_residue_menu"
+      },
+      {
+        "action": "builderx_find_torsions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_edit_delete_selected_atoms",
+        "name": "Delete Atoms",
+        "shortcut": "Del"
+      }
+    ],
+    "type": "menu"
+  },
+  "toolbar_primex_decrease_extent_menu": {
+    "items": [
+      {
+        "action": "toolbar_primex_decrease_extent_05A"
+      },
+      {
+        "action": "toolbar_primex_decrease_extent_1A"
+      },
+      {
+        "action": "toolbar_primex_decrease_extent_2A"
+      },
+      {
+        "action": "toolbar_primex_decrease_extent_4A"
+      },
+      {
+        "action": "toolbar_primex_decrease_extent_8A"
+      },
+      {
+        "action": "toolbar_primex_decrease_extent_16A"
+      }
+    ],
+    "type": "menu"
+  },
+  "toolbar_primex_increase_extent_menu": {
+    "items": [
+      {
+        "action": "toolbar_primex_increase_extent_05A"
+      },
+      {
+        "action": "toolbar_primex_increase_extent_1A"
+      },
+      {
+        "action": "toolbar_primex_increase_extent_2A"
+      },
+      {
+        "action": "toolbar_primex_increase_extent_4A"
+      },
+      {
+        "action": "toolbar_primex_increase_extent_8A"
+      },
+      {
+        "action": "toolbar_primex_increase_extent_16A"
+      }
+    ],
+    "type": "menu"
+  },
+  "toolbar_primex_surface_table_menu": {
+    "items": [
+      {
+        "action": "toolbar_primex_surface_table__0"
+      },
+      {
+        "action": "toolbar_primex_surface_table__1"
+      },
+      {
+        "action": "toolbar_primex_surface_table__2"
+      },
+      {
+        "action": "toolbar_primex_surface_table__3"
+      },
+      {
+        "action": "toolbar_primex_surface_table__4"
+      },
+      {
+        "action": "toolbar_primex_surface_table__5"
+      },
+      {
+        "action": "toolbar_primex_surface_table__6"
+      },
+      {
+        "action": "toolbar_primex_surface_table__7"
+      },
+      {
+        "action": "toolbar_primex_surface_table__8"
+      },
+      {
+        "action": "toolbar_primex_surface_table__9"
+      },
+      {
+        "action": "toolbar_primex_surface_table__10"
+      },
+      {
+        "action": "toolbar_primex_surface_table__11"
+      },
+      {
+        "action": "toolbar_primex_surface_table__12"
+      },
+      {
+        "action": "toolbar_primex_surface_table__13"
+      },
+      {
+        "action": "toolbar_primex_surface_table__14"
+      },
+      {
+        "action": "toolbar_primex_surface_table__15"
+      },
+      {
+        "action": "toolbar_primex_surface_table__16"
+      },
+      {
+        "action": "toolbar_primex_surface_table__17"
+      },
+      {
+        "action": "toolbar_primex_surface_table__18"
+      },
+      {
+        "action": "toolbar_primex_surface_table__19"
+      }
+    ],
+    "type": "menu"
+  },
+  "tools_minimize": {
+    "items": [
+      {
+        "action": "main_tools_minimize_select",
+        "name": "Selected Atoms",
+        "shortcut": "Ctrl+M"
+      },
+      {
+        "action": "main_tools_minimize_all",
+        "name": "All Atoms"
+      },
+      {
+        "action": "main_tools_minimize_ligand",
+        "name": "Ligand",
+        "shortcut": "Ctrl+Shift+M"
+      },
+      {
+        "action": "main_tools_minimize_binding_sites",
+        "name": "Binding Sites + Ligands",
+        "shortcut": "Ctrl+B"
+      }
+    ],
+    "type": "menu"
+  },
+  "topview_popupmenu": {
+    "items": [
+      {
+        "action": "topview_clip_all"
+      },
+      {
+        "action": "topview_clip_surfaces"
+      },
+      {
+        "action": "topview_clip_selected_surfaces"
+      },
+      {
+        "action": "topview_clip_selected_atoms"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "topview_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "topview_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "two_atoms_popupx": {
+    "items": [
+      {
+        "action": "atom_measure_distance"
+      },
+      {
+        "action": "atom_adjust_distance"
+      },
+      {
+        "action": "atom_set_distance"
+      },
+      {
+        "action": "add_bond"
+      },
+      {
+        "action": "switch_bond_menu"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "atom_undisplay"
+      },
+      {
+        "id": "atom_style"
+      },
+      {
+        "id": "atom_expand_selectionx"
+      },
+      {
+        "id": "focus_view",
+        "name": "Focus View"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "popupx_move_atoms"
+      },
+      {
+        "id": "atom_setelementx"
+      },
+      {
+        "id": "additional_edits",
+        "name": "Additional Edits"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "builderx_mutate_residue_menu"
+      },
+      {
+        "action": "builderx_find_torsions"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "main_edit_delete_selected_atoms",
+        "name": "Delete Atoms",
+        "shortcut": "Del"
+      }
+    ],
+    "type": "menu"
+  },
+  "uitable_popup": {
+    "items": [
+      {
+        "id": "uitable_popup_export",
+        "name": "Export Table Data"
+      }
+    ],
+    "type": "menu"
+  },
+  "uitable_popup_export": {
+    "items": [
+      {
+        "action": "uitable_csvformat"
+      },
+      {
+        "action": "uitable_htmlformat"
+      }
+    ],
+    "type": "menu"
+  },
+  "version": 5.1,
+  "viewplayer_loop_menu": {
+    "items": [
+      {
+        "action": "viewplayer_loop_none"
+      },
+      {
+        "action": "viewplayer_loop_single"
+      },
+      {
+        "action": "viewplayer_loop_oscillate"
+      }
+    ],
+    "type": "menu"
+  },
+  "ws_feedback_popupmenu": {
+    "items": [
+      {
+        "action": "ws_feedback_edit"
+      },
+      {
+        "action": "ws_feedback_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "ws_feedback_help"
+      }
+    ],
+    "type": "menu"
+  },
+  "wssv_name_list_popupmenu": {
+    "items": [
+      {
+        "action": "sv_hide"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "id": "sv_color_scheme_menu",
+        "name": "Color Scheme"
+      },
+      {
+        "id": "sv_font_size_menu",
+        "name": "Font Size"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "sv_view_ssa"
+      },
+      {
+        "action": "sv_show_displayed"
+      },
+      {
+        "action": "sv_align"
+      },
+      {
+        "action": "sv_exclude"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "sv_wrap"
+      },
+      {
+        "action": "sv_legend"
+      },
+      {
+        "action": "sv_save_image"
+      },
+      {
+        "action": "sv_save_fasta"
+      },
+      {
+        "name": "separator"
+      },
+      {
+        "action": "sv_help"
+      }
+    ],
+    "type": "menu"
+  }
+}

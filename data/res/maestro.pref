@@ -1,0 +1,144 @@
+{
+  "version": 1.0,
+
+"maestro_preferences": {
+   "type": "categorynodes",
+   "toplevel_nodes": [
+      { "category": "general", "name": "General"},
+      { "category": "project", "name": "Project"},
+      { "category": "projecttable", "name": "Project Table"},
+      { "category": "workspace", "name": "Workspace"},
+      { "category": "feedback", "name": "Property Display"},
+      { "category": "atomlabels", "name": "Atom/Bond Labels"},
+      { "category": "measurements", "name": "Measurements"},
+      { "category": "nonbondedinteractions", "name": "Nonbonded Interactions"},
+      { "category": "surfaces", "name": "Surfaces"},
+      { "category": "2dstructure", "name": "2D Structure"},
+      { "category": "liganddetection", "name": "Ligand Detection"},
+      { "category": "builder", "name": "Builder"},
+      { "category": "jobs", "name": "Jobs"},
+      { "category": "molrep", "name": "Molecular Representation"},
+      { "category": "shortcuts", "name": "Shortcuts"},
+      { "category": "smarts", "name": "SMARTS Generation"}
+   ]
+},
+
+"general": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "general_history", "name": "History"},
+      {"item": "general_directories", "name": "Directories"},
+      {"item": "general_filesuffix", "name": "File Extensions"},
+      {"item": "general_appearance", "name": "Appearance"},
+      {"item": "general_app_fonts", "name": "Application Fonts"},
+      {"item": "general_dockingpanels", "name": "Panels"},
+      {"item": "general_quit", "name": "Quitting Maestro"}
+   ]
+},
+
+"project": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "project_open_close", "name": "Opening and Closing"},
+      {"item": "project_backup", "name": "Backups"},
+      {"item": "project_entrychanges", "name": "Entry Changes"},
+      {"item": "project_import", "name": "Importing Structures"}
+  ]
+},
+
+"projecttable": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "projecttable_behavior", "name": "Behavior"},
+      {"item": "projecttable_appearance", "name": "Appearance"}
+  ]
+},
+
+"workspace": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "ws_selection", "name": "Selection"},
+      {"item": "ws_animation", "name": "View Animation"},
+      {"item": "ws_translation", "name": "Translation"},
+      {"item": "ws_rotation", "name": "Rotation"},
+      {"item": "ws_trackpad", "name": "Trackpad"},
+      {"item": "ws_transformations", "name": "Transformations"},
+      {"item": "ws_dipole", "name": "Dipole Moment"},
+      {"item": "ws_clipplanes", "name": "Clipping Planes"},
+      {"item": "ws_fonts", "name": "Fonts"},
+      {"item": "ws_fitting", "name": "Fitting"},
+      {"item": "ws_zooming", "name": "Zooming"},
+      {"item": "ws_changes", "name": "Changes"},
+      {"item": "ws_periodicity", "name": "Periodicity"},
+      {"item": "ws_crystalmates", "name": "Crystal Mates"},
+      {"item": "ws_graphics", "name": "Graphics"},
+      {"item": "ws_lighting", "name": "Lighting"},
+      {"item": "ws_materials", "name": "Materials"},
+      {"item": "ws_3D", "name": "3D"},
+      {"item": "ws_effects", "name": "Effects"},
+      {"item": "ws_sequenceviewer", "name": "Sequence Viewer"}
+  ]
+},
+
+"feedback": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "feedback_atom", "name": "Status Bar"},
+      {"item": "feedback_entry", "name": "Workspace"}
+  ]
+},
+
+"surfaces": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "surfaces_creation", "name": "Creation"},
+      {"item": "surfaces_viewing", "name": "Viewing"}
+  ]
+},
+
+"builder": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "builder_behavior", "name": "Behavior"},
+      {"item": "builder_minimization", "name": "Geometry Minimization"}
+  ]
+},
+
+"jobs": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "jobs_starting", "name": "Starting & Running"},
+      {"item": "jobs_incorporation", "name": "Monitoring & Incorporation"},
+      {"item": "jobs_forcefield", "name": "Force Field"}
+  ]
+},
+
+"molrep": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "molrep_atoms_bonds", "name": "Atoms and Bonds"},
+      {"item": "molrep_ribbons", "name": "Ribbons"},
+      {"item": "molrep_color_schemes", "name": "Color Schemes"}
+  ]
+},
+
+"shortcuts": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "shortcuts_menu", "name": "Menu Shortcuts"},
+      {"item": "shortcuts_funckey_macros", "name": "Function Key Macros"},
+      {"item": "shortcuts_cmd_aliases", "name": "Command Aliases"}
+  ]
+},
+
+"nonbondedinteractions": {
+   "type": "itemnodes",
+   "child_nodes": [
+      {"item": "nonbondedinter_hbond_criteria", "name": "H-Bond Criteria"},
+      {"item": "nonbondedinter_pi_contact_criteria", "name":
+	     "Pi-Pi and Contact Criteria"},
+      {"item": "nonbondedinter_display", "name": "Display"}
+  ]
+}
+
+}

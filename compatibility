@@ -1,0 +1,18 @@
+# Product compatibility table
+# maestro 129123
+#
+# Each line of the form '<product> <version>' specifies that this
+# version of maestro is incompatible with versions of <product> 
+# older than <version>.  
+# 
+# All need to be current due to change in maestro file format
+combiglide  28501
+epik        23501
+mmshare     21501
+jaguar      79501
+impact      58501
+macromodel  99501
+qikprop     35501
+psp         31501
+pharma      34501
+python      30106

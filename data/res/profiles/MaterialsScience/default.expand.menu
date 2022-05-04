@@ -1,0 +1,76 @@
+{
+  "expand_selection_more_options" :{
+    "columns": [
+     {
+        "items": [
+          {	
+            "section_title": "To Complete Objects"
+          },
+          {
+            "action": "selectx_expand_repeating_unit",
+            "name": "Repeating Unit"
+          },
+          {
+            "action": "selectx_expand_molecule",
+            "name": "Molecule"
+          },
+          {
+            "action": "selectx_expand_chain",
+            "name": "Chain"
+          },
+          {
+            "action": "selectx_expand_entry",
+            "name": "Entry"
+          },
+          {	
+            "section_title": "By Bonds"
+          },
+          {
+            "action": "selectx_expand_one_bond",
+            "name": "1 Bond"
+          },
+          {
+            "action": "selectx_expand_two_bonds",
+            "name": "2 Bonds"
+          },
+          {
+            "action": "selectx_expand_three_bonds",
+            "name": "3 Bonds"
+          },
+          {
+            "action": "selectx_expand_custom_bond",
+            "name": "Custom Bond Count..."
+          }
+       ]
+     },
+     {
+        "items": [
+          {	
+            "section_title": "By Matching Items"
+          },
+          {
+            "action": "selectx_expand_same_element",
+            "name": "Same Element"
+          },
+          {
+            "action": "selectx_expand_same_residue_type",
+            "name": "Same Residue Type"
+          },
+          {
+            "action": "selectx_expand_same_entry",
+            "name": "Same Entry"
+          },
+          {
+            "action": "selectx_expand_same_rep",
+            "name": "Same Representation",
+            "border_above": true
+          },
+          {
+            "action": "selectx_expand_same_color",
+            "name": "Same Color"
+          }
+         ]
+     }
+   ]
+  }
+}

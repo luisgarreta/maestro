@@ -1,0 +1,4 @@
+The s_m_title property is used to display the name of each structure in the
+Place Ligand / Solvent table.
+
+The s_pdb_PDB_ID contains the three-letter PDB code for the structure.

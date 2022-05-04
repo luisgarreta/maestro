@@ -1,0 +1,396 @@
+{
+  "tasks_browse": {
+    "columns": [
+      {
+        "menu_title": "   ",
+	    "items": [
+	    {
+	      "section_title": "Structure Refinement"
+	    },
+	    {
+	      "action": "biologics_isr_minimize",
+	      "name": "Minimize...",
+	      "showpanel": "minimize"
+	    },
+	    {
+	      "action": "biologics_predict_side_chains",
+	      "name": "Predict Side Chains...",
+	      "showpanel": "predictsidechains"
+	    },
+	    {
+	      "action": "biologics_refine_loops",
+	      "name": "Refine Loops...",
+	      "showpanel": "refineloops"
+	    },
+	    {
+	      "action": "biologics_isr_calculate_energy",
+	      "name": "Calculate Energy...",
+	      "showpanel": "analyzeenergy"
+	    },
+	    {
+	      "action": "biologics_isr_visualize_energy",
+	      "name": "Visualize Energy...",
+	      "title": "Prime Energy Visualizer...",
+	      "pyfunc": "prime_energy_visualizer_gui.panel"
+	    },
+	    {
+	      "action": "biologics_isr_minimize_rigid",
+	      "name": "Rigid Body Minimization...",
+	      "title": "Minimize as Rigid Body...",
+	      "showpanel": "minimizerigid",
+          "border_above": true
+	    },
+	    {
+	      "action": "biologics_isr_hybridmc",
+	      "name": "Hybrid Monte Carlo...",
+	      "showpanel": "hybridmc"
+	    },
+	    {
+	      "action": "biologics_isr_refine_complex",
+	      "name": "Refine Protein-Ligand Complex...",
+	      "showpanel": "refinecomplex"
+	    },
+	    {
+	      "section_title": "Docking"
+	    },
+	    {
+	      "action": "biologics_protein_protein_docking",
+	      "name": "Protein-Protein Docking...",
+	      "pyfunc": "protein_protein_docking_gui.panel"
+	    },
+	    {
+	      "action": "biologics_peptide_docking",
+	      "name": "Peptide Docking...",
+	      "pyfunc": "peptide_docking_gui.panel"
+	    },
+	    {
+	      "action": "interaction_fingerprints",
+	      "name": "Structural Interaction Fingerprints...",
+	      "title": "Interaction Fingerprints...",
+	      "pyfunc": "interaction_fingerprints_gui.panel"
+	    },
+	    {
+	      "action": "protein_interaction_analysis_gui_v2.panel",
+	      "name": "Protein Interaction Analysis...",
+	      "pyfunc": "protein_interaction_analysis_gui_v2.panel"
+	    },
+	    {
+	      "action": "biologics_protein_interaction_analysis",
+	      "name": "Protein Interaction Analysis (Deprecated)...",
+	      "pyfunc": "protein_interaction_analysis_gui.panel"
+	    }
+      ] 
+      },
+      {
+        "menu_title": "BIOLOGICS",
+	  "items": [
+            {
+           "section_title": "Structure Prediction"
+            },
+	    {
+	       "action": "multiseqviewer",
+	       "name": "Homology Modeling...",
+	       "pyfunc": "msv.homology"
+	    },
+	    {
+	       "action": "biologics_simple_homology",
+	       "name": "Simple Homology Modeling (Deprecated)...",
+	       "pyfunc": "homology_model_simple_gui.panel"
+	    },
+	    {
+	       "action": "biologics_advanced_homology",
+	       "name": "Advanced Homology Modeling (Deprecated)...",
+	       "showpanel": "psp"
+	    },
+	    {
+	       "action": "biologics_structure_quality",
+	       "name": "Structure Quality Report...",
+	       "pyfunc": "protein_structure_quality_gui.panel"
+	    },
+	    {
+	       "action": "biologics_reliability_report",
+	       "name": "Structure Reliability Report...",
+	       "title": "Protein Reliability Report...",
+	       "pyfunc": "protein_reliability_gui.panel"
+	    },
+	    {
+	       "section_title": "Protein Engineering"
+	    },
+	    {
+	       "action": "biologics_rsam_calculate",
+	       "name": "Residue Scanning Calculations...",
+	       "pyfunc": "residue_scanning_gui.panel"
+	    },
+	    {
+	       "action": "biologics_rsam_results",
+	       "name": "Residue Scanning Results...",
+	       "pyfunc": "residue_scanning_viewer_gui.panel"
+	    },
+	    {
+	       "action": "biologics_rsam_manage_nsr",
+	       "name": "Nonstandard Residues...",
+	       "pyfunc": "non_standard_residues_gui.panel"
+	    },
+	    {
+	       "action": "biologics_cysteine_mutation",
+	       "name": "Cysteine Mutation...",
+	       "pyfunc": "cysteine_mutation_gui.panel",
+           "border_above": true
+	    },
+	    {
+	       "action": "biologics_residue_loop_mutation",
+	       "name": "Residue and Loop Mutation...",
+	       "pyfunc": "mutation_gui.panel"
+	    },
+	    {
+	       "action": "biologics_crosslink_proteins",
+	       "name": "Crosslink Proteins...",
+	       "pyfunc": "cross_link_proteins_gui.panel"
+	    },
+	    {
+	       "action": "biologics_chimeric_model_generation",
+	       "name": "Chimeric Model Generation...",
+	       "title": "Protein Splicer...",
+	       "pyfunc": "splicer_gui.panel"
+	    },
+	    {
+	       "section_title": "Protein Dynamics"
+	    },
+        {
+            "task": "molecular_dynamics",
+            "name": "Molecular Dynamics..."
+        },
+        {
+	       "action": "export_to_sarvision_biologics",
+	       "name": "Export to SARVision..."
+	    },
+	    {
+	       "action": "biologics_lnma_calculate",
+	       "name": "Calculate Vibrational Modes...",
+	       "pyfunc": "low_mode_gui.panel"
+	    },
+	    {
+	       "action": "biologics_lnma_visualize",
+	       "name": "Visualize Vibrational Modes...",
+	       "pyfunc": "low_mode_gui.results_panel"
+	    } 
+       ] 
+      },
+      {
+	  "items": [
+	      {
+	        "section_title": "Protein Analysis"
+	      },
+          {
+            "action": "biologics_protein_prep_wizard",
+            "name": "Protein Preparation Wizard...",
+            "pyfunc": "prepwizard_gui.panel_classic"
+          },
+          {
+            "action": "biologics_prepwizard2_gui",
+            "name": "Protein Preparation Workflow...",
+            "pyfunc": "prepwizard2_gui.panel"
+          },
+	      {
+	        "action": "multiseqviewer2",
+	        "name": "Multiple Sequence Viewer/Editor...",
+	        "pyfunc": "msv.panel"
+	      },
+	      {
+	        "action": "multiseqviewer",
+	        "name": "Multiple Sequence Viewer (Deprecated)...",
+	        "pyfunc": "multiseqviewer.panel"
+	      },
+	      {
+	        "action": "patch_analyzer_gui.panel",
+	        "name": "Protein Surface Analyzer...",
+	        "pyfunc": "patch_analyzer_gui.panel",
+            "border_above": true
+	      },
+	      {
+	        "action": "biologics_reactive_residues",
+	        "name": "Reactive Residues...",
+	        "pyfunc": "reactive_protein_residues_gui.panel"
+	      },
+	      {
+	        "action": "biologics_protein_titration_curve",
+	        "name": "Protein Titration Curve...",
+	        "pyfunc": "protein_titration_gui.panel"
+	      },
+	      {
+	        "action": "biologics_residue_analysis",
+	        "name": "Residue Analysis...",
+	        "pyfunc": "residue_analysis_gui.panel",
+                "border_above": true
+	      },
+	      {
+	        "action": "biologics_peptide_qsar",
+	        "name": "Peptide QSAR...",
+	        "pyfunc": "peptide_qsar_gui.panel"
+	      },
+	      {
+	        "action": "biologics_consensus_viewer",
+	        "name": "Consensus Viewer...",
+	        "pyfunc": "consensus_visualization_gui.panel"
+	      },
+	      {
+	        "section_title": "Antibody Modeling"
+	      },
+	      {
+	        "action": "biologics_antibody_prediction",
+	        "name": "Prediction...",
+	        "pyfunc": "antibody_prediction_gui.panel"
+	      },
+	      {
+	        "action": "biologics_humanization_cdr_grafting",
+	        "name": "Humanization - CDR Grafting...",
+	        "pyfunc": "cdr_grafting_gui.panel"
+	      },
+	      {
+	        "action": "biologics_humanization_residue_mutation",
+	        "name": "Humanization - Residue Mutation...",
+	        "pyfunc": "antibody_humanization_gui.panel"
+	      },
+	      {
+	        "action": "biologics_humanization_mutation_results",
+	        "name": "Humanization - Mutation Results...",
+	        "pyfunc": "residue_scanning_viewer_gui.humanize_panel"
+	      },
+	      {
+	        "action": "biologics_antibody_database_management",
+	        "name": "Antibody Database Management...",
+	        "pyfunc": "antibody_db_manage_gui.panel"
+	      },
+	      {
+	        "action": "antibody_modeling_gui.panel",
+	        "name": "Antibody Structure Prediction (Beta)...",
+	        "pyfunc": "antibody_modeling_gui.panel"
+	      },
+	      {
+	        "action": "advanced_loop_model_gui.panel",
+	        "name": "Antibody Loop Refinement (Beta)...",
+	        "pyfunc": "advanced_loop_model_gui.panel"
+	      }
+       ] 
+      }
+    ]
+  },
+  "favorites": {
+    "items": [
+      {
+        "action": "multiseqviewer2",
+        "name": "Multiple Sequence Viewer/Editor...",
+	"pyfunc": "msv.panel"
+      },
+      {
+        "action": "multiseqviewer",
+        "name": "Multiple Sequence Viewer (Deprecated)...",
+        "pyfunc": "multiseqviewer.panel"
+      },
+      {
+        "action": "prepwizard2_gui",
+        "name": "Protein Preparation Workflow...",
+        "pyfunc": "prepwizard2_gui.panel"
+      },
+      {
+        "action": "wstools_minimize_select",
+        "name": "Minimize Selected Atoms"
+      },
+      {
+        "action": "wstools_start_measurementx",
+        "name": "Measure"
+      }
+    ]
+  },
+  "molecular_dynamics" : {
+    "columns": [
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Dynamics Analysis"
+	  },
+	  {
+	    "action": "desmond_simulation_quality_analysis",
+	    "name": "Simulation Quality Analysis...",
+	    "pyfunc": "simulation_analysis_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_event_analysis",
+	    "name": "Simulation Event Analysis...",
+	    "pyfunc": "sim_event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_radial_distribution_function",
+	    "name": "Radial Distribution Function...",
+	    "pyfunc": "rdf_gui.panel"
+	  },
+	  {
+	    "action": "desmond_simulation_interaction_diagram",
+	    "name": "Simulation Interactions Diagram...",
+	    "pyfunc": "event_analysis.show_panel"
+	  },
+	  {
+	    "action": "desmond_trajectory_clustering",
+	    "name": "Desmond Trajectory Clustering...",
+	    "pyfunc": "trajectory_cluster_gui.panel"
+	  }
+       ]
+     },
+     {
+	"items": [
+	  {
+	    "section_title": "Molecular Dynamics"
+	  },
+	  {
+	    "action": "system_setup",
+	    "name": "System Setup...",
+	    "title": "System Builder...",
+	    "pyfunc": "system_builder_gui.panel"
+	  },
+	  {
+	    "action": "app_desmond_rebuild_system",
+	    "name": "Model System Regeneration...",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_molecular_dynamics",
+	    "name": "Molecular Dynamics...",
+	    "pyfunc": "desmond_molecular_dynamics_gui.panel"
+	  },
+	  {
+	    "action": "simulated_annealing",
+	    "name": "Simulated Annealing...",
+	    "pyfunc": "desmond_simulated_annealing_gui.panel"
+	  },
+	  {
+	    "action": "binding_pose_metadynamics_gui.panel",
+	    "name": "Binding Pose Metadynamics...",
+	    "pyfunc": "binding_pose_metadynamics_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_metadynamics",
+	    "name": "Metadynamics...",
+	    "pyfunc": "desmond_metadynamics_gui.panel"
+	  },
+	  {
+	    "action": "desmond_metadynamics_analysis",
+	    "name": "Metadynamics Analysis...",
+	    "pyfunc": "desmond_metadynamics_analysis_gui.panel"
+	  },
+	  {
+	    "action": "replica_exchange",
+	    "name": "Replica Exchange...",
+	    "pyfunc": "desmond_replica_exchange_gui.panel",
+	    "border_above": true
+	  },
+	  {
+	    "action": "desmond_replica_exchange_review",
+	    "name": "Replica Exchange Review...",
+	    "pyfunc": "replica_exchange_review_gui.panel"
+	  }
+     ]
+    }
+    ]
+  }
+}

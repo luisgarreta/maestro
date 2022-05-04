@@ -1,0 +1,17 @@
+{
+    "backgroundColor_r" : 28,
+    "backgroundColor_g" : 28,
+    "backgroundColor_b" : 28,
+    "outlineColor_r" : 28,
+    "outlineColor_g" : 28,
+    "outlineColor_b" : 28,
+    "outlineWidth" : 1,
+    "undisplayedLigandColor_r" : 50,
+    "undisplayedLigandColor_g" : 50,
+    "undisplayedLigandColor_b" : 50,
+    "displayedLigandColor_r" : 255,
+    "displayedLigandColor_g" : 255,
+    "displayedLigandColor_b" : 255,
+    "opacity" : 1,
+    "version" : 2.0
+}

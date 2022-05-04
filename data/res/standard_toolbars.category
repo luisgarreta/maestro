@@ -1,0 +1,62 @@
+{
+  "version": 10.0,
+
+  "MM_VProjTable": {
+    "type": "toolbarsbutton",
+    "toolbuttons": [
+      {"action": "pt_import_structures", "name": "Import", "category": "Project management", "tooltip": "Import Structures", "icon": ":/images/toolbuttons/importstructures.png"},
+      {"action": "pt_export_structures", "name": "Export", "category": "Project management", "tooltip": "Export Structures", "icon": ":/images/toolbuttons/pt_export.png"},
+      {"action": "2D_viewer", "name": "2D Viewer", "category": "Project management", "tooltip": "2D Viewer", "icon": ":/images/toolbuttons/pt_2d_viewer.png"},
+      {"action": "pt_plot", "name": "Plot", "category": "Project management", "tooltip": "Manage Plots", "icon": ":/images/toolbuttons/pt_plot.png"},
+      {"action": "pt_structure_calculate", "name": "Calculator", "category": "Project management", "tooltip": "Property calculator", "icon": ":/images/toolbuttons/pt_calculator.png"},
+      {"action": "pt_sort_entries", "name": "Sort", "category": "Project management", "tooltip": "Sort Entries", "icon": ":/images/toolbuttons/pt_sort.png"},
+      {"action": "pt_find_replace", "name": "Find/Replace", "category": "Project management", "tooltip": "Show or hide the Find toolbar", "icon": ":/images/toolbuttons/pt_find.png"},
+      {"action": "single_entry_feedback", "name": "Show Props", "category": "Project management", "tooltip": "Show properties in Workspace", "icon": ":/images/toolbuttons/entry_feedback.png"},
+      {"action": "project_entry_color_rows", "name": "Color Rows", "category": "Project management", "tooltip": "Color", "icon": ":/images/toolbuttons/pt_color.png"},
+      {"action": "pt_columns_menu", "name": "Columns", "category": "Property display and management", "tooltip": "Columns", "icon": ":/images/toolbuttons/pt_columns.png"},
+      {"action": "pt_property_tree", "name": "Tree", "category": "Property display and management", "tooltip": "Show or hide the property tree", "icon": ":/images/toolbuttons/pt_tree.png"},
+      {"action": "pt_show_menu", "name": "Show", "category": "Property display and management", "tooltip": "Show", "icon": ":/images/toolbuttons/pt_show_props.png"},
+      {"action": "pt_show_2d_images", "name": "2D Structure", "category": "Property display and management", "tooltip": "Show 2D Structure", "icon": ":/images/toolbuttons/pt_2d.png"},
+      {"action": "pt_property_showonlyfamily_menu", "name": "Show Family", "category": "Property display and management", "tooltip": "Show properties related to the selected family", "icon": ":/images/toolbuttons/pt_show_family.png"},
+      {"action": "pt_property_hideonlyfamily_menu", "name": "Hide Family", "category": "Property display and management", "tooltip": "Hide properties related to the selected family", "icon": ":/images/toolbuttons/pt_hide_family.png"},
+      {"action": "projtable_eplayer_gotostart", "name": "Go to start", "category": "Entry animation", "tooltip": "Go to Start", "icon": ":/images/toolbuttons/eplayer_goto_start.png"},
+      {"action": "projtable_eplayer_prev", "name": "Previous", "category": "Entry animation", "tooltip": "Previous", "icon": ":/images/toolbuttons/eplayer_previous.png"},
+      {"action": "projtable_eplayer_playbackward", "name": "Play Backward", "category": "Entry animation", "tooltip": "Play Backward", "icon": ":/images/toolbuttons/eplayer_playback.png"},
+      {"action": "projtable_eplayer_stop", "name": "Stop", "category": "Entry animation", "tooltip": "Stop", "icon": ":/images/toolbuttons/eplayer_stop.png"},
+      {"action": "projtable_eplayer_playforward", "name": "Play Forward", "category": "Entry animation", "tooltip": "Play Forward", "icon": ":/images/toolbuttons/eplayer_play.png"},
+      {"action": "projtable_eplayer_next", "name": "Next", "category": "Entry animation", "tooltip": "Next", "icon": ":/images/toolbuttons/eplayer_next.png"},
+      {"action": "projtable_eplayer_gotoend", "name": "End", "category": "Entry animation", "tooltip": "Go to End", "icon": ":/images/toolbuttons/eplayer_goto_end.png"},
+      {"action": "pt_eplayer_loop", "name": "Loop", "category": "Entry animation", "tooltip": "Loop", "icon": ":/images/toolbuttons/eplayer_loop.png"}
+    ]
+  },
+
+  "MM_VPSP": {
+    "type": "toolbarsbutton",
+    "toolbuttons": [
+      {"action": "psp_color_scheme", "name": "Color Scheme", "category": "PSP Toolbars", "tooltip": "Color Scheme", "icon": ":/images/toolbuttons/prime_color_scheme.png"},
+      {"action": "prime_viewstructure", "name": "View Template Structure", "category": "PSP Toolbars", "tooltip": "View Template Structure", "icon": ":/images/toolbuttons/prime_view_structure.png"},
+      {"action": "prime_sv_viewssa", "name": "View SSA", "category": "PSP Toolbars", "tooltip": "View SSA (Secondary Structure Assignment)", "icon": ":/images/toolbuttons/prime_show_hide_ssa.png"},
+      {"action": "prime_sv_wrap", "name": "Wrap sequences", "category": "PSP Toolbars", "tooltip": "Wrap Sequences", "icon": ":/images/toolbuttons/prime_wrap_sequences.png"},
+      {"action": "prime_mode_select", "name": "Select", "category": "PSP Toolbars", "tooltip": "Select", "icon": ":/images/toolbuttons/prime_select.png"},
+      {"action": "prime_mode_crop", "name": "Crop", "category": "PSP Toolbars", "tooltip": "Crop", "icon": ":/images/toolbuttons/prime_crop.png"},
+      {"action": "prime_mode_edit_ssp", "name": "Edit SSP", "category": "PSP Toolbars", "tooltip": "Edit SSP (Secondary Structure Prediction) by highlighting the residues and typing H or E", "icon": ":/images/toolbuttons/prime_edit_ssp.png"},
+      {"action": "prime_mode_slide_freely", "name": "Slide Freely", "category": "PSP Toolbars", "tooltip": "Slide Freely", "icon": ":/images/toolbuttons/prime_slide_freely.png"},
+      {"action": "prime_mode_slide_block", "name": "Slide As Block", "category": "PSP Toolbars", "tooltip": "Slide as Block", "icon": ":/images/toolbuttons/prime_slide_block.png"},
+      {"action": "prime_mode_add_anchors", "name": "Add Anchors", "category": "PSP Toolbars", "tooltip": "Add/Remove Anchors", "icon": ":/images/toolbuttons/prime_set_anchor.png"},
+      {"action": "prime_lock_gaps", "name": "Lock Gaps", "category": "PSP Toolbars", "tooltip": "Lock Gaps", "icon": ":/images/toolbuttons/prime_lock_gaps.png"},
+      {"action": "prime_unlock_gaps", "name": "Unlock Gaps", "category": "PSP Toolbars", "tooltip": "Unlock Gap", "icon": ":/images/toolbuttons/prime_unlock_gaps.png"}
+    ]
+  },
+
+  "MM_VPrimeXPanel": {
+    "type": "toolbarsbutton",
+    "toolbuttons": [
+      {"action": "toolbar_primex_surface_table", "name": "Surf Table", "category": "PrimeX Panel Toolbars", "tooltip": "Open the Manage Surfaces panel, display surfaces", "icon": ":/images/toolbuttons/primex_surface_table.png"},
+      {"action": "toolbar_primex_increase_isovalue", "name": "+ Isovalue", "category": "PrimeX Panel Toolbars", "tooltip": "Increase Isovalue", "icon": ":/images/toolbuttons/primex_increase_isovalue.png"},
+      {"action": "toolbar_primex_decrease_isovalue", "name": "- Isovalue", "category": "PrimeX Panel Toolbars", "tooltip": "Decrease Isovalue", "icon": ":/images/toolbuttons/primex_decrease_isovalue.png"},
+      {"action": "toolbar_primex_increase_extent", "name": "+ Extent", "category": "PrimeX Panel Toolbars", "tooltip": "Increase Density Extent", "icon": ":/images/toolbuttons/primex_increase_extent.png"},
+      {"action": "toolbar_primex_decrease_extent", "name": "- Extent", "category": "PrimeX Panel Toolbars", "tooltip": "Decrease Density Extent", "icon": ":/images/toolbuttons/primex_decrease_extent.png"},
+      {"action": "toolbar_primex_unit_cell", "name": "Unit Cell", "category": "PrimeX Panel Toolbars", "tooltip": "View Unit Cell", "icon": ":/images/toolbuttons/primex_unit_cell.png"}
+    ]
+  }
+}

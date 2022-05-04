@@ -1,0 +1,82 @@
+{ 
+  s_m_m2io_version
+  :::
+  2.0.0 
+} 
+
+f_m_ct { 
+  s_m_title
+  s_m_entry_name
+  s_pdb_PDB_ID
+  s_m_entry_id
+  :::
+  "ethylene glycol" 
+  ethylene_glycol_EGL.1 
+  EGL 
+  128 
+  m_atom[10] { 
+    # First column is atom index #
+    i_m_mmod_type
+    r_m_x_coord
+    r_m_y_coord
+    r_m_z_coord
+    i_m_residue_number
+    s_m_insertion_code
+    s_m_mmod_res
+    s_m_chain_name
+    i_m_color
+    r_m_charge1
+    r_m_charge2
+    s_m_pdb_residue_name
+    s_m_pdb_atom_name
+    s_m_grow_name
+    i_m_atomic_number
+    i_m_formal_charge
+    i_m_representation
+    i_m_visibility
+    s_m_atom_name
+    i_m_secondary_structure
+    i_m_template_index
+    :::
+    1        3   48.052966   50.187217   48.714286     1 " " X " "    2   0.14500   0.14500 "EDO " " C1 " "    "    6   0    0    1 "" -1    0     
+    2       16   48.900229   50.852745   49.631013     1 " " X " "   70  -0.68300  -0.68300 "EDO " " O1 " "    "    8   0    0    1 "" -1    0     
+    3        3   48.315136   50.681253   47.281867     1 " " X " "    2   0.14500   0.14500 "EDO " " C2 " "    "    6   0    0    1 "" -1    0     
+    4       16   47.467604   50.015997   46.365200     1 " " X " "   70  -0.68300  -0.68300 "EDO " " O2 " "    "    8   0    0    1 "" -1    0     
+    5       41   48.228450   49.113401   48.792765     1 " " X " "   21   0.06000   0.06000 "EDO " "1H1 " "    "    1   0    0    1 "" -1    0     
+    6       41   47.016433   50.366587   49.003207     1 " " X " "   21   0.06000   0.06000 "EDO " "2H1 " "    "    1   0    0    1 "" -1    0     
+    7       42   48.701654   50.515400   50.500234     1 " " X " "   21   0.41800   0.41800 "EDO " " HO1" "    "    1   0    0    1 "" -1    0     
+    8       41   48.139972   51.755117   47.203418     1 " " X " "   21   0.06000   0.06000 "EDO " "1H2 " "    "    1   0    0    1 "" -1    0     
+    9       41   49.351595   50.501601   46.992896     1 " " X " "   21   0.06000   0.06000 "EDO " "2H2 " "    "    1   0    0    1 "" -1    0     
+    10      42   47.665568   50.354010   45.496091     1 " " X " "   21   0.41800   0.41800 "EDO " " HO2" "    "    1   0    0    1 "" -1    0     
+    :::
+  } 
+  m_bond[18] { 
+    # First column is bond index #
+    i_m_from
+    i_m_to
+    i_m_order
+    i_m_from_rep
+    i_m_to_rep
+    :::
+    1          1      3   1 1 1 
+    2          1      2   1 1 1 
+    3          1      5   1 1 1 
+    4          1      6   1 1 1 
+    5          2      1   1 1 1 
+    6          2      7   1 1 1 
+    7          3      1   1 1 1 
+    8          3      4   1 1 1 
+    9          3      8   1 1 1 
+    10         3      9   1 1 1 
+    11         4      3   1 1 1 
+    12         4     10   1 1 1 
+    13         5      1   1 1 1 
+    14         6      1   1 1 1 
+    15         7      2   1 1 1 
+    16         8      3   1 1 1 
+    17         9      3   1 1 1 
+    18        10      4   1 1 1 
+    :::
+  } 
+} 
+

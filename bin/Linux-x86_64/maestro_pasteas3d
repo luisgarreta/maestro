@@ -1,0 +1,9 @@
+#! /bin/sh
+
+# Assumes we are alredy in the directory in which we want to run
+
+echo $$ > pasteas3d.pid
+exec "$@"
+
+
+

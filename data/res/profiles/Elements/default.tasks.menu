@@ -1,0 +1,331 @@
+{
+  "tasks_browse": {
+    "columns": [
+      {
+        "menu_title": "    ",
+        "items": [
+          {
+            "task": "ligand_tools",
+            "name": "Ligand Tools"
+          },
+          {
+            "task": "protein_tools",
+            "name": "Protein Tools"
+          },
+          {
+            "task": "design_and_scoring",
+            "name": "Design and Scoring"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "menu_title": "ELEMENTS",
+        "items": [
+          {
+            "section_title": "Interactive Calculations"
+          },
+          {
+            "action": "elements_molecular_properties",
+            "name": "Molecular Properties...",
+            "pyfunc": "medchem_molprop_gui.panel"
+          },
+          {
+            "action": "elements_empirical_pka",
+            "name": "Empirical pKa Prediction...",
+            "title": "Epik...",
+            "pyfunc": "epik_gui.panel"
+          },
+          {
+            "action": "elements_ab_initio_pka",
+            "name": "Quantum Mechanical pKa Prediction...",
+            "title": "pKa...",
+            "pyfunc": "jaguar_gui.pka_panel"
+          },
+          {
+            "action": "elements_torsion_scan",
+            "name": "Torsion Scan...",
+            "title": "Rapid Torsion Scan...",
+            "pyfunc": "rapid_torsion_scan_gui.panel"
+          },
+          {
+            "action": "elements_minimization",
+            "name": "Minimization...",
+            "pyfunc": "medchem_minimization_gui.panel"
+          },
+ 	  {
+            "action": "conf_search_bioactive",
+            "name": "Conformer Generation...",
+            "pyfunc": "confgenx_gui.panel_elements"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "section_title": "Workspace Tools"
+          },
+          {
+            "action": "wstools_minimize_select",
+            "name": "Minimize Selected Atoms"
+          },
+          {
+            "action": "wstools_start_measurementx",
+            "name": "Measure"
+          },
+          {
+            "action": "wstools_quick_align",
+            "name": "Quick Align"
+          },
+          {
+            "action": "superposition",
+            "name": "Superposition...",
+            "showpanel": "superimpose"
+          },
+          {
+            "action": "flexligalign",
+            "name": "Flexible Ligand Alignment...",
+            "showpanel": "flexligalign"
+          },
+          {
+            "action": "flex_ligand_alignment",
+            "name": "Ligand Alignment...",
+            "pyfunc": "flex_ligand_alignment_gui.panel"
+          },
+          {
+            "action": "mcsligalign",
+            "name": "MCS Docking Ligand Alignment...",
+            "pyfunc": "mcs_docking_gui.panel"
+          },
+          {
+            "action": "tasks_build_lid",
+            "name": "Ligand Interaction Diagram...",
+            "showpanel": "sketcher-LID"
+          }
+        ]
+      }
+    ]
+  },
+  "ligand_tools": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "rgroup_analysis",
+            "name": "R-group Analysis...",
+            "pyfunc": "r_group_analysis.show_panel"
+          },
+          {
+            "action": "tasks_adme_tox_prediction",
+            "name": "ADME Prediction...",
+            "title": "QikProp...",
+            "showpanel": "qikprop"
+          },
+          {
+            "action": "ligfilter",
+            "name": "Ligand Filtering...",
+            "pyfunc": "ligfilter_gui.panel"
+          },
+          {
+            "action": "merge_duplicates",
+            "name": "Merge Duplicate Ligands...",
+            "title": "Merge Duplicates...",
+            "pyfunc": "merge_duplicates_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "action": "ligand_preparation",
+            "name": "Ligand Preparation...",
+            "title": "LigPrep...",
+            "pyfunc": "ligprep_gui.panel"
+          },
+          {
+            "action": "shape_screening",
+            "name": "Shape-based Similarity Screening...",
+            "title": "Shape Screening...",
+            "pyfunc": "phase.phase_shape_gui.panel"
+          },
+          {
+            "action": "core_hopping_ligand",
+            "name": "Core Hopping...",
+            "title": "Ligand-Based Core Hopping...",
+            "pyfunc": "ligand_core_hopping_gui.show_panel"
+          },
+          {
+            "action": "core_hopping_isosteric_matching",
+            "name": "Isosteric Matching...",
+            "pyfunc": "isosteric_matching_gui.show_panel"
+          },
+          {
+            "action": "phase.phase_screening_gui.panel",
+            "name": "Ligand Screening...",
+            "pyfunc": "phase.phase_screening_gui.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "protein_tools": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "protein_reports",
+            "name": "Protein Reports...",
+            "pyfunc": "prosane_gui.panel"
+          },
+          {
+            "action": "ramachandran_plot",
+            "name": "Ramachandran Plot...",
+            "pyfunc": "rama_gui.panel"
+          },
+          {
+            "action": "sitemap",
+            "name": "Binding Site Characterization...",
+            "title": "SiteMap...",
+            "pyfunc": "sitemap_gui.panel"
+          },
+          {
+            "action": "hppmap",
+            "name": "Hydrophobic/philic Surfaces...",
+            "showpanel": "hppmap"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "action": "protein_preparation",
+            "name": "Protein Preparation...",
+            "pyfunc": "prepwizard_gui.panel_classic"
+          },
+          {
+            "action": "prepwizard2_gui",
+            "name": "Protein Preparation Workflow...",
+            "pyfunc": "prepwizard2_gui.panel"
+          },
+          {
+            "action": "structalign",
+            "name": "Protein Structure Alignment...",
+            "showpanel": "structalign"
+          },
+          {
+            "action": "align_binding_sites",
+            "name": "Align Binding Sites...",
+            "pyfunc": "align_binding_sites_gui.panel"
+          },
+          {
+            "action": "multiseqviewer2",
+            "name": "Multiple Sequence Viewer/Editor...",
+            "pyfunc": "msv.panel"
+          },
+          {
+            "action": "multiseqviewer",
+            "name": "Multiple Sequence Viewer (Deprecated)...",
+            "pyfunc": "multiseqviewer.panel"
+          }
+        ]
+      }
+    ]
+  },
+  "design_and_scoring": {
+    "columns": [
+      {
+        "items": [
+          {
+            "action": "advanced_docking",
+            "name": "Advanced Docking...",
+            "title": "One-Step Glide Docking...",
+            "pyfunc": "one_step_glide_gui.panel"
+          },
+          {
+            "action": "filter_poses",
+            "name": "Filter Docked Poses...",
+            "pyfunc": "pose_filter_gui.panel"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "vseparator"
+          }
+        ]
+      },
+      {
+        "items": [
+              {
+	        "action": "ligand_designer_gui.panel",
+	        "name": "Ligand Designer...",
+	        "pyfunc": "ligand_designer_gui.panel"
+	      }
+        ]
+      }
+    ]
+  },
+  "favorites": {
+    "items": [
+      {
+        "action": "ligand_preparation",
+        "name": "Ligand Preparation...",
+        "pyfunc": "ligprep_gui.panel"
+      },
+      {
+        "action": "tasks_build_lid",
+        "name": "Ligand Interaction Diagram...",
+        "showpanel": "sketcher-LID"
+      },
+      {
+        "action": "prepwizard2_gui",
+        "name": "Protein Preparation Workflow...",
+        "pyfunc": "prepwizard2_gui.panel"
+      },
+      {
+        "action" : "wstools_binding_site_surface",
+        "name" : "Surface (Binding Site)..."
+      },
+      {
+        "action": "wstools_minimize_select",
+        "name": "Minimize Selected Atoms"
+      },
+      {
+        "action": "wstools_quick_align",
+        "name": "Quick Align"
+      },
+      {
+        "action": "wstools_start_measurementx",
+        "name": "Measure"
+      }
+    ]
+  }
+}

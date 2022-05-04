@@ -1,0 +1,90 @@
+{
+  "preset_styles" : {
+    "styles" : [
+        {
+          "action": "style_simple",
+          "name": "Simple"
+        },
+        {
+          "action": "style_simple_nosolvent",
+          "name": "Simple (no solvent)"
+        },
+        {
+          "action": "style_ballnstick",
+          "name": "Ball and Stick"
+        },
+        {
+          "action": "style_bfactor",
+          "name": "B Factor"
+        },
+        {
+          "action": "style_technical",
+          "name": "Technical"
+        },
+        {
+          "action": "style_ligands",
+          "name": "Ligands"
+        },
+        {
+          "id": "style_ligand_sites",
+          "name": "Ligand Sites"
+        },
+        {
+          "action": "style_pretty",
+          "name": "Pretty"
+        },
+        {
+          "action": "style_pretty_solvent",
+          "name": "Pretty (with solvent)"
+        },
+        {
+          "action": "style_publication",
+          "name": "Publication"
+        },
+        {
+          "action": "style_publication_solvent",
+          "name": "Publication (with solvent)"
+        },
+        {
+          "action": "style_protein_interface",
+          "name": "Protein Interface"
+        },
+        {
+          "action": "style_antibody",
+          "name": "Antibody"
+        }
+    ]
+  },
+  "style_ligand_sites": {
+    "styles" : [
+      {
+        "action": "style_ligand_sites_cartoon",
+        "name": "Cartoon"
+      },
+      {
+        "action": "style_ligand_sites_solidsurface",
+        "name": "Solid Surface"
+      },
+      {
+        "action": "style_ligand_sites_solidsurface_better",
+        "name": "Solid Surface (better)"
+      },
+      {
+        "action": "style_ligand_sites_transparentsurface",
+        "name": "Transparent Surface"
+      },
+      {
+        "action": "style_ligand_sites_transparentsurface_better",
+        "name": "Transparent Surface (better)"
+      },
+      {
+        "action": "style_ligand_sites_dotsurface",
+        "name": "Dot Surface"
+      },
+      {
+        "action": "style_ligand_sites_meshsurface",
+        "name": "Mesh Surface"
+      }
+    ]
+  }
+}

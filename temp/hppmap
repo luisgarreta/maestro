@@ -1,0 +1,109 @@
+#!/bin/sh
+#
+# Find an installation of mmshare in the $SCHRODINGER directory,
+# and execute toplevel.py to set up the environment and execute
+# hppmap_startup.py
+#
+#set -x
+timestamp() { if test -n "$JC_PROFILING"; then "$SCHRODINGER/utilities/timestamp" $*; fi; }
+timestamp enter toplevel script
+
+PRODUCT=maestro
+STARTUP=hppmap_startup.py
+STARTUP_ARGS=''
+APP_EXEC_OR_MODE='MAESTRO_EXEC'
+DEBUG=""
+UNAME=$(uname)
+
+fatal_error() {
+    echo 'ERROR:' $*
+    exit 1
+}
+
+parse_args() {
+    while [ $# -gt 0 ]; do
+        case $1 in
+        -D | -DD | -DEBUG | -DDEBUG)
+            DEBUG="on"
+            break
+            ;;
+        esac
+        shift
+    done
+}
+
+parentdir() { echo "$1" | sed 's#[/\\]*[^/\\]*$##'; }
+filename() { echo "$1" | sed 's#^.*[/\\]##'; }
+
+parse_args $APP_ARGS "$@"
+
+# Set SCHRODINGER based upon location of script
+_dir=$(parentdir "$0")
+case "$_dir" in
+/*) ;;
+"" | \.) _dir=$(pwd) ;;
+*) _dir="$(pwd)/$_dir" ;;
+esac
+_name=$(filename "$_dir")
+if [ "$_name" = 'utilities' ]; then
+    SCHRODINGER=$(parentdir "$_dir")
+else
+    SCHRODINGER="$_dir"
+fi
+export SCHRODINGER
+
+# We expect at most a single OS_CPU subdir
+MMSHARE_EXEC=$(ls -d "$SCHRODINGER"/mmshare-v*/bin/* 2> /dev/null | sort -r | head -n 1)
+export MMSHARE_EXEC
+timestamp after globbing for mmshare_exec
+if [ -z "$MMSHARE_EXEC" -o ! -d "$MMSHARE_EXEC" ]; then
+    fatal_error "No mmshare installation found in $SCHRODINGER"
+fi
+
+MMSHARE_LIB=$(echo "$MMSHARE_EXEC" | sed 's#[/\\]$##' | sed 's#\([/\\]\)bin[/\\]\([^/\\][^/\\]*\)$#\1lib\1\2#')
+PYTHONHOME="$SCHRODINGER/internal"
+
+# Allow SCHRODINGER_PYTHONPATH to override PYTHONPATH (Ev:65425)
+PYTHONPATH="${SCHRODINGER_PYTHONPATH-$PYTHONPATH}"
+export PYTHONHOME PYTHONPATH
+
+if [ "$UNAME" = 'Linux' ]; then
+    if [ -z "$ORIGINAL_LD_LIBRARY_PATH" -a -z "$ORIGINAL_LD_LIBRARY_PATH_IS_EMPTY" ]; then
+        # pass a literal empty value if this is empty, in case
+        # we pass through multiple toplevel.sh scripts before we
+        # need to refer to this again
+        if [ -z "$LD_LIBRARY_PATH" ]; then
+            ORIGINAL_LD_LIBRARY_PATH_IS_EMPTY="true"
+            export ORIGINAL_LD_LIBRARY_PATH_IS_EMPTY
+        else
+            ORIGINAL_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
+            export ORIGINAL_LD_LIBRARY_PATH
+        fi
+    fi
+    LD_LIBRARY_PATH="$SCHRODINGER/internal/lib/ssl:$SCHRODINGER/internal/lib:$MMSHARE_LIB:$LD_LIBRARY_PATH"
+    export LD_LIBRARY_PATH
+fi
+
+# Run the toplevel.py (a python script).
+#
+timestamp execute python toplevel.py
+PYTHON="$SCHRODINGER/internal/bin/python3"
+if [ ! -e "$PYTHON" ]; then
+    PYTHON="$SCHRODINGER/internal/bin/python"
+    # Set PYTHONIOENCODING for python 2 only, in python 3 use native encoding
+    if [ -z "$PYTHONIOENCODING" ]; then
+        if [ "$UNAME" = 'Linux' ]; then
+            CTYPE=$(locale | grep CTYPE | sed 's!^.*[=]!!' | sed 's!"!!g')
+            PYTHONIOENCODING=$(LC_CTYPE=$CTYPE locale charmap 2> /dev/null)
+        elif [ "$UNAME" = "Darwin" ]; then
+            PYTHONIOENCODING="utf-8"
+        fi
+        export PYTHONIOENCODING
+    fi
+fi
+
+if [ -n "$DEBUG" ]; then
+    echo '>>' \"$PYTHON\" \"$MMSHARE_EXEC/toplevel.py\" \"$0\" $PRODUCT $STARTUP $APP_EXEC_OR_MODE $STARTUP_ARGS "$@"
+fi
+
+exec "$PYTHON" "$MMSHARE_EXEC/toplevel.py" "$0" "$PRODUCT" "$STARTUP" "$APP_EXEC_OR_MODE" $STARTUP_ARGS "$@"

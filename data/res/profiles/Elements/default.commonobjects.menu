@@ -1,0 +1,138 @@
+{
+  "select_common_objects" :{
+    "columns": [
+     {
+        "items": [
+          {	
+            "section_title": "Primary Objects"
+          },
+          {
+            "action": "selectx_objects_displayed_atoms",
+            "name": "Displayed Atoms"
+          },
+          {
+            "action": "selectx_objects_binding_sites",
+            "name": "Binding Sites"
+          },
+          {
+            "action": "selectx_objects_binding_site_ligands",
+            "name": "Binding Sites + Ligands"
+          },
+          {
+            "action": "selectx_objects_proteins",
+            "name": "Proteins"
+          },
+          {
+            "action": "selectx_objects_ligands",
+            "name": "Ligands"
+          },
+          {
+            "action": "selectx_objects_nucleic_acids",
+            "name": "Nucleic Acids"
+          },
+          {	
+            "section_title": "Protein Sets"
+          },
+          {
+            "action": "selectx_objects_all_protein_atoms",
+            "name": "All Protein Atoms"
+          },
+          {
+            "action": "selectx_objects_binding_site_residues",
+            "name": "Binding Site Residues"
+          },
+          {
+            "action": "selectx_objects_backbone",
+            "name": "Backbone"
+          },
+          {
+            "action": "selectx_objects_side_chains",
+            "name": "Side Chains"
+          },
+          {
+            "action": "selectx_objects_calpha_atoms",
+            "name": "C-alpha Atoms"
+          },
+          {
+            "action": "selectx_objects_protein_protein_interface",
+            "name": "Protein-Protein Interface"
+          },
+          {
+            "action": "selectx_objects_interaction_residues",
+            "name": "Residues in Interactions"
+          }
+       ]
+     },
+     {
+        "items": [
+          {	
+            "section_title": "Hydrogen Sets"
+          },
+          {
+            "action": "selectx_objects_all_hydrogen_atoms",
+            "name": "All Hydrogen Atoms"
+          },
+          {
+            "action": "selectx_objects_all_nonpolar",
+            "name": "All Nonpolar"
+          },
+          {
+            "action": "selectx_objects_nonpolar_protein",
+            "name": "Nonpolar Protein"
+          },
+          {
+            "action": "selectx_objects_nonpolar_ligand",
+            "name": "Nonpolar Ligand"
+          },
+          {
+            "action": "selectx_objects_polar",
+            "name": "Polar"
+          },
+          {	
+            "section_title": "Solvents and Other"
+          },
+          {
+            "action": "selectx_objects_waters",
+            "name": "Waters"
+          },
+          {
+            "action": "selectx_objects_solvents",
+            "name": "Solvents"
+          },
+          {
+            "action": "selectx_objects_membranes",
+            "name": "Membranes"
+          },
+          {
+            "action": "selectx_objects_ions",
+            "name": "Ions"
+          },
+          {
+            "action": "selectx_objects_metal_atoms",
+            "name": "Metal Atoms"
+          },
+          {
+            "action": "selectx_objects_heavy_atoms",
+            "name": "Heavy Atoms"
+          }
+         ]
+     },
+     {
+        "special_column": "true", 
+        "custom_sets": "true", 
+        "items": [
+          {	
+            "section_title": "Custom Sets"
+          },
+          {
+            "placeholder": "(no sets defined)"
+          },
+          {
+            "action": "selectx_objects_manage_sets",
+            "name": "Manage Sets..."
+          }
+        ]
+     }
+   ]
+  }
+}

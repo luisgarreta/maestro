@@ -1,0 +1,5 @@
+# Make sure we don't display C string content for security reasons
+set print frame-arguments none
+thread apply all bt
+info sharedlibrary
+detach

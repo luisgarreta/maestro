@@ -1,0 +1,4 @@
+texture_width 6000
+texture_height 6000
+columns 5
+rows 9

@@ -1,0 +1,250 @@
+{
+  "ptpropertytoolbar": {
+    "toolbuttons": [
+      {
+         "action": "pt_columns_menu", 
+         "name": "Columns",
+         "category": "Property display and management",
+         "visibility": "yes",
+         "style":"textunder"
+      },
+      {
+         "action": "pt_property_tree", 
+         "name": "Tree", 
+         "category": "Property display and management",
+         "visibility": "yes",
+         "style":"textunder"
+      },
+      {
+         "action": "pt_show_menu", 
+         "name": "Show", 
+         "category": "Property display and management",
+         "visibility": "yes",
+         "style":"textunder"
+      },
+      {
+         "action": "pt_property_showonlyfamily_menu", 
+         "name": "Family", 
+         "category": "Property display and management",
+         "visibility": "yes",
+         "style":"textunder"
+      },
+      {
+         "action": "pt_show_2d_images", 
+         "name": "2D Structure", 
+         "category": "Property display and management",
+         "visibility": "yes",
+         "style":"textunder"
+      },
+      {
+         "action": "pt_property_hideonlyfamily_menu",
+         "name": "Family", 
+         "category": "Property display and management",
+         "visibility": "yes",
+         "style":"textunder"
+      }
+    ],
+    "type": "toolbar"
+  },
+
+   "eplayertoolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "projtable_eplayer_gotostart",
+            "name" : "Go to start",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "projtable_eplayer_prev",
+            "name" : "Previous",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "projtable_eplayer_playbackward",
+            "name" : "Play Backward",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "projtable_eplayer_stop",
+            "name" : "Stop",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "projtable_eplayer_playforward",
+            "name" : "Play Forward",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "projtable_eplayer_next",
+            "name" : "Next",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "projtable_eplayer_gotoend",
+            "name" : "End",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "pt_eplayer_loop",
+            "name" : "Loop",
+            "category": "Entry animation",
+            "visibility" : "yes",
+            "style":"textunder"
+         }
+      ],
+      "type" : "toolbar"
+   },
+
+   "project_toolbar_manager" : {
+      "toolbars" : [
+         {
+            "id" : "projecttoolbar",
+            "name" : "Project",
+            "togglestate": "on",
+            "area": "top__topbreak",
+            "style": "textunder"
+         },
+         {
+            "id": "ptpropertytoolbar",
+            "name": "Property",
+            "togglestate": "on",
+            "area": "top__topbreak",
+            "style": "textunder"
+         },
+         {
+            "id" : "eplayertoolbar",
+            "name" : "ePlayer",
+            "togglestate": "off",
+            "area": "top",
+            "style": "icononly"
+         }
+      ],
+      "type" : "toolbar_manager"
+   },
+   "projecttoolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "pt_import_structures",
+            "name" : "Import",
+            "category": "Project management",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "pt_export_structures",
+            "name" : "Export",
+            "category": "Project management",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "2D_viewer",
+            "name" : "2D Viewer",
+            "category": "Project management",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "pt_plot",
+            "name" : "Plot",
+            "category": "Project management",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "pt_sort_entries",
+            "name" : "Sort",
+            "category": "Project management",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action" : "pt_find_replace",
+            "name" : "Find/Replace",
+            "category": "Project management",
+            "visibility" : "yes",
+            "style":"textunder"
+         },
+         {
+            "action": "single_entry_feedback", 
+            "name": "Feedback",
+            "category": "Project management",
+            "visibility": "yes",
+            "style":"textunder"
+         },
+         {
+           "action": "project_entry_color_rows",
+           "name": "Color Rows",
+           "category": "Project management",
+           "visibility": "yes",
+           "style":"textunder"
+         },
+         {
+           "action": "pt_structure_calculate", 
+           "name": "Calculator",
+           "category": "Project management",
+           "visibility": "yes",
+           "style":"textunder"
+         }
+      ],
+      "type" : "toolbar"
+   },
+     "psp_toolbar_manager": {
+    "type": "toolbar_manager",
+    "toolbars": [
+      {"id": "psp_manager_toolbar", "name": "Manager", "togglestate": "on", "area": "top__topbreak","style": "icononly"}
+    ]
+  },
+  "psp_manager_toolbar": {
+    "type": "toolbar",
+    "toolbuttons": [
+      {"action": "psp_color_scheme", "name": "Color Scheme", "category": "PSP Toolbars", "visibility": "yes", "style": ""},
+      {"action": "prime_viewstructure", "name": "View Template Structure", "category": "PSP Toolbars", "visibility": "yes", "style": ""},
+      {"action": "prime_sv_viewssa", "name": "View SSA", "category": "PSP Toolbars", "visibility": "yes", "style": ""},
+      {"action": "prime_sv_wrap", "name": "Wrap sequences", "category": "PSP Toolbars", "visibility": "yes", "style": ""},
+      {"action": "separator_id_1", "name": "Separator1", "category": "", "visibility": "yes", "style": ""},
+      {"action": "prime_mode_select", "name": "Select", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "prime_mode_crop", "name": "Crop", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "prime_mode_edit_ssp", "name": "Edit SSP", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "separator_id_2", "name": "Separator2", "category": "", "visibility": "yes", "style": ""},
+      {"action": "prime_mode_slide_freely", "name": "Slide Freely", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "prime_mode_slide_block", "name": "Slide As Block", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "prime_mode_add_anchors", "name": "Add Anchors", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "prime_lock_gaps", "name": "Lock Gaps", "category": "PSP Toolbars", "visibility": "no", "style": ""},
+      {"action": "prime_unlock_gaps", "name": "Unlock Gaps", "category": "PSP Toolbars", "visibility": "no", "style": ""}
+    ]
+  },
+  "primex_panel_toolbar_manager": {
+    "type": "toolbar_manager",
+    "toolbars": [
+      {"id": "primex_panel_manager_toolbar", "name": "Manager", "togglestate": "on", "area": "top__topbreak","style": "textunder"}
+    ]
+  },
+
+  "primex_panel_manager_toolbar": {
+    "type": "toolbar",
+    "toolbuttons": [
+      {"action": "toolbar_primex_surface_table", "name": "Surf Table", "category": "PrimeX Panel Toolbars", "visibility": "yes", "style":"textunder"},
+      {"action": "toolbar_primex_increase_isovalue", "name": "+ Isovalue", "category": "PrimeX Panel Toolbars", "visibility": "yes", "style":"textunder"},
+      {"action": "toolbar_primex_decrease_isovalue", "name": "- Isovalue", "category": "PrimeX Panel Toolbars", "visibility": "yes", "style":"textunder"},
+      {"action": "toolbar_primex_increase_extent", "name": "+ Extent", "category": "PrimeX Panel Toolbars", "visibility": "yes", "style":"textunder"},
+      {"action": "toolbar_primex_decrease_extent", "name": "- Extent", "category": "PrimeX Panel Toolbars", "visibility": "yes", "style":"textunder"},
+      {"action": "toolbar_primex_unit_cell", "name": "Unit Cell", "category": "PrimeX Panel Toolbars", "visibility": "yes", "style":"textunder"}
+    ]
+  },
+   "version" : 10.0
+}

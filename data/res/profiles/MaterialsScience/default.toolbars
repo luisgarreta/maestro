@@ -1,0 +1,379 @@
+{
+   "eplayertoolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "projtable_eplayer_gotostart",
+            "category" : "Entry animation",
+            "name" : "Go to start",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "projtable_eplayer_prev",
+            "category" : "Entry animation",
+            "name" : "Previous",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "projtable_eplayer_playbackward",
+            "category" : "Entry animation",
+            "name" : "Play Backward",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "projtable_eplayer_stop",
+            "category" : "Entry animation",
+            "name" : "Stop",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "projtable_eplayer_playforward",
+            "category" : "Entry animation",
+            "name" : "Play Forward",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "projtable_eplayer_next",
+            "category" : "Entry animation",
+            "name" : "Next",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "projtable_eplayer_gotoend",
+            "category" : "Entry animation",
+            "name" : "End",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_eplayer_loop",
+            "category" : "Entry animation",
+            "name" : "Loop",
+            "style" : "textunder",
+            "visibility" : "yes"
+         }
+      ],
+      "type" : "toolbar"
+   },
+   "primex_panel_manager_toolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "toolbar_primex_surface_table",
+            "category" : "PrimeX Panel Toolbars",
+            "name" : "Surf Table",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "toolbar_primex_increase_isovalue",
+            "category" : "PrimeX Panel Toolbars",
+            "name" : "+ Isovalue",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "toolbar_primex_decrease_isovalue",
+            "category" : "PrimeX Panel Toolbars",
+            "name" : "- Isovalue",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "toolbar_primex_increase_extent",
+            "category" : "PrimeX Panel Toolbars",
+            "name" : "+ Extent",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "toolbar_primex_decrease_extent",
+            "category" : "PrimeX Panel Toolbars",
+            "name" : "- Extent",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "toolbar_primex_unit_cell",
+            "category" : "PrimeX Panel Toolbars",
+            "name" : "Unit Cell",
+            "style" : "textunder",
+            "visibility" : "yes"
+         }
+      ],
+      "type" : "toolbar"
+   },
+   "primex_panel_toolbar_manager" : {
+      "toolbars" : [
+         {
+            "area" : "top",
+            "id" : "primex_panel_manager_toolbar",
+            "name" : "Manager",
+            "style" : "icononly",
+            "togglestate" : "on"
+         }
+      ],
+      "type" : "toolbar_manager"
+   },
+   "project_toolbar_manager" : {
+      "toolbars" : [
+         {
+            "area" : "top",
+            "id" : "projecttoolbar",
+            "name" : "Project",
+            "style" : "icononly",
+            "togglestate" : "on"
+         },
+         {
+            "area" : "top",
+            "id" : "ptpropertytoolbar",
+            "name" : "Property",
+            "style" : "icononly",
+            "togglestate" : "on"
+         },
+         {
+            "area" : "top",
+            "id" : "eplayertoolbar",
+            "name" : "ePlayer",
+            "style" : "icononly",
+            "togglestate" : "off"
+         }
+      ],
+      "type" : "toolbar_manager"
+   },
+   "projecttoolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "pt_import_structures",
+            "category" : "Project management",
+            "name" : "Import",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_export_structures",
+            "category" : "Project management",
+            "name" : "Export",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "2D_viewer",
+            "category" : "Project management",
+            "name" : "2D Viewer",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_plot",
+            "category" : "Project management",
+            "name" : "Plot",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_sort_entries",
+            "category" : "Project management",
+            "name" : "Sort",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_find_replace",
+            "category" : "Project management",
+            "name" : "Find/Replace",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "single_entry_feedback",
+            "category" : "Project management",
+            "name" : "Feedback",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+           "action": "project_entry_color_rows",
+           "name": "Color Rows",
+           "category": "Project management",
+           "visibility": "yes",
+           "style":"textunder"
+         },
+         {
+            "action" : "pt_structure_calculate",
+            "category" : "Project management",
+            "name" : "Calculator",
+            "style" : "textunder",
+            "visibility" : "yes"
+         }
+      ],
+      "type" : "toolbar"
+   },
+   "psp_manager_toolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "psp_color_scheme",
+            "category" : "PSP Toolbars",
+            "name" : "Color Scheme",
+            "style" : "",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "prime_viewstructure",
+            "category" : "PSP Toolbars",
+            "name" : "View Template Structure",
+            "style" : "",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "prime_sv_viewssa",
+            "category" : "PSP Toolbars",
+            "name" : "View SSA",
+            "style" : "",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "prime_sv_wrap",
+            "category" : "PSP Toolbars",
+            "name" : "Wrap sequences",
+            "style" : "",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "separator_id_1",
+            "category" : "",
+            "name" : "Separator1",
+            "style" : "",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "prime_mode_select",
+            "category" : "PSP Toolbars",
+            "name" : "Select",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "prime_mode_crop",
+            "category" : "PSP Toolbars",
+            "name" : "Crop",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "prime_mode_edit_ssp",
+            "category" : "PSP Toolbars",
+            "name" : "Edit SSP",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "separator_id_2",
+            "category" : "",
+            "name" : "Separator2",
+            "style" : "",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "prime_mode_slide_freely",
+            "category" : "PSP Toolbars",
+            "name" : "Slide Freely",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "prime_mode_slide_block",
+            "category" : "PSP Toolbars",
+            "name" : "Slide As Block",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "prime_mode_add_anchors",
+            "category" : "PSP Toolbars",
+            "name" : "Add Anchors",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "prime_lock_gaps",
+            "category" : "PSP Toolbars",
+            "name" : "Lock Gaps",
+            "style" : "",
+            "visibility" : "no"
+         },
+         {
+            "action" : "prime_unlock_gaps",
+            "category" : "PSP Toolbars",
+            "name" : "Unlock Gaps",
+            "style" : "",
+            "visibility" : "no"
+         }
+      ],
+      "type" : "toolbar"
+   },
+   "psp_toolbar_manager" : {
+      "toolbars" : [
+         {
+            "area" : "top__topbreak",
+            "id" : "psp_manager_toolbar",
+            "name" : "Manager",
+            "style" : "icononly",
+            "togglestate" : "on"
+         }
+      ],
+      "type" : "toolbar_manager"
+   },
+   "ptpropertytoolbar" : {
+      "toolbuttons" : [
+         {
+            "action" : "pt_columns_menu",
+            "category" : "Property display and management",
+            "name" : "Columns",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_property_tree",
+            "category" : "Property display and management",
+            "name" : "Tree",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_show_menu",
+            "category" : "Property display and management",
+            "name" : "Show",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_property_showonlyfamily_menu",
+            "category" : "Property display and management",
+            "name" : "Family",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_show_2d_images",
+            "category" : "Property display and management",
+            "name" : "2D Structure",
+            "style" : "textunder",
+            "visibility" : "yes"
+         },
+         {
+            "action" : "pt_property_hideonlyfamily_menu",
+            "category" : "Property display and management",
+            "name" : "Family",
+            "style" : "textunder",
+            "visibility" : "yes"
+         }
+      ],
+      "type" : "toolbar"
+   },
+   "version" : 10.0
+}
